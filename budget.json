@@ -1,0 +1,20 @@
+{
+  "cap_usd": 80.0,
+  "final_holdback_usd": 20.0,
+  "entries": [
+    {
+      "job": "controller-setup-storage-egress",
+      "reserved_usd": 8.0,
+      "kind": "conservative_overhead_allowance",
+      "details": "Azure <=8h, CPU setup, storage/egress. Not provider invoice."
+    },
+    {
+      "job": "prep-image-data",
+      "reserved_usd": 2.0,
+      "phase": "research",
+      "details": "CPU-only image build and data audit: ordinary Function CPU hard 2, memory hard 8192 MiB, 1800s task + 300s startup; local app bound 2400s, build stages 900s timeout each, CPU build allowance plus storage/egress overhead. No GPU.",
+      "utc": "2026-10-24T02:10:47.282057+00:00"
+    }
+  ],
+  "total_reserved_usd": 10.0
+}

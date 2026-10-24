@@ -1,0 +1,647 @@
+{
+  "_id": "69af72949573da311dd0878a",
+  "id": "willdepueoai/parameter-golf",
+  "author": "willdepueoai",
+  "sha": "a85b0e6035c3c94bc23685a07c81a8f3bf89db80",
+  "lastModified": "2026-03-18T11:35:44.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "source_datasets:HuggingFaceFW/fineweb",
+    "license:odc-by",
+    "region:us"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tParameter Golf FineWeb Export\n\t\n\nThis repository hosts tokenizer-matched export artifacts derived from HuggingFaceFW/fineweb, specifically a 30B subset pulled from the 100B FineWeb cut used for parameter-golf experiments.\nThe repository contains:\n\npretokenized training and validation shards under datasets/datasets/\ntokenizer artifacts under datasets/tokenizers/\nthe export manifest at datasets/manifest.json\nselected-document metadata at datasets/docs_selected.jsonl\u2026 See the full description on the dataset page: https://huggingface.co/datasets/willdepueoai/parameter-golf.",
+  "downloads": 471,
+  "likes": 6,
+  "cardData": {
+    "license": "odc-by",
+    "pretty_name": "Parameter Golf FineWeb Export",
+    "source_datasets": [
+      "HuggingFaceFW/fineweb"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000000.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000001.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000002.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000003.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000005.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000006.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000007.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000008.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000009.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000010.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000011.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000012.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000013.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000014.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000015.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000016.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000017.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000018.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000019.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000020.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000021.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000022.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000023.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000024.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000025.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000026.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000027.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000028.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000029.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000030.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000031.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000033.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000034.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000035.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000036.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000037.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000038.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000039.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000040.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000041.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000042.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000043.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000044.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000045.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000046.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000047.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000048.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000049.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000050.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000051.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000052.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000053.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000054.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000055.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000056.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000057.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000058.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000059.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000060.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000061.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000062.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000063.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000064.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000065.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000066.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000067.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000068.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000069.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000070.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000071.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000072.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000073.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000074.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000075.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000076.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000077.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000078.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000079.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000080.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000081.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000082.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000083.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000084.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000085.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000086.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000087.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000088.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000089.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000090.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000091.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000092.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000093.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000094.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000095.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000096.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000097.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000098.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000099.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000100.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000101.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000102.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000103.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000104.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000105.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000106.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000107.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000108.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000109.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000110.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000111.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000112.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000113.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000114.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000115.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000116.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000117.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000118.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000119.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000120.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000121.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000122.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000123.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000124.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000125.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000126.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000127.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000128.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000129.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000130.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000131.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000132.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000133.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000134.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000135.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000136.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000137.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000138.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000139.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000140.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000141.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000142.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000143.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000144.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000145.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000146.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000147.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000148.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000149.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000150.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000151.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000152.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000153.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000154.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000155.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000156.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000157.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000158.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000159.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000160.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000161.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000162.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000163.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000164.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000165.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000166.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000167.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000168.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000169.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000170.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000171.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000172.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000173.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000174.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000175.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000176.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000177.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000178.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000179.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000180.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000181.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000182.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000183.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000184.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000185.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000186.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000187.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000188.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000189.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000190.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000191.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000192.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000193.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000194.bin"
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp1024/fineweb_val_000000.bin"
+    },
+    {
+      "rfilename": "datasets/docs_selected.jsonl"
+    },
+    {
+      "rfilename": "datasets/docs_selected.source_manifest.json"
+    },
+    {
+      "rfilename": "datasets/manifest.json"
+    },
+    {
+      "rfilename": "datasets/snapshot_meta.json"
+    },
+    {
+      "rfilename": "datasets/tokenizer_config.export.json"
+    },
+    {
+      "rfilename": "datasets/tokenizers/fineweb_1024_bpe.model"
+    },
+    {
+      "rfilename": "datasets/tokenizers/fineweb_1024_bpe.vocab"
+    }
+  ],
+  "createdAt": "2026-03-10T01:23:32.000Z",
+  "usedStorage": 125782479493
+}

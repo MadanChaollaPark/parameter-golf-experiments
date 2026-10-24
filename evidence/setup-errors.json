@@ -1,0 +1,10 @@
+[
+  {
+    "error": "Imported modal.gpu.parse_gpu_config but module is absent in Modal 1.6.2",
+    "resolution": "Use public App.function decorator locally; H100!:8 and all resource limits accepted; no paid job involved"
+  },
+  {
+    "error": "Assumed venv Python3.11 path in source grep",
+    "resolution": "Actual venv Python3.12 confirmed; no state changes"
+  }
+]

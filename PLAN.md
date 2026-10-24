@@ -1,0 +1,24 @@
+# Bounded independent research campaign
+Started 2026-10-24 02:09:10 UTC. Begin wrap-up by 08:09 UTC; publish by 09:09; absolute stop 10:09. No competition submission. Sole worker.
+
+## Rules and comparability
+Verified current upstream f5c079314c4877fbb0af378c0abade5a8ca33d3a via GitHub API on 2026-10-24. The challenge ran March 18–April 30; this is post-competition research.
+- Metric: sum of natural-log cross-entropies / ln(2) / scored original byte count, lower BPB better.
+- Artifact: all necessary code plus compressed weights <=16,000,000 decimal bytes; no external training data or downloads during evaluation.
+- Standard track: training and evaluation each <600 seconds on eight same-host H100 SXM GPUs. Record actual startup, compilation, warmup, optimization, export and evaluation separately. Do not infer compliance from the training-loop timer alone.
+- Full fixed validation is first 50,000 complete source documents. Canonical SP1024 source is willdepueoai/parameter-golf. Pin HF revision, inspect manifest/export split code, verify downloaded LFS SHA256, count BOS boundaries and hash full tokenized documents against training. Flag partial-shard boundary uncertainty. Preserve baseline evaluation truncation count explicitly.
+- Validation used only for final scoring and permitted run-level hyperparameter comparison; no validation-based quantization/calibration. No TTT in this campaign. The owner repository requires score-before-update; issue 1017 describes additional independence criteria but community text is not a replacement for owner policy.
+- Leading README: PR2135 1.05650768 three-seed mean, collaborator clean-data audit; PR2014 1.05759252. Issue2127 documents local CaseOps 10k/50k split contamination. We will avoid local CaseOps rebuilds. The README's 0.005-nat/p<0.01 criterion conflicts with late rows' reported p-values; no official-win inference.
+
+## Experiment design, before results
+Start from the unmodified official main baseline (SP1024, 9x512, tied embedding, Muon, int8 zlib) rather than an unaudited synthesis of the much more complex leading TTT stacks. This gives a tractable correctness and data-provenance control within $80. Preserve upstream license and source.
+1. CPU data/environment preparation with pinned canonical data and full-document overlap audit.
+2. Strict H100!:8 environment check and bounded baseline, with actual topology and package versions. Use a conservative shorter optimization window to leave compilation/export room. All deviations from official baseline settings are declared; do not call a short run an official reproduction.
+3. Primary hypothesis H1: raising initial normalized QK gain from 1.5 to 5.0 sharpens attention early and improves final BPB at matched token/step budget. Expected benefit 0.002–0.02 BPB, unproven on this main baseline. One change only, same seed, data, batch, steps, quantization, evaluation. Prior motivation: public QK-gain lineage, not claimed novel.
+4. Repeat matched control/candidate at another predetermined seed if initial direction warrants and budget permits. Prefer fixed-step pair for scientific comparison; assess runtime separately. If H1 fails, log negative result and retain control. Architecture/efficiency/compression considered but postpone multi-component changes until a reliable matched result exists.
+5. Fresh-process, offline artifact roundtrip evaluation of strongest supported configuration, full validation, sizes/hashes and reproducible commands. Report pilot/full-evaluation/official distinctions and noise limits.
+
+## Cost and safety
+$8 precharged overhead allowance; Azure retail API returns Linux Standard_D4s_v4 Belgium Central $0.23/hour (8h=$1.84), within allowance. Credits count at list cost. Preserve $20 final holdback. Reserve before every billable app/build with budget.py. No refunds without evidence; no GPU automatic retries. Ordinary Modal Functions with CPU/memory limits, timeout, retries=0, max_containers=1, scaledown_window=2. Budget whole application elapsed cap plus startup/teardown margin and image build CPU. No idle deployments.
+Initial research envelope: $2 data/image prep, up to four $11–12 bounded eight-H100 jobs, subject to actual first-run timing. Final reserve $20. Reduce experiment scope if hard upper bounds do not fit. No unreserved GPU jobs.
+Check STOP before every job and poll while running. Independent local watchdog stops only campaign app IDs on STOP/deadline, writes interrupted report, sanitizes and publishes current evidence. Hard job timeouts remain effective if controller dies. Publication must be verified public; shutdown verified from provider state. No credentials or raw controller transcripts are published.

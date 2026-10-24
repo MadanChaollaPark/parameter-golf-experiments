@@ -1,0 +1,5 @@
+__pycache__/
+.budget.lock
+.cache/
+data/
+*.tmp
