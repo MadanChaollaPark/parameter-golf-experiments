@@ -1,0 +1,18 @@
+{
+  "64": {
+    "targets": 62021845,
+    "windows": 969077,
+    "first_target_token_index": 1,
+    "last_target_token_index": 62021845,
+    "exactly_once": true,
+    "causal_by_index": true
+  },
+  "1024": {
+    "targets": 62021845,
+    "windows": 60569,
+    "first_target_token_index": 1,
+    "last_target_token_index": 62021845,
+    "exactly_once": true,
+    "causal_by_index": true
+  }
+}

@@ -21,7 +21,14 @@
       "phase": "research",
       "details": "Explicit CPU-only correction of failed image build: include source for build function. Full canonical 80 shards + data/correctness audit. CPU2 hard, RAM8GiB hard, builder900s, task1800s startup300s app2400s; reserve includes overhead. Prior failed $2 reservation retained.",
       "utc": "2026-10-24T02:13:57.315752+00:00"
+    },
+    {
+      "job": "clean-data",
+      "reserved_usd": 0.5,
+      "phase": "research",
+      "details": "CPU-only deterministic decontamination and postwrite document-hash audit after canonical overlap discovery. CPU2 hard RAM8GiB hard task1200s startup120s app1500s; (2*.0000131+8*.00000222)*1500=$0.066 plus cached image/build/storage margin. Retain both prior reservations.",
+      "utc": "2026-10-24T02:25:00.774960+00:00"
     }
   ],
-  "total_reserved_usd": 11.5
+  "total_reserved_usd": 12.0
 }

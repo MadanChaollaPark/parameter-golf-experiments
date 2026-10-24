@@ -1,0 +1,1765 @@
+{
+  "repo": "willdepueoai/parameter-golf",
+  "revision": "a85b0e6035c3c94bc23685a07c81a8f3bf89db80",
+  "files": [
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_val_000000.bin",
+      "bytes": 124044716,
+      "sha256": "4860ad80c0516a150b6917ee9ed17be5d27a0726a0b44ba9fe28c323b527c86f",
+      "provider_lfs_sha256": "4860ad80c0516a150b6917ee9ed17be5d27a0726a0b44ba9fe28c323b527c86f",
+      "provider_git_blob": "43c90bdbea5caa4b79f156876ceb041bba41b6fe",
+      "tokens": 62021846,
+      "bos_count": 50000,
+      "first_token": 1,
+      "last_token": 960
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000000.bin",
+      "bytes": 200001024,
+      "sha256": "afadf92015bbb3d5f2f51173132a191a2e4567ff33a67cc0ea4b00aed5c9bbcf",
+      "provider_lfs_sha256": "afadf92015bbb3d5f2f51173132a191a2e4567ff33a67cc0ea4b00aed5c9bbcf",
+      "provider_git_blob": "73a8219579aca7d3387dcb822d112858dd31b66c",
+      "tokens": 100000000,
+      "bos_count": 80010,
+      "first_token": 1,
+      "last_token": 317
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000001.bin",
+      "bytes": 200001024,
+      "sha256": "96df2f72aa591d738ee39f4f3a8cdebc18f56879570b12e3a48a45b31edb5fe3",
+      "provider_lfs_sha256": "96df2f72aa591d738ee39f4f3a8cdebc18f56879570b12e3a48a45b31edb5fe3",
+      "provider_git_blob": "3fbcdd23abc956c2198103b16ffb31a8a8cec03b",
+      "tokens": 100000000,
+      "bos_count": 79311,
+      "first_token": 977,
+      "last_token": 949
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000002.bin",
+      "bytes": 200001024,
+      "sha256": "15aa79f731a4c837be8a4024f2b45b3b6ec7a77d73331f16ba035babdca0bc4a",
+      "provider_lfs_sha256": "15aa79f731a4c837be8a4024f2b45b3b6ec7a77d73331f16ba035babdca0bc4a",
+      "provider_git_blob": "a1f7611940bbad0c1e186cbff60c3503920eacf8",
+      "tokens": 100000000,
+      "bos_count": 79016,
+      "first_token": 417,
+      "last_token": 633
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000003.bin",
+      "bytes": 200001024,
+      "sha256": "673b9b01875ce6236e15121e59137f756a845f4adc50f2de95a080e49f32ad75",
+      "provider_lfs_sha256": "673b9b01875ce6236e15121e59137f756a845f4adc50f2de95a080e49f32ad75",
+      "provider_git_blob": "c4d38da5852800dca69510aead7c0751a4d37dbf",
+      "tokens": 100000000,
+      "bos_count": 77879,
+      "first_token": 1010,
+      "last_token": 648
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin",
+      "bytes": 200001024,
+      "sha256": "1448f47b412242a8db6d2d574e3c8e0c9b0e79e506c199b60091412b41414b48",
+      "provider_lfs_sha256": "1448f47b412242a8db6d2d574e3c8e0c9b0e79e506c199b60091412b41414b48",
+      "provider_git_blob": "e5caf7e334d915255a04feafa9a9ca7f1e05c655",
+      "tokens": 100000000,
+      "bos_count": 78467,
+      "first_token": 864,
+      "last_token": 357
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000005.bin",
+      "bytes": 200001024,
+      "sha256": "0f1b291ee4aa981774bdb4813568180af5b252d8d98ce0247254b7c6ca88bf28",
+      "provider_lfs_sha256": "0f1b291ee4aa981774bdb4813568180af5b252d8d98ce0247254b7c6ca88bf28",
+      "provider_git_blob": "fb922a48613fd403aca3e0410d4f00cb4e73d033",
+      "tokens": 100000000,
+      "bos_count": 78243,
+      "first_token": 540,
+      "last_token": 773
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000006.bin",
+      "bytes": 200001024,
+      "sha256": "ccfe7264e0001f9ae0be16e4f17b913e3ee413a13c210493364f16e1690dbcd6",
+      "provider_lfs_sha256": "ccfe7264e0001f9ae0be16e4f17b913e3ee413a13c210493364f16e1690dbcd6",
+      "provider_git_blob": "41c635782363f9321c6a1405b30c07a765219d86",
+      "tokens": 100000000,
+      "bos_count": 78172,
+      "first_token": 451,
+      "last_token": 709
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000007.bin",
+      "bytes": 200001024,
+      "sha256": "42e95cfb87f72efdbb73439995430d9c0cc137ea33274b4a2810237cb2dcf0a7",
+      "provider_lfs_sha256": "42e95cfb87f72efdbb73439995430d9c0cc137ea33274b4a2810237cb2dcf0a7",
+      "provider_git_blob": "0c43c4c53f5faa751a8a0e53d06e45cdf1dce8af",
+      "tokens": 100000000,
+      "bos_count": 77880,
+      "first_token": 812,
+      "last_token": 442
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000008.bin",
+      "bytes": 200001024,
+      "sha256": "9ebd5c4d4e9cd1ac5a32b2df9a8060059d9505ce4c7632fb720360b82931b2f3",
+      "provider_lfs_sha256": "9ebd5c4d4e9cd1ac5a32b2df9a8060059d9505ce4c7632fb720360b82931b2f3",
+      "provider_git_blob": "e0b814e00b59e007150c02081d47f6ed4879f79e",
+      "tokens": 100000000,
+      "bos_count": 78537,
+      "first_token": 285,
+      "last_token": 357
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000009.bin",
+      "bytes": 200001024,
+      "sha256": "1e83ccea245bda9a3ed695d1d11abd24da8cb2b48808574a32bb1c0ff3c7bf35",
+      "provider_lfs_sha256": "1e83ccea245bda9a3ed695d1d11abd24da8cb2b48808574a32bb1c0ff3c7bf35",
+      "provider_git_blob": "eb46f1462c62da8af05683b1eddf75689ecd2ab8",
+      "tokens": 100000000,
+      "bos_count": 78256,
+      "first_token": 264,
+      "last_token": 404
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000010.bin",
+      "bytes": 200001024,
+      "sha256": "68083379313f500a30d1ce01b9044eb85b30689ea2326bbbb2961f461bb69791",
+      "provider_lfs_sha256": "68083379313f500a30d1ce01b9044eb85b30689ea2326bbbb2961f461bb69791",
+      "provider_git_blob": "8261a5b6f32b074d5423aba2e54f47d9f3809c7f",
+      "tokens": 100000000,
+      "bos_count": 78037,
+      "first_token": 983,
+      "last_token": 300
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000011.bin",
+      "bytes": 200001024,
+      "sha256": "fbae227c16a3de722d44a36f3674ec9e3480152110dea40746d9bd8030ba73fa",
+      "provider_lfs_sha256": "fbae227c16a3de722d44a36f3674ec9e3480152110dea40746d9bd8030ba73fa",
+      "provider_git_blob": "7097f5a2bec136ca6a39108195b26d541839e6a6",
+      "tokens": 100000000,
+      "bos_count": 78523,
+      "first_token": 607,
+      "last_token": 651
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000012.bin",
+      "bytes": 200001024,
+      "sha256": "a944d4d3d0472e03fb740e6eb1cb4bb002c6df33364e30d55dcc4afae4827ff8",
+      "provider_lfs_sha256": "a944d4d3d0472e03fb740e6eb1cb4bb002c6df33364e30d55dcc4afae4827ff8",
+      "provider_git_blob": "7859b31c0e607869db34493a11fe98a9f95c118f",
+      "tokens": 100000000,
+      "bos_count": 79047,
+      "first_token": 262,
+      "last_token": 678
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000013.bin",
+      "bytes": 200001024,
+      "sha256": "66d5ce168b11896f783fb12611aa4b4608f442796a925894b96726b5eb88d7b4",
+      "provider_lfs_sha256": "66d5ce168b11896f783fb12611aa4b4608f442796a925894b96726b5eb88d7b4",
+      "provider_git_blob": "0bd2223e140858f6572d06d5decdc2e49ab871e0",
+      "tokens": 100000000,
+      "bos_count": 78976,
+      "first_token": 387,
+      "last_token": 542
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000014.bin",
+      "bytes": 200001024,
+      "sha256": "584f0fd83154987467a161a7f115b574a938380cba9460d605ee7b4e578835c8",
+      "provider_lfs_sha256": "584f0fd83154987467a161a7f115b574a938380cba9460d605ee7b4e578835c8",
+      "provider_git_blob": "c266d48b738fafaa4146b0c70e8bd826115cdc74",
+      "tokens": 100000000,
+      "bos_count": 79123,
+      "first_token": 537,
+      "last_token": 400
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000015.bin",
+      "bytes": 200001024,
+      "sha256": "b877a412fc925d4b7d2ca84d0671bb17e75dc3f2424d81f44f08f1b7d14944d8",
+      "provider_lfs_sha256": "b877a412fc925d4b7d2ca84d0671bb17e75dc3f2424d81f44f08f1b7d14944d8",
+      "provider_git_blob": "80bb5e5dce7faced99060ceb9166b2b00874d72b",
+      "tokens": 100000000,
+      "bos_count": 79219,
+      "first_token": 519,
+      "last_token": 261
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000016.bin",
+      "bytes": 200001024,
+      "sha256": "f70674759f65de4eb3238926728c1a6576b028ab5c61a8aeb73a80b7ba51708b",
+      "provider_lfs_sha256": "f70674759f65de4eb3238926728c1a6576b028ab5c61a8aeb73a80b7ba51708b",
+      "provider_git_blob": "ffbbf02cddce7881b8e0eedd0eb4339c8664f7cf",
+      "tokens": 100000000,
+      "bos_count": 78819,
+      "first_token": 590,
+      "last_token": 376
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000017.bin",
+      "bytes": 200001024,
+      "sha256": "081ae177739457ce91f4d0d7823c3f54505123c1042cf42286228495888aa71c",
+      "provider_lfs_sha256": "081ae177739457ce91f4d0d7823c3f54505123c1042cf42286228495888aa71c",
+      "provider_git_blob": "ba5fedd4333ffabb3303d88114ed361e81844efe",
+      "tokens": 100000000,
+      "bos_count": 77714,
+      "first_token": 292,
+      "last_token": 341
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000018.bin",
+      "bytes": 200001024,
+      "sha256": "30a2bde5738ece9527027c4131fb92e58d7e5ecf856a7a77db147f45a69ac05d",
+      "provider_lfs_sha256": "30a2bde5738ece9527027c4131fb92e58d7e5ecf856a7a77db147f45a69ac05d",
+      "provider_git_blob": "8816521a7a4107b404c0ba7b97126d3a1d980c23",
+      "tokens": 100000000,
+      "bos_count": 79125,
+      "first_token": 940,
+      "last_token": 386
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000019.bin",
+      "bytes": 200001024,
+      "sha256": "638796ddc1872d5d2d40891a4ba56cb7dc053225e2d90350b67bb2683551eaa2",
+      "provider_lfs_sha256": "638796ddc1872d5d2d40891a4ba56cb7dc053225e2d90350b67bb2683551eaa2",
+      "provider_git_blob": "de0f481ff9ec3b28f64e9dc13cfcb5f5efceea9d",
+      "tokens": 100000000,
+      "bos_count": 79718,
+      "first_token": 635,
+      "last_token": 995
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000020.bin",
+      "bytes": 200001024,
+      "sha256": "c8283d6977a312f64b69e37d62a99e675dd266aa06b092926c76699cb62578d2",
+      "provider_lfs_sha256": "c8283d6977a312f64b69e37d62a99e675dd266aa06b092926c76699cb62578d2",
+      "provider_git_blob": "0d6f1d56b7c7ce9117f139549a84c984a047b31b",
+      "tokens": 100000000,
+      "bos_count": 79743,
+      "first_token": 1002,
+      "last_token": 292
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000021.bin",
+      "bytes": 200001024,
+      "sha256": "9b0009376a17c52050db388c12713bd8305ef94df4e9906583d5f0a1471ea6ce",
+      "provider_lfs_sha256": "9b0009376a17c52050db388c12713bd8305ef94df4e9906583d5f0a1471ea6ce",
+      "provider_git_blob": "23b2cfec8da47028041fdf82b5d5d40d7d12455e",
+      "tokens": 100000000,
+      "bos_count": 79786,
+      "first_token": 344,
+      "last_token": 711
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000022.bin",
+      "bytes": 200001024,
+      "sha256": "58ddfb7895d1690602b7f04f16fc92239ee41904b10fbf4e20458cacbbaf093c",
+      "provider_lfs_sha256": "58ddfb7895d1690602b7f04f16fc92239ee41904b10fbf4e20458cacbbaf093c",
+      "provider_git_blob": "c1700a29706875bce7d8ffed820f03f8fb3fa810",
+      "tokens": 100000000,
+      "bos_count": 78173,
+      "first_token": 1013,
+      "last_token": 836
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000023.bin",
+      "bytes": 200001024,
+      "sha256": "ed648f05f6848ec2c50eff97338f557b4dc91240071bfc4c781fc95d1d151886",
+      "provider_lfs_sha256": "ed648f05f6848ec2c50eff97338f557b4dc91240071bfc4c781fc95d1d151886",
+      "provider_git_blob": "2662b496aba0143191374f10d057b9865d3149a9",
+      "tokens": 100000000,
+      "bos_count": 78327,
+      "first_token": 260,
+      "last_token": 463
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000024.bin",
+      "bytes": 200001024,
+      "sha256": "65c4714253412f257c9c3dcd1d94fbe68c0169b67b852c4f5dcfd0030f0efec1",
+      "provider_lfs_sha256": "65c4714253412f257c9c3dcd1d94fbe68c0169b67b852c4f5dcfd0030f0efec1",
+      "provider_git_blob": "eaa62ca72d33cda44d63b2de3e829ac3274db7b6",
+      "tokens": 100000000,
+      "bos_count": 77873,
+      "first_token": 790,
+      "last_token": 346
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000025.bin",
+      "bytes": 200001024,
+      "sha256": "cff988a0373719f30f8d8644d4f882f41c31505557519a285e2220dda78a8e8a",
+      "provider_lfs_sha256": "cff988a0373719f30f8d8644d4f882f41c31505557519a285e2220dda78a8e8a",
+      "provider_git_blob": "757b317b231b5f1b94072c56df01ee75f3ce2d94",
+      "tokens": 100000000,
+      "bos_count": 77478,
+      "first_token": 425,
+      "last_token": 945
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000026.bin",
+      "bytes": 200001024,
+      "sha256": "24317a6a7373e6928b38b3e9a1aeec17cbe841f42f6bcf27a7c5a7fb4abeaa99",
+      "provider_lfs_sha256": "24317a6a7373e6928b38b3e9a1aeec17cbe841f42f6bcf27a7c5a7fb4abeaa99",
+      "provider_git_blob": "c5aaed5b683a3915710ac92ff8931ab22402ae0d",
+      "tokens": 100000000,
+      "bos_count": 80229,
+      "first_token": 881,
+      "last_token": 988
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000027.bin",
+      "bytes": 200001024,
+      "sha256": "06b68064d4b8ea20b7b44f4bb5a758b4f58c6e3b11a94d338729f58194ed2a23",
+      "provider_lfs_sha256": "06b68064d4b8ea20b7b44f4bb5a758b4f58c6e3b11a94d338729f58194ed2a23",
+      "provider_git_blob": "8876092060509ef0736e820b21e62bff3aaada20",
+      "tokens": 100000000,
+      "bos_count": 78167,
+      "first_token": 941,
+      "last_token": 379
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000028.bin",
+      "bytes": 200001024,
+      "sha256": "7fdeee6f1165d848cdbaf867a5dba85aa2abbbb904d03b62b5c3bd1e682c3198",
+      "provider_lfs_sha256": "7fdeee6f1165d848cdbaf867a5dba85aa2abbbb904d03b62b5c3bd1e682c3198",
+      "provider_git_blob": "04bfc24d57770ba159a0f726f43b7503b9e2b63c",
+      "tokens": 100000000,
+      "bos_count": 78058,
+      "first_token": 276,
+      "last_token": 961
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000029.bin",
+      "bytes": 200001024,
+      "sha256": "369eb21c4afd20a39e4da1aa785f85a19f06ea4f471233caa804f08125da8eec",
+      "provider_lfs_sha256": "369eb21c4afd20a39e4da1aa785f85a19f06ea4f471233caa804f08125da8eec",
+      "provider_git_blob": "97e87ac2ec540bb5117c5a73ce7108c7ccff3459",
+      "tokens": 100000000,
+      "bos_count": 77330,
+      "first_token": 276,
+      "last_token": 1008
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000030.bin",
+      "bytes": 200001024,
+      "sha256": "b4528f7ddc4357bb9b8080fe0bf2637154d630c2170f644ec3642a4f8b6c8c82",
+      "provider_lfs_sha256": "b4528f7ddc4357bb9b8080fe0bf2637154d630c2170f644ec3642a4f8b6c8c82",
+      "provider_git_blob": "5ad82bf7a5c3092429d2cd909b31f9760b9bf304",
+      "tokens": 100000000,
+      "bos_count": 78311,
+      "first_token": 1003,
+      "last_token": 308
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000031.bin",
+      "bytes": 200001024,
+      "sha256": "10ba03c335bd0d667c6377b8ed2bb421d5fd0523102132f0ba0c77f7973f3ea3",
+      "provider_lfs_sha256": "10ba03c335bd0d667c6377b8ed2bb421d5fd0523102132f0ba0c77f7973f3ea3",
+      "provider_git_blob": "f87d22717eb57eb62064cf65ae352198a49ae72c",
+      "tokens": 100000000,
+      "bos_count": 79315,
+      "first_token": 290,
+      "last_token": 345
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "bytes": 200001024,
+      "sha256": "27f0fb696ebda6fb93b460dc5b593d42c616fda2566be1c45fc4fd61279bc1ad",
+      "provider_lfs_sha256": "27f0fb696ebda6fb93b460dc5b593d42c616fda2566be1c45fc4fd61279bc1ad",
+      "provider_git_blob": "e58bcdcb6c946dfce6d9b0c7acc385aac9e3d51b",
+      "tokens": 100000000,
+      "bos_count": 78804,
+      "first_token": 267,
+      "last_token": 1021
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000033.bin",
+      "bytes": 200001024,
+      "sha256": "2820c8912f26b23512bf08e715670b9617ad2eb6bb7aca8db0286232d04a141f",
+      "provider_lfs_sha256": "2820c8912f26b23512bf08e715670b9617ad2eb6bb7aca8db0286232d04a141f",
+      "provider_git_blob": "99285c71f6e5b703c7d858dfb8c9c12b79366d77",
+      "tokens": 100000000,
+      "bos_count": 78752,
+      "first_token": 944,
+      "last_token": 782
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000034.bin",
+      "bytes": 200001024,
+      "sha256": "53e0a55ae47f8844fa55528615b7d98ad628c75dfda6a5fc1927146f32d2ea98",
+      "provider_lfs_sha256": "53e0a55ae47f8844fa55528615b7d98ad628c75dfda6a5fc1927146f32d2ea98",
+      "provider_git_blob": "99ebb1552b53d6fff05999b189faa0ef551c2597",
+      "tokens": 100000000,
+      "bos_count": 78480,
+      "first_token": 322,
+      "last_token": 668
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000035.bin",
+      "bytes": 200001024,
+      "sha256": "b33636f2eea40a3b03502b62362f4d8d9d88c7f3cd937b9ca8eaaaf682353309",
+      "provider_lfs_sha256": "b33636f2eea40a3b03502b62362f4d8d9d88c7f3cd937b9ca8eaaaf682353309",
+      "provider_git_blob": "4c3692ac9a5f5b79f4a4446645b2e132cd4e04cf",
+      "tokens": 100000000,
+      "bos_count": 78116,
+      "first_token": 354,
+      "last_token": 509
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000036.bin",
+      "bytes": 200001024,
+      "sha256": "d24bb68e1f077805b9240b61036ae3024d2672367cdbaf44a6c01981a023b616",
+      "provider_lfs_sha256": "d24bb68e1f077805b9240b61036ae3024d2672367cdbaf44a6c01981a023b616",
+      "provider_git_blob": "49d40de760e1685f0bbb7960eada628d3274e60c",
+      "tokens": 100000000,
+      "bos_count": 79602,
+      "first_token": 463,
+      "last_token": 290
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000037.bin",
+      "bytes": 200001024,
+      "sha256": "2a51df0a4a28409cd422dd36785fd7d94dd1606463dabae1dcc13884eb5a7687",
+      "provider_lfs_sha256": "2a51df0a4a28409cd422dd36785fd7d94dd1606463dabae1dcc13884eb5a7687",
+      "provider_git_blob": "bd8c8f8cb559bc17771c5b76a54c9073371c1248",
+      "tokens": 100000000,
+      "bos_count": 79116,
+      "first_token": 288,
+      "last_token": 954
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000038.bin",
+      "bytes": 200001024,
+      "sha256": "e55257442544575077697875a794144f8c5f558ae3e5c6ea86aac65355226be5",
+      "provider_lfs_sha256": "e55257442544575077697875a794144f8c5f558ae3e5c6ea86aac65355226be5",
+      "provider_git_blob": "4ff2c41ad381bbeca5eefff157b9842510bf7383",
+      "tokens": 100000000,
+      "bos_count": 79104,
+      "first_token": 448,
+      "last_token": 1019
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000039.bin",
+      "bytes": 200001024,
+      "sha256": "91842b0923be99e70b6d0922bd744b8398366a1d17b2db51954ecfdcddecb552",
+      "provider_lfs_sha256": "91842b0923be99e70b6d0922bd744b8398366a1d17b2db51954ecfdcddecb552",
+      "provider_git_blob": "a24ff1aae8ba1377e004e39e06ad983526912495",
+      "tokens": 100000000,
+      "bos_count": 78232,
+      "first_token": 675,
+      "last_token": 505
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000040.bin",
+      "bytes": 200001024,
+      "sha256": "c810d77e1d19394da12d9fe0c894648d68c5ba1c55bc0153a28b6f4d27ea9033",
+      "provider_lfs_sha256": "c810d77e1d19394da12d9fe0c894648d68c5ba1c55bc0153a28b6f4d27ea9033",
+      "provider_git_blob": "78f1e46acb2711b449894cd0bdd9a5dbdb10b7b0",
+      "tokens": 100000000,
+      "bos_count": 80587,
+      "first_token": 279,
+      "last_token": 287
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000041.bin",
+      "bytes": 200001024,
+      "sha256": "a2bc7529b3f585e1f73522a202ff6546d6dd759e086fc368b40c461906d0508f",
+      "provider_lfs_sha256": "a2bc7529b3f585e1f73522a202ff6546d6dd759e086fc368b40c461906d0508f",
+      "provider_git_blob": "48df9c6fb173ec4d0f1136d99203cc9f995a0d2d",
+      "tokens": 100000000,
+      "bos_count": 79692,
+      "first_token": 362,
+      "last_token": 281
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000042.bin",
+      "bytes": 200001024,
+      "sha256": "a129d604eb9293e001e9a991702d7fa649d2b9e49f67bd3a7b1eeadd905f933b",
+      "provider_lfs_sha256": "a129d604eb9293e001e9a991702d7fa649d2b9e49f67bd3a7b1eeadd905f933b",
+      "provider_git_blob": "1c37efdf13f982759dec93c4c7e0053c8fea498a",
+      "tokens": 100000000,
+      "bos_count": 79085,
+      "first_token": 332,
+      "last_token": 346
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000043.bin",
+      "bytes": 200001024,
+      "sha256": "cc6c703835dc1b3cc424b23a2ea0737bd114037123eb55447ff02478d3fc72d8",
+      "provider_lfs_sha256": "cc6c703835dc1b3cc424b23a2ea0737bd114037123eb55447ff02478d3fc72d8",
+      "provider_git_blob": "a2e671557e177c1a51c4b66ff373b30fb8be8473",
+      "tokens": 100000000,
+      "bos_count": 79770,
+      "first_token": 879,
+      "last_token": 312
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000044.bin",
+      "bytes": 200001024,
+      "sha256": "2cfa7d9c5fe790909403c3be4f1aacc8d8adee73d020315f1c525214b1016957",
+      "provider_lfs_sha256": "2cfa7d9c5fe790909403c3be4f1aacc8d8adee73d020315f1c525214b1016957",
+      "provider_git_blob": "30f5f6a0365b14462dabeba127c096bb94153c36",
+      "tokens": 100000000,
+      "bos_count": 78803,
+      "first_token": 421,
+      "last_token": 962
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000045.bin",
+      "bytes": 200001024,
+      "sha256": "f0cafcb83d7a0c5f9101ba9cb8b3fa3882860d6bd88c781d548d9c177ad6d973",
+      "provider_lfs_sha256": "f0cafcb83d7a0c5f9101ba9cb8b3fa3882860d6bd88c781d548d9c177ad6d973",
+      "provider_git_blob": "dec9a562c0a3c759b2e21b34dff0c66826f6aa3e",
+      "tokens": 100000000,
+      "bos_count": 78800,
+      "first_token": 661,
+      "last_token": 969
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000046.bin",
+      "bytes": 200001024,
+      "sha256": "fadea46ba632dd58ce9010a6017bb3d0bb6822c52a51c72f9002f85f57730232",
+      "provider_lfs_sha256": "fadea46ba632dd58ce9010a6017bb3d0bb6822c52a51c72f9002f85f57730232",
+      "provider_git_blob": "0fce063fc5ca3634163c82ec6fc17a13e2c92c75",
+      "tokens": 100000000,
+      "bos_count": 79447,
+      "first_token": 329,
+      "last_token": 963
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000047.bin",
+      "bytes": 200001024,
+      "sha256": "3124f8c7b260bc9b1f7f19e57b534d1fb1e921ea95a8409a2b64222f1be79231",
+      "provider_lfs_sha256": "3124f8c7b260bc9b1f7f19e57b534d1fb1e921ea95a8409a2b64222f1be79231",
+      "provider_git_blob": "8fd5485bfb5abe59f1eeed90959dbac2c61ac4fa",
+      "tokens": 100000000,
+      "bos_count": 77909,
+      "first_token": 285,
+      "last_token": 822
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000048.bin",
+      "bytes": 200001024,
+      "sha256": "f5ae764ddf8e09a2b545b360711546a963c398795c2a9dd75b3b822db6277243",
+      "provider_lfs_sha256": "f5ae764ddf8e09a2b545b360711546a963c398795c2a9dd75b3b822db6277243",
+      "provider_git_blob": "d0b82da188b8ddbf3e4acbf1aa379c7876196169",
+      "tokens": 100000000,
+      "bos_count": 79033,
+      "first_token": 307,
+      "last_token": 287
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000049.bin",
+      "bytes": 200001024,
+      "sha256": "0cfeb0578c735ea4549c213bd98ed9dd24a30a3369e722111760671ac4d6f09d",
+      "provider_lfs_sha256": "0cfeb0578c735ea4549c213bd98ed9dd24a30a3369e722111760671ac4d6f09d",
+      "provider_git_blob": "78ffd520326f516181254effd752373a2b01437e",
+      "tokens": 100000000,
+      "bos_count": 78139,
+      "first_token": 748,
+      "last_token": 284
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000050.bin",
+      "bytes": 200001024,
+      "sha256": "d6774a69b5ca573509610419837a0cfb2e0ef12bdf334083ca608c94cd9e1424",
+      "provider_lfs_sha256": "d6774a69b5ca573509610419837a0cfb2e0ef12bdf334083ca608c94cd9e1424",
+      "provider_git_blob": "f5ddfca3c061ac5da1a1484274e58770f8726063",
+      "tokens": 100000000,
+      "bos_count": 79789,
+      "first_token": 335,
+      "last_token": 395
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000051.bin",
+      "bytes": 200001024,
+      "sha256": "d6bc9d8130b75501f572fa83fdc819a1e6e491361195ac580c6f66a6d1df0121",
+      "provider_lfs_sha256": "d6bc9d8130b75501f572fa83fdc819a1e6e491361195ac580c6f66a6d1df0121",
+      "provider_git_blob": "ffdd31da109bdf51d90e0790b8a222d9f7818a0c",
+      "tokens": 100000000,
+      "bos_count": 77425,
+      "first_token": 968,
+      "last_token": 1021
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000052.bin",
+      "bytes": 200001024,
+      "sha256": "da263c7f97da876428cda8a0f96688e148223c49140ab92aa8c5f841bc45fbfe",
+      "provider_lfs_sha256": "da263c7f97da876428cda8a0f96688e148223c49140ab92aa8c5f841bc45fbfe",
+      "provider_git_blob": "67cc3ec505fa6da1714ecea729d60257342a941f",
+      "tokens": 100000000,
+      "bos_count": 78529,
+      "first_token": 309,
+      "last_token": 953
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000053.bin",
+      "bytes": 200001024,
+      "sha256": "d955fb4472260c84852a66159cef33d361fd7ec99c7e1a290c5fec0acb3a4a9c",
+      "provider_lfs_sha256": "d955fb4472260c84852a66159cef33d361fd7ec99c7e1a290c5fec0acb3a4a9c",
+      "provider_git_blob": "8530d046bc5ac9f2a8423f39e3858c3967f04d85",
+      "tokens": 100000000,
+      "bos_count": 79410,
+      "first_token": 946,
+      "last_token": 288
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000054.bin",
+      "bytes": 200001024,
+      "sha256": "25276b24ebbab629ecf7b9a6fff5a4aa1fa0a497e143b343819357f9829dfbf8",
+      "provider_lfs_sha256": "25276b24ebbab629ecf7b9a6fff5a4aa1fa0a497e143b343819357f9829dfbf8",
+      "provider_git_blob": "4a1bb20e6e0d543ade05fcf74764f916dd5bcafd",
+      "tokens": 100000000,
+      "bos_count": 79113,
+      "first_token": 285,
+      "last_token": 361
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000055.bin",
+      "bytes": 200001024,
+      "sha256": "393e9e66d692d1876e28faab5fe938ce11aa009664f5cc21ef547a849f64637f",
+      "provider_lfs_sha256": "393e9e66d692d1876e28faab5fe938ce11aa009664f5cc21ef547a849f64637f",
+      "provider_git_blob": "46a03d6fa0699f49988369502e6d2d03ae08b96f",
+      "tokens": 100000000,
+      "bos_count": 78485,
+      "first_token": 614,
+      "last_token": 292
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000056.bin",
+      "bytes": 200001024,
+      "sha256": "e62f32f80246713e28ccd681540916190be76e4eb29a939956ac78f4309f42c4",
+      "provider_lfs_sha256": "e62f32f80246713e28ccd681540916190be76e4eb29a939956ac78f4309f42c4",
+      "provider_git_blob": "b54d4f47642cb8f82d547f7d4edbc0fce6a7f4ff",
+      "tokens": 100000000,
+      "bos_count": 78955,
+      "first_token": 304,
+      "last_token": 290
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000057.bin",
+      "bytes": 200001024,
+      "sha256": "e2abbba8391cc0ec3b26c94638b117558e79d9766d2973fce0ea78e9575e3487",
+      "provider_lfs_sha256": "e2abbba8391cc0ec3b26c94638b117558e79d9766d2973fce0ea78e9575e3487",
+      "provider_git_blob": "71f63f390acd076878410a2f43b2464c1175fe5c",
+      "tokens": 100000000,
+      "bos_count": 79007,
+      "first_token": 846,
+      "last_token": 313
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000058.bin",
+      "bytes": 200001024,
+      "sha256": "fc4b5fe7d5d5bcbac530cf01b4a7183a9fe238423783e90674d84c10d8086826",
+      "provider_lfs_sha256": "fc4b5fe7d5d5bcbac530cf01b4a7183a9fe238423783e90674d84c10d8086826",
+      "provider_git_blob": "48685f67618f178b277aa3ec6b454aefb2fcefe3",
+      "tokens": 100000000,
+      "bos_count": 79421,
+      "first_token": 335,
+      "last_token": 968
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000059.bin",
+      "bytes": 200001024,
+      "sha256": "06349eef12b1ac649e86ec706cfc9abfe4e72ee5b13403286a0bcff30ade02f5",
+      "provider_lfs_sha256": "06349eef12b1ac649e86ec706cfc9abfe4e72ee5b13403286a0bcff30ade02f5",
+      "provider_git_blob": "b4c33331a104dadaa4ce465bfea7a9a960d610e2",
+      "tokens": 100000000,
+      "bos_count": 77411,
+      "first_token": 956,
+      "last_token": 586
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000060.bin",
+      "bytes": 200001024,
+      "sha256": "d9c416993267952bc71fdb7688c931c59b4ce1088a87f4d2a471a6d482cf89d0",
+      "provider_lfs_sha256": "d9c416993267952bc71fdb7688c931c59b4ce1088a87f4d2a471a6d482cf89d0",
+      "provider_git_blob": "690156abe1c0cf73d7decced002dff0cd40d1cd8",
+      "tokens": 100000000,
+      "bos_count": 79324,
+      "first_token": 960,
+      "last_token": 267
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000061.bin",
+      "bytes": 200001024,
+      "sha256": "f683c05181546ace5168dc249e4ec6d8f18d69d41e9238c5b35a347d62c6499c",
+      "provider_lfs_sha256": "f683c05181546ace5168dc249e4ec6d8f18d69d41e9238c5b35a347d62c6499c",
+      "provider_git_blob": "a6720d8f9299dcbc68e5208a8eaf5921a15faee8",
+      "tokens": 100000000,
+      "bos_count": 79561,
+      "first_token": 400,
+      "last_token": 304
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000062.bin",
+      "bytes": 200001024,
+      "sha256": "cc16719ccf9f89e59f168ce842090f431ac83759349afbcdb0296d0ee3874cf0",
+      "provider_lfs_sha256": "cc16719ccf9f89e59f168ce842090f431ac83759349afbcdb0296d0ee3874cf0",
+      "provider_git_blob": "d9e6efc1bf78ffb3a42969857e45861738b40a93",
+      "tokens": 100000000,
+      "bos_count": 79374,
+      "first_token": 393,
+      "last_token": 427
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000063.bin",
+      "bytes": 200001024,
+      "sha256": "bf8f40a3043af26444b3c2b6952aa653dbdb3106c00a66188bc1ccb6b4f6af63",
+      "provider_lfs_sha256": "bf8f40a3043af26444b3c2b6952aa653dbdb3106c00a66188bc1ccb6b4f6af63",
+      "provider_git_blob": "eb0d44a41f60d0dfab7191b6bc5a13fa5910f8fe",
+      "tokens": 100000000,
+      "bos_count": 78102,
+      "first_token": 333,
+      "last_token": 683
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000064.bin",
+      "bytes": 200001024,
+      "sha256": "9496cd6a7f1258962c5c674822c3aa88e62f68b7c159263c6849ba2a89f1921b",
+      "provider_lfs_sha256": "9496cd6a7f1258962c5c674822c3aa88e62f68b7c159263c6849ba2a89f1921b",
+      "provider_git_blob": "310d1cc8957742c06868e96aaab5dbfcdfc7e861",
+      "tokens": 100000000,
+      "bos_count": 79124,
+      "first_token": 287,
+      "last_token": 878
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000065.bin",
+      "bytes": 200001024,
+      "sha256": "03fbc245c05022ef76038ef1542d84aa50172d8dbe35fe5228b978ab4e5a226d",
+      "provider_lfs_sha256": "03fbc245c05022ef76038ef1542d84aa50172d8dbe35fe5228b978ab4e5a226d",
+      "provider_git_blob": "c5e95beef4f21722831e729b0b7204a05d89fc0d",
+      "tokens": 100000000,
+      "bos_count": 77490,
+      "first_token": 323,
+      "last_token": 601
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000066.bin",
+      "bytes": 200001024,
+      "sha256": "64fd8bfe995fc3fa9a8029f5e44aea2c4117b2c7f415efa05ccf177d59d20af6",
+      "provider_lfs_sha256": "64fd8bfe995fc3fa9a8029f5e44aea2c4117b2c7f415efa05ccf177d59d20af6",
+      "provider_git_blob": "2864a1f29bd19655872dea2fc53ef535d3d254ae",
+      "tokens": 100000000,
+      "bos_count": 77332,
+      "first_token": 287,
+      "last_token": 329
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000067.bin",
+      "bytes": 200001024,
+      "sha256": "32eddf7ad857e798a2fb7be4e3507df38c99014cc928fa8611e18e35461839f6",
+      "provider_lfs_sha256": "32eddf7ad857e798a2fb7be4e3507df38c99014cc928fa8611e18e35461839f6",
+      "provider_git_blob": "fd2a900944192cef17bd2871888c0ea5c77b27ee",
+      "tokens": 100000000,
+      "bos_count": 77663,
+      "first_token": 956,
+      "last_token": 962
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000068.bin",
+      "bytes": 200001024,
+      "sha256": "8c26b76494c0e4faf908092710488e01fc9cd3ef88e2c48c7cfa119cb811dd85",
+      "provider_lfs_sha256": "8c26b76494c0e4faf908092710488e01fc9cd3ef88e2c48c7cfa119cb811dd85",
+      "provider_git_blob": "afe6ea77d950fdd6a2b7282ee70d8cd21039469e",
+      "tokens": 100000000,
+      "bos_count": 78584,
+      "first_token": 918,
+      "last_token": 262
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000069.bin",
+      "bytes": 200001024,
+      "sha256": "ab678e79dfb48d054a6d54851ce7b8545c491d15fd2b0fb3ff13cb49216a5cf3",
+      "provider_lfs_sha256": "ab678e79dfb48d054a6d54851ce7b8545c491d15fd2b0fb3ff13cb49216a5cf3",
+      "provider_git_blob": "ddcf5e5bddafb6d4092ea9c02bf9a4efd4668dc1",
+      "tokens": 100000000,
+      "bos_count": 78153,
+      "first_token": 276,
+      "last_token": 286
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000070.bin",
+      "bytes": 200001024,
+      "sha256": "6cbfaae6c55305f5388e02e506b5570d37706d12eaf2b00e12469552f0f7c3da",
+      "provider_lfs_sha256": "6cbfaae6c55305f5388e02e506b5570d37706d12eaf2b00e12469552f0f7c3da",
+      "provider_git_blob": "8acdac3217dd79162473264d54e0a8a4ebc4c6d4",
+      "tokens": 100000000,
+      "bos_count": 77994,
+      "first_token": 291,
+      "last_token": 956
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000071.bin",
+      "bytes": 200001024,
+      "sha256": "b9205dd54122d9306ec688ec75a5f5014ec79ab43e57469e8c852187281fad29",
+      "provider_lfs_sha256": "b9205dd54122d9306ec688ec75a5f5014ec79ab43e57469e8c852187281fad29",
+      "provider_git_blob": "b2aa9213a5cec260d2456d927d51f6e903f2faab",
+      "tokens": 100000000,
+      "bos_count": 78164,
+      "first_token": 494,
+      "last_token": 266
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000072.bin",
+      "bytes": 200001024,
+      "sha256": "948f39c8b46baefeac89e82318206179337b8d8dc434a37dab2a81faf02e31be",
+      "provider_lfs_sha256": "948f39c8b46baefeac89e82318206179337b8d8dc434a37dab2a81faf02e31be",
+      "provider_git_blob": "173210557e94c7876d2d26e79f2ba8a2c7176e07",
+      "tokens": 100000000,
+      "bos_count": 79023,
+      "first_token": 466,
+      "last_token": 345
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000073.bin",
+      "bytes": 200001024,
+      "sha256": "c70895cfcc6e7d30e3e59cae18faafe7597867458da2c3da944025c820291c18",
+      "provider_lfs_sha256": "c70895cfcc6e7d30e3e59cae18faafe7597867458da2c3da944025c820291c18",
+      "provider_git_blob": "234766046cb853491c8b366c64b5977eebdcf40a",
+      "tokens": 100000000,
+      "bos_count": 77900,
+      "first_token": 361,
+      "last_token": 962
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000074.bin",
+      "bytes": 200001024,
+      "sha256": "d1fde1a680a5b8c8bfc8ac674fb92be80dbd90b40b856898f9abdb4c36ca4a6d",
+      "provider_lfs_sha256": "d1fde1a680a5b8c8bfc8ac674fb92be80dbd90b40b856898f9abdb4c36ca4a6d",
+      "provider_git_blob": "ee52587faf257a748d29f531cb01ee33d9701542",
+      "tokens": 100000000,
+      "bos_count": 78091,
+      "first_token": 939,
+      "last_token": 264
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000075.bin",
+      "bytes": 200001024,
+      "sha256": "29b38483d482b05c5edc175e52c16d938acf290ef7bc1c376806cdb7bcab832b",
+      "provider_lfs_sha256": "29b38483d482b05c5edc175e52c16d938acf290ef7bc1c376806cdb7bcab832b",
+      "provider_git_blob": "3e034a6ff6182b2eacd9cd3ef4ebc52f16bb833e",
+      "tokens": 100000000,
+      "bos_count": 78851,
+      "first_token": 320,
+      "last_token": 968
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000076.bin",
+      "bytes": 200001024,
+      "sha256": "339a305ad37d0ff43e770e45af7c42551b978c17c4e2aac61ac027784fca7079",
+      "provider_lfs_sha256": "339a305ad37d0ff43e770e45af7c42551b978c17c4e2aac61ac027784fca7079",
+      "provider_git_blob": "75f8c34d2f53261e37e6babc0d47392014233a80",
+      "tokens": 100000000,
+      "bos_count": 78259,
+      "first_token": 954,
+      "last_token": 345
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000077.bin",
+      "bytes": 200001024,
+      "sha256": "1301b96bdac7bc15ce9dbdb1de932c301c422e5c80537bfd6cfad6f55286f88e",
+      "provider_lfs_sha256": "1301b96bdac7bc15ce9dbdb1de932c301c422e5c80537bfd6cfad6f55286f88e",
+      "provider_git_blob": "a4c8021f65cfb2db703aa6f9ed6399823046f6a6",
+      "tokens": 100000000,
+      "bos_count": 78185,
+      "first_token": 403,
+      "last_token": 345
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000078.bin",
+      "bytes": 200001024,
+      "sha256": "b39fea999b99ae3ab1f02c3427c9a1df36fb787ff6c807509ceac14b4d7e9739",
+      "provider_lfs_sha256": "b39fea999b99ae3ab1f02c3427c9a1df36fb787ff6c807509ceac14b4d7e9739",
+      "provider_git_blob": "f5efb4fbf2f765191352ba3619e7867473e9c0e5",
+      "tokens": 100000000,
+      "bos_count": 77544,
+      "first_token": 267,
+      "last_token": 967
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000079.bin",
+      "bytes": 200001024,
+      "sha256": "8d9ed913332cdeb089b1106596c995ce780be4ee29281481e4d17af98bf4ba3e",
+      "provider_lfs_sha256": "8d9ed913332cdeb089b1106596c995ce780be4ee29281481e4d17af98bf4ba3e",
+      "provider_git_blob": "6a0ed89aa5db2aaaa67cb12b56a68d8b63b02f41",
+      "tokens": 100000000,
+      "bos_count": 78344,
+      "first_token": 340,
+      "last_token": 958
+    },
+    {
+      "file": "datasets/tokenizers/fineweb_1024_bpe.model",
+      "bytes": 254483,
+      "sha256": "4f5e8adb109c66b4886963bc75a7befd73bda36d27fd7102df8e9e66503b0e2a",
+      "provider_lfs_sha256": "4f5e8adb109c66b4886963bc75a7befd73bda36d27fd7102df8e9e66503b0e2a",
+      "provider_git_blob": "d184273830ebbc588548f70e1585fd90c812cf99"
+    },
+    {
+      "file": "datasets/manifest.json",
+      "bytes": 1925,
+      "sha256": "01b1eef90dea55917eb606e522dd960f2cccd300db9d7aee49f57273b19340c6",
+      "provider_lfs_sha256": null,
+      "provider_git_blob": "4f5ae3113366f06b4ca0f005f0afabaef0d2da01"
+    },
+    {
+      "file": "datasets/docs_selected.source_manifest.json",
+      "bytes": 481,
+      "sha256": "2db506dcd4cbcaabac767bf766a42a6e2b99fed28055c6dd48bbd9f88d491ab0",
+      "provider_lfs_sha256": null,
+      "provider_git_blob": "c7fab2080f9cae5315ee843de32028ee127b35eb"
+    }
+  ],
+  "validation_documents": 50000,
+  "validation_tokens": 62021846,
+  "validation_unique_document_hashes": 49998,
+  "training_complete_documents_checked": 6292939,
+  "overlapping_complete_documents": [
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000000.bin",
+      "start": 93228748,
+      "length": 2184
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000000.bin",
+      "start": 96274177,
+      "length": 286
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000001.bin",
+      "start": 13841846,
+      "length": 5170
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000001.bin",
+      "start": 15381059,
+      "length": 3915
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000001.bin",
+      "start": 75615637,
+      "length": 732
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000001.bin",
+      "start": 91407525,
+      "length": 1729
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000002.bin",
+      "start": 17725338,
+      "length": 1179
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000002.bin",
+      "start": 18633215,
+      "length": 1641
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000002.bin",
+      "start": 19740577,
+      "length": 550
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000002.bin",
+      "start": 30996913,
+      "length": 1095
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000002.bin",
+      "start": 35928444,
+      "length": 792
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000002.bin",
+      "start": 52357121,
+      "length": 1177
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000002.bin",
+      "start": 75780788,
+      "length": 768
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000003.bin",
+      "start": 4799178,
+      "length": 462
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000003.bin",
+      "start": 48174237,
+      "length": 2280
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000003.bin",
+      "start": 58518404,
+      "length": 464
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000003.bin",
+      "start": 60826366,
+      "length": 1850
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000003.bin",
+      "start": 83984809,
+      "length": 1390
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000003.bin",
+      "start": 90458515,
+      "length": 440
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000003.bin",
+      "start": 93754258,
+      "length": 1039
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin",
+      "start": 12358172,
+      "length": 261
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin",
+      "start": 17148681,
+      "length": 1230
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin",
+      "start": 46003225,
+      "length": 1458
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin",
+      "start": 48843964,
+      "length": 1489
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin",
+      "start": 75024999,
+      "length": 202
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin",
+      "start": 77882154,
+      "length": 721
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin",
+      "start": 83016068,
+      "length": 448
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin",
+      "start": 86789802,
+      "length": 1174
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin",
+      "start": 98564216,
+      "length": 699
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000005.bin",
+      "start": 20387583,
+      "length": 8954
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000005.bin",
+      "start": 20771596,
+      "length": 603
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000005.bin",
+      "start": 76513131,
+      "length": 2304
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000005.bin",
+      "start": 87569325,
+      "length": 756
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000006.bin",
+      "start": 48321129,
+      "length": 1045
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000006.bin",
+      "start": 75914860,
+      "length": 302
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000006.bin",
+      "start": 76801763,
+      "length": 620
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000007.bin",
+      "start": 78732364,
+      "length": 499
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000009.bin",
+      "start": 8452134,
+      "length": 239
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000009.bin",
+      "start": 56288426,
+      "length": 495
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000009.bin",
+      "start": 65131245,
+      "length": 1103
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000010.bin",
+      "start": 533105,
+      "length": 560
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000011.bin",
+      "start": 18095400,
+      "length": 899
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000011.bin",
+      "start": 30727565,
+      "length": 953
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000011.bin",
+      "start": 31295368,
+      "length": 1088
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000011.bin",
+      "start": 38066292,
+      "length": 1594
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000011.bin",
+      "start": 75754215,
+      "length": 196
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000012.bin",
+      "start": 55796889,
+      "length": 600
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000012.bin",
+      "start": 90451699,
+      "length": 1385
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000013.bin",
+      "start": 4259315,
+      "length": 182
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000013.bin",
+      "start": 10420554,
+      "length": 258
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000013.bin",
+      "start": 75431497,
+      "length": 360
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000014.bin",
+      "start": 22804225,
+      "length": 2717
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000015.bin",
+      "start": 83507885,
+      "length": 625
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000016.bin",
+      "start": 4620940,
+      "length": 1032
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000016.bin",
+      "start": 31642896,
+      "length": 1112
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000016.bin",
+      "start": 61283695,
+      "length": 440
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000017.bin",
+      "start": 44102457,
+      "length": 175
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000018.bin",
+      "start": 26345478,
+      "length": 218
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000020.bin",
+      "start": 86467780,
+      "length": 1690
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000021.bin",
+      "start": 4804711,
+      "length": 389
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000022.bin",
+      "start": 23246,
+      "length": 580
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000024.bin",
+      "start": 30618189,
+      "length": 1623
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000024.bin",
+      "start": 45167480,
+      "length": 154
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000025.bin",
+      "start": 25008955,
+      "length": 252
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000026.bin",
+      "start": 93805285,
+      "length": 285
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000027.bin",
+      "start": 62585334,
+      "length": 558
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000028.bin",
+      "start": 98167514,
+      "length": 337
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000030.bin",
+      "start": 62092399,
+      "length": 389
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000030.bin",
+      "start": 63353094,
+      "length": 6871
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000030.bin",
+      "start": 69715916,
+      "length": 451
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000031.bin",
+      "start": 6085776,
+      "length": 372
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000031.bin",
+      "start": 7472529,
+      "length": 613
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000031.bin",
+      "start": 7681271,
+      "length": 288
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000031.bin",
+      "start": 11905851,
+      "length": 249
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000031.bin",
+      "start": 24986464,
+      "length": 1413
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000031.bin",
+      "start": 68873472,
+      "length": 1491
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "start": 17597459,
+      "length": 6498
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "start": 27229035,
+      "length": 696
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "start": 34467119,
+      "length": 1372
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "start": 35304484,
+      "length": 319
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "start": 46518199,
+      "length": 491
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "start": 52796953,
+      "length": 350
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "start": 63458221,
+      "length": 766
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "start": 81118136,
+      "length": 530
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "start": 87906045,
+      "length": 682
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "start": 88798821,
+      "length": 402
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin",
+      "start": 93488751,
+      "length": 1762
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000033.bin",
+      "start": 20517170,
+      "length": 379
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000033.bin",
+      "start": 20770595,
+      "length": 7534
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000033.bin",
+      "start": 27088004,
+      "length": 193
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000033.bin",
+      "start": 29722528,
+      "length": 1380
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000033.bin",
+      "start": 37356072,
+      "length": 165
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000033.bin",
+      "start": 44760298,
+      "length": 814
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000033.bin",
+      "start": 59624254,
+      "length": 109
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000034.bin",
+      "start": 11401476,
+      "length": 2354
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000034.bin",
+      "start": 16846472,
+      "length": 1526
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000034.bin",
+      "start": 30729950,
+      "length": 4736
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000034.bin",
+      "start": 42533703,
+      "length": 630
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000034.bin",
+      "start": 50389657,
+      "length": 228
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000034.bin",
+      "start": 58343544,
+      "length": 1203
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000035.bin",
+      "start": 52040831,
+      "length": 661
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000036.bin",
+      "start": 57939068,
+      "length": 232
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000036.bin",
+      "start": 69502664,
+      "length": 227
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000037.bin",
+      "start": 2368151,
+      "length": 455
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000037.bin",
+      "start": 75623297,
+      "length": 950
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000037.bin",
+      "start": 81703463,
+      "length": 607
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000038.bin",
+      "start": 41164119,
+      "length": 269
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000038.bin",
+      "start": 68466616,
+      "length": 178
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000038.bin",
+      "start": 70169990,
+      "length": 544
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000039.bin",
+      "start": 57466541,
+      "length": 499
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000039.bin",
+      "start": 92856950,
+      "length": 1320
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000041.bin",
+      "start": 43079056,
+      "length": 1289
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000042.bin",
+      "start": 27053986,
+      "length": 1357
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000042.bin",
+      "start": 64833765,
+      "length": 469
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000043.bin",
+      "start": 15417282,
+      "length": 470
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000043.bin",
+      "start": 85131287,
+      "length": 850
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000043.bin",
+      "start": 93666741,
+      "length": 494
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000044.bin",
+      "start": 14079520,
+      "length": 290
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000044.bin",
+      "start": 28723484,
+      "length": 436
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000044.bin",
+      "start": 87525833,
+      "length": 317
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000048.bin",
+      "start": 49515613,
+      "length": 165
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000050.bin",
+      "start": 44961356,
+      "length": 810
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000051.bin",
+      "start": 20165378,
+      "length": 1326
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000051.bin",
+      "start": 29670583,
+      "length": 255
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000052.bin",
+      "start": 4656087,
+      "length": 5626
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000053.bin",
+      "start": 14487109,
+      "length": 1336
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000053.bin",
+      "start": 59778007,
+      "length": 220
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000053.bin",
+      "start": 60615961,
+      "length": 2914
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000053.bin",
+      "start": 97628820,
+      "length": 499
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000054.bin",
+      "start": 5823587,
+      "length": 173
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000054.bin",
+      "start": 54355656,
+      "length": 303
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000059.bin",
+      "start": 9891926,
+      "length": 667
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000059.bin",
+      "start": 17937529,
+      "length": 2747
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000061.bin",
+      "start": 50786808,
+      "length": 882
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000062.bin",
+      "start": 24958849,
+      "length": 1448
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000062.bin",
+      "start": 54650961,
+      "length": 1894
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000063.bin",
+      "start": 13362021,
+      "length": 18790
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000063.bin",
+      "start": 97168250,
+      "length": 288
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000065.bin",
+      "start": 52927891,
+      "length": 3312
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000065.bin",
+      "start": 68283384,
+      "length": 619
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000066.bin",
+      "start": 41134833,
+      "length": 890
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000066.bin",
+      "start": 42517529,
+      "length": 300
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000066.bin",
+      "start": 59160729,
+      "length": 1440
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000066.bin",
+      "start": 74512709,
+      "length": 402
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000068.bin",
+      "start": 32766210,
+      "length": 533
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000069.bin",
+      "start": 2242007,
+      "length": 254
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000069.bin",
+      "start": 72369258,
+      "length": 205
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000070.bin",
+      "start": 27748229,
+      "length": 1507
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000070.bin",
+      "start": 34743776,
+      "length": 423
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000071.bin",
+      "start": 22477178,
+      "length": 1067
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000072.bin",
+      "start": 9089753,
+      "length": 268
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000074.bin",
+      "start": 8020302,
+      "length": 1717
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000074.bin",
+      "start": 25767404,
+      "length": 6899
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000074.bin",
+      "start": 33444044,
+      "length": 419
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000074.bin",
+      "start": 91030201,
+      "length": 2748
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000075.bin",
+      "start": 71897196,
+      "length": 746
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000076.bin",
+      "start": 92014673,
+      "length": 1143
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000077.bin",
+      "start": 35679955,
+      "length": 186
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000077.bin",
+      "start": 44086464,
+      "length": 1260
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000077.bin",
+      "start": 65825087,
+      "length": 341
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000077.bin",
+      "start": 74340621,
+      "length": 313
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000078.bin",
+      "start": 16986265,
+      "length": 1397
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000079.bin",
+      "start": 6946768,
+      "length": 160
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000079.bin",
+      "start": 11519691,
+      "length": 2246
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000079.bin",
+      "start": 42528543,
+      "length": 589
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000079.bin",
+      "start": 69771453,
+      "length": 375
+    },
+    {
+      "file": "datasets/datasets/fineweb10B_sp1024/fineweb_train_000079.bin",
+      "start": 94171810,
+      "length": 691
+    }
+  ],
+  "trailing_training_partial_document_tokens": 1011,
+  "split_policy": "Canonical export flushes validation at document 50000 before starting train; source code reviewed. Downloaded 80 train shards form a prefix; final partial document is not a complete-document hash comparison.",
+  "source_docs_cache_downloaded": false,
+  "source_docs_cache_limitation": "48GB source JSONL not redownloaded/re-tokenized; provider-pinned shard hashes, split code/manifest and tokenized-document overlap checks establish bounded provenance, not a new independent raw-corpus rebuild.",
+  "baseline_eval_targets": 62021632,
+  "baseline_eval_omitted_tail_tokens": 213
+}

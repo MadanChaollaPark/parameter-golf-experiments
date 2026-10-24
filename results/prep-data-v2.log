@@ -1,0 +1,428 @@
+✓ Initialized. View run at 
+https://modal.com/apps/releasedrats/main/ap-Bt0aNaNNo2xrl2ZpuDcwzh
+Building image im-DHYv0B3dJWnpR3StfxhVR8
+
+=> Step 0: running function 'install_packages'
+Get:1 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:5 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [7955 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [4430 kB]
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [96.8 kB]
+Get:10 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1325 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [8243 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1628 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [4759 kB]
+Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [104 kB]
+Get:17 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [35.6 kB]
+Get:18 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [82.9 kB]
+Fetched 49.0 MB in 3s (14.9 MB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-11 g++-11 gcc-11
+  gcc-11-base gcc-12-base libasan6 libatomic1 libbinutils libcc1-0
+  libctf-nobfd0 libctf0 libgcc-11-dev libgcc-s1 libgomp1 libisl23 libitm1
+  liblsan0 libmpc3 libmpfr6 libquadmath0 libstdc++-11-dev libstdc++6 libtsan0
+  libubsan1
+Suggested packages:
+  binutils-doc cpp-doc gcc-11-locales g++-multilib g++-11-multilib gcc-11-doc
+  gcc-multilib make manpages-dev autoconf automake libtool flex bison gdb
+  gcc-doc gcc-11-multilib libstdc++-11-doc
+The following NEW packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-11 g++ g++-11 gcc
+  gcc-11 gcc-11-base libasan6 libatomic1 libbinutils libcc1-0 libctf-nobfd0
+  libctf0 libgcc-11-dev libgomp1 libisl23 libitm1 liblsan0 libmpc3 libmpfr6
+  libquadmath0 libstdc++-11-dev libtsan0 libubsan1
+The following packages will be upgraded:
+  gcc-12-base libgcc-s1 libstdc++6
+3 upgraded, 27 newly installed, 0 to remove and 50 not upgraded.
+Need to get 60.0 MB of archives.
+After this operation, 187 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-12-base amd64 12.3.0-1ubuntu1~22.04.3 [216 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libstdc++6 amd64 12.3.0-1ubuntu1~22.04.3 [699 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgcc-s1 amd64 12.3.0-1ubuntu1~22.04.3 [53.9 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 binutils-common amd64 2.38-4ubuntu2.12 [223 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libbinutils amd64 2.38-4ubuntu2.12 [663 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libctf-nobfd0 amd64 2.38-4ubuntu2.12 [108 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libctf0 amd64 2.38-4ubuntu2.12 [103 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.38-4ubuntu2.12 [2324 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 binutils amd64 2.38-4ubuntu2.12 [3184 B]
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11-base amd64 11.4.0-1ubuntu1~22.04.3 [216 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 libisl23 amd64 0.24-2build1 [727 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpfr6 amd64 4.1.0-3build3 [1425 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpc3 amd64 1.2.1-2build1 [46.9 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 cpp-11 amd64 11.4.0-1ubuntu1~22.04.3 [10.0 MB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy/main amd64 cpp amd64 4:11.2.0-1ubuntu1 [27.7 kB]
+Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcc1-0 amd64 12.3.0-1ubuntu1~22.04.3 [48.3 kB]
+Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgomp1 amd64 12.3.0-1ubuntu1~22.04.3 [127 kB]
+Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libitm1 amd64 12.3.0-1ubuntu1~22.04.3 [30.2 kB]
+Get:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libatomic1 amd64 12.3.0-1ubuntu1~22.04.3 [10.5 kB]
+Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libasan6 amd64 11.4.0-1ubuntu1~22.04.3 [2283 kB]
+Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 liblsan0 amd64 12.3.0-1ubuntu1~22.04.3 [1069 kB]
+Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtsan0 amd64 11.4.0-1ubuntu1~22.04.3 [2260 kB]
+Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libubsan1 amd64 12.3.0-1ubuntu1~22.04.3 [976 kB]
+Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libquadmath0 amd64 12.3.0-1ubuntu1~22.04.3 [154 kB]
+Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgcc-11-dev amd64 11.4.0-1ubuntu1~22.04.3 [2517 kB]
+Get:26 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11 amd64 11.4.0-1ubuntu1~22.04.3 [20.1 MB]
+Get:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 gcc amd64 4:11.2.0-1ubuntu1 [5112 B]
+Get:28 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libstdc++-11-dev amd64 11.4.0-1ubuntu1~22.04.3 [2101 kB]
+Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 g++-11 amd64 11.4.0-1ubuntu1~22.04.3 [11.4 MB]
+Get:30 http://archive.ubuntu.com/ubuntu jammy/main amd64 g++ amd64 4:11.2.0-1ubuntu1 [1412 B]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 60.0 MB in 3s (18.5 MB/s)
+(Reading database ... 
+[1A(Reading database ... 5%
+[1A(Reading database ... 10%
+[1A(Reading database ... 15%
+[1A(Reading database ... 20%
+[1A(Reading database ... 25%
+[1A(Reading database ... 30%
+[1A(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6651 files and directories currently installed.)
+Preparing to unpack .../gcc-12-base_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking gcc-12-base:amd64 (12.3.0-1ubuntu1~22.04.3) over (12.3.0-1ubuntu1~22.04) ...
+Setting up gcc-12-base:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+(Reading database ... 
+[1A(Reading database ... 5%
+[1A(Reading database ... 10%
+[1A(Reading database ... 15%
+[1A(Reading database ... 20%
+[1A(Reading database ... 25%
+[1A(Reading database ... 30%
+[1A(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%
+[1A(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%
+[1A(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%
+[1A(Reading database ... 6651 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libstdc++6:amd64 (12.3.0-1ubuntu1~22.04.3) over (12.3.0-1ubuntu1~22.04) ...
+Setting up libstdc++6:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+(Reading database ... 
+[1A(Reading database ... 5%
+[1A(Reading database ... 10%
+[1A(Reading database ... 15%
+[1A(Reading database ... 20%
+[1A(Reading database ... 25%
+[1A(Reading database ... 30%
+[1A(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%
+[1A(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%
+[1A(Reading database ... 95%(Reading database ... 100%(Reading database ... 6651 files and directories currently installed.)
+Preparing to unpack .../libgcc-s1_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libgcc-s1:amd64 (12.3.0-1ubuntu1~22.04.3) over (12.3.0-1ubuntu1~22.04) ...
+Setting up libgcc-s1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package binutils-common:amd64.
+(Reading database ... 
+[1A(Reading database ... 5%
+[1A(Reading database ... 10%
+[1A(Reading database ... 15%
+[1A(Reading database ... 20%
+[1A(Reading database ... 25%
+[1A(Reading database ... 30%
+[1A(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%
+[1A(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%
+[1A(Reading database ... 95%(Reading database ... 100%
+[1A(Reading database ... 6651 files and directories currently installed.)
+Preparing to unpack .../00-binutils-common_2.38-4ubuntu2.12_amd64.deb ...
+Unpacking binutils-common:amd64 (2.38-4ubuntu2.12) ...
+Selecting previously unselected package libbinutils:amd64.
+Preparing to unpack .../01-libbinutils_2.38-4ubuntu2.12_amd64.deb ...
+Unpacking libbinutils:amd64 (2.38-4ubuntu2.12) ...
+Selecting previously unselected package libctf-nobfd0:amd64.
+Preparing to unpack .../02-libctf-nobfd0_2.38-4ubuntu2.12_amd64.deb ...
+Unpacking libctf-nobfd0:amd64 (2.38-4ubuntu2.12) ...
+Selecting previously unselected package libctf0:amd64.
+Preparing to unpack .../03-libctf0_2.38-4ubuntu2.12_amd64.deb ...
+Unpacking libctf0:amd64 (2.38-4ubuntu2.12) ...
+Selecting previously unselected package binutils-x86-64-linux-gnu.
+Preparing to unpack .../04-binutils-x86-64-linux-gnu_2.38-4ubuntu2.12_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.38-4ubuntu2.12) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../05-binutils_2.38-4ubuntu2.12_amd64.deb ...
+Unpacking binutils (2.38-4ubuntu2.12) ...
+Selecting previously unselected package gcc-11-base:amd64.
+Preparing to unpack .../06-gcc-11-base_11.4.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking gcc-11-base:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package libisl23:amd64.
+Preparing to unpack .../07-libisl23_0.24-2build1_amd64.deb ...
+Unpacking libisl23:amd64 (0.24-2build1) ...
+Selecting previously unselected package libmpfr6:amd64.
+Preparing to unpack .../08-libmpfr6_4.1.0-3build3_amd64.deb ...
+Unpacking libmpfr6:amd64 (4.1.0-3build3) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../09-libmpc3_1.2.1-2build1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.2.1-2build1) ...
+Selecting previously unselected package cpp-11.
+Preparing to unpack .../10-cpp-11_11.4.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking cpp-11 (11.4.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../11-cpp_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking cpp (4:11.2.0-1ubuntu1) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../12-libcc1-0_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libcc1-0:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../13-libgomp1_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libgomp1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../14-libitm1_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libitm1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../15-libatomic1_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libatomic1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package libasan6:amd64.
+Preparing to unpack .../16-libasan6_11.4.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libasan6:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../17-liblsan0_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking liblsan0:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../18-libtsan0_11.4.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libtsan0:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package libubsan1:amd64.
+Preparing to unpack .../19-libubsan1_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libubsan1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../20-libquadmath0_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libquadmath0:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package libgcc-11-dev:amd64.
+Preparing to unpack .../21-libgcc-11-dev_11.4.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libgcc-11-dev:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package gcc-11.
+Preparing to unpack .../22-gcc-11_11.4.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking gcc-11 (11.4.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../23-gcc_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking gcc (4:11.2.0-1ubuntu1) ...
+Selecting previously unselected package libstdc++-11-dev:amd64.
+Preparing to unpack .../24-libstdc++-11-dev_11.4.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libstdc++-11-dev:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package g++-11.
+Preparing to unpack .../25-g++-11_11.4.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking g++-11 (11.4.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../26-g++_4%3a11.2.0-1ubuntu1_amd64.deb ...
+Unpacking g++ (4:11.2.0-1ubuntu1) ...
+Setting up gcc-11-base:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Setting up binutils-common:amd64 (2.38-4ubuntu2.12) ...
+Setting up libctf-nobfd0:amd64 (2.38-4ubuntu2.12) ...
+Setting up libgomp1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Setting up libasan6:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Setting up libmpfr6:amd64 (4.1.0-3build3) ...
+Setting up libquadmath0:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Setting up libmpc3:amd64 (1.2.1-2build1) ...
+Setting up libatomic1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Setting up libubsan1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Setting up libbinutils:amd64 (2.38-4ubuntu2.12) ...
+Setting up libisl23:amd64 (0.24-2build1) ...
+Setting up libcc1-0:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Setting up liblsan0:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Setting up libitm1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Setting up libtsan0:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Setting up libctf0:amd64 (2.38-4ubuntu2.12) ...
+Setting up cpp-11 (11.4.0-1ubuntu1~22.04.3) ...
+Setting up libgcc-11-dev:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Setting up cpp (4:11.2.0-1ubuntu1) ...
+Setting up binutils-x86-64-linux-gnu (2.38-4ubuntu2.12) ...
+Setting up binutils (2.38-4ubuntu2.12) ...
+Setting up libstdc++-11-dev:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Setting up gcc-11 (11.4.0-1ubuntu1~22.04.3) ...
+Setting up g++-11 (11.4.0-1ubuntu1~22.04.3) ...
+Setting up gcc (4:11.2.0-1ubuntu1) ...
+Setting up g++ (4:11.2.0-1ubuntu1) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/c++.1.gz because associated file /usr/share/man/man1/g++.1.gz (of link group c++) doesn't exist
+Processing triggers for libc-bin (2.35-0ubuntu3.10) ...
+Collecting numpy==2.2.6
+  Downloading numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+Collecting sentencepiece==0.2.1
+  Downloading sentencepiece-0.2.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (10 kB)
+Collecting huggingface-hub==0.34.4
+  Downloading huggingface_hub-0.34.4-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: filelock in /opt/conda/lib/python3.11/site-packages (from huggingface-hub==0.34.4) (3.18.0)
+Requirement already satisfied: fsspec>=2023.5.0 in /opt/conda/lib/python3.11/site-packages (from huggingface-hub==0.34.4) (2025.7.0)
+Requirement already satisfied: packaging>=20.9 in /opt/conda/lib/python3.11/site-packages (from huggingface-hub==0.34.4) (25.0)
+Requirement already satisfied: pyyaml>=5.1 in /opt/conda/lib/python3.11/site-packages (from huggingface-hub==0.34.4) (6.0.2)
+Requirement already satisfied: requests in /opt/conda/lib/python3.11/site-packages (from huggingface-hub==0.34.4) (2.32.4)
+Requirement already satisfied: tqdm>=4.42.1 in /opt/conda/lib/python3.11/site-packages (from huggingface-hub==0.34.4) (4.67.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /opt/conda/lib/python3.11/site-packages (from huggingface-hub==0.34.4) (4.14.1)
+Collecting hf-xet<2.0.0,>=1.1.3 (from huggingface-hub==0.34.4)
+  Downloading hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/conda/lib/python3.11/site-packages (from requests->huggingface-hub==0.34.4) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in /opt/conda/lib/python3.11/site-packages (from requests->huggingface-hub==0.34.4) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/conda/lib/python3.11/site-packages (from requests->huggingface-hub==0.34.4) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.11/site-packages (from requests->huggingface-hub==0.34.4) (2025.8.3)
+Downloading numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 44.3 MB/s eta 0:00:00
+Downloading sentencepiece-0.2.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 209.0 MB/s eta 0:00:00
+Downloading huggingface_hub-0.34.4-py3-none-any.whl (561 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 561.5/561.5 kB 212.0 MB/s eta 0:00:00
+Downloading hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 51.2 MB/s eta 0:00:00
+Installing collected packages: sentencepiece, numpy, hf-xet, huggingface-hub
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.3.2
+    Uninstalling numpy-2.3.2:
+      Successfully uninstalled numpy-2.3.2
+
+Successfully installed hf-xet-1.7.0 huggingface-hub-0.34.4 numpy-2.2.6 sentencepiece-0.2.1
+Saving image...
+Image saved, took 2.91s
+Finished image build for im-DHYv0B3dJWnpR3StfxhVR8
+Building image im-s5ck2yBh18HuxL0DmTgIec
+
+=> Step 0: FROM base
+
+=> Step 1: ENV OMP_NUM_THREADS=1
+
+=> Step 2: ENV MKL_NUM_THREADS=1
+
+=> Step 3: ENV TOKENIZERS_PARALLELISM=false
+
+=> Step 4: ENV HF_HUB_DISABLE_TELEMETRY=1
+
+=> Step 5: ENV HF_HUB_DISABLE_XET=1
+
+=> Step 6: ENV PYTHONUNBUFFERED=1
+Saving image...
+Image saved, took 1.10s
+
+Built image im-s5ck2yBh18HuxL0DmTgIec in 3.62s
+
+
+✓ Created objects.
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/modal_campaign.py
+├── ✓ Uploaded scripts/train_remote.py
+├── ✓ Uploaded scripts/correctness_checks.py
+├── ✓ Uploaded train_gpt.py
+├── ✓ Uploaded scripts/prepare_data.py
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/vendor
+├── ✓ Created Function install_packages.
+├── ✓ Created Function prepare.
+└── ✓ Created Function train.
+APP_ID ap-Bt0aNaNNo2xrl2ZpuDcwzh
+verified datasets/datasets/fineweb10B_sp1024/fineweb_val_000000.bin 62021846
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000000.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000001.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000002.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000003.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000004.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000005.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000006.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000007.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000008.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000009.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000010.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000011.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000012.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000013.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000014.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000015.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000016.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000017.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000018.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000019.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000020.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000021.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000022.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000023.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000024.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000025.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000026.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000027.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000028.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000029.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000030.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000031.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000032.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000033.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000034.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000035.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000036.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000037.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000038.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000039.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000040.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000041.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000042.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000043.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000044.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000045.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000046.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000047.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000048.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000049.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000050.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000051.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000052.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000053.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000054.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000055.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000056.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000057.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000058.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000059.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000060.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000061.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000062.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000063.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000064.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000065.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000066.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000067.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000068.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000069.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000070.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000071.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000072.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000073.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000074.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000075.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000076.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000077.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000078.bin 100000000
+verified datasets/datasets/fineweb10B_sp1024/fineweb_train_000079.bin 100000000
+verified datasets/tokenizers/fineweb_1024_bpe.model 254483
+verified datasets/manifest.json 1925
+verified datasets/docs_selected.source_manifest.json 481
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 987, in handle_input_exception
+    yield
+  File "/pkg/modal/_container_entrypoint.py", line 189, in run_input_sync
+    values = io_context.call_function_sync()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pkg/modal/_runtime/container_io_manager.py", line 266, in call_function_sync
+    expected_value_or_values = self.finalized_function.callable(*args, **kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/modal_campaign.py", line 23, in prepare
+    result=prepare('/pg/data')
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/prepare_data.py", line 49, in prepare
+    assert not overlap,'Canonical downloaded prefix contains full-document train/val overlap; do not train until reviewed'
+           ^^^^^^^^^^^
+AssertionError: Canonical downloaded prefix contains full-document train/val overlap; do not train until reviewed
+Stopping app - uncaught exception raised in remote container: AssertionError('Canonical downloaded prefix contains full-document train/val overlap; do not train until reviewed').
+Traceback (most recent call last):
+  File "/home/azureuser/parameter-golf-experiments/scripts/run_job.py", line 27, in <module>
+    try:result=call.get(timeout=10);break
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_object.py", line 49, in wrapped
+    return await method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_functions.py", line 2424, in get
+    return await self._invocation().poll_function(timeout=timeout, index=index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_functions.py", line 350, in poll_function
+    return await _process_result(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_utils/function_utils.py", line 572, in _process_result
+    raise exc_with_hints(exc)
+  File "<ta-01M5NV0EKPP5XKC46DM6X65H7R>:/root/modal_campaign.py", line 23, in prepare
+  File "<ta-01M5NV0EKPP5XKC46DM6X65H7R>:/work/prepare_data.py", line 49, in prepare
+AssertionError: Canonical downloaded prefix contains full-document train/val overlap; do not train until reviewed

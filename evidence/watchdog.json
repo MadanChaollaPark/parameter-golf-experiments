@@ -1,0 +1,7 @@
+{
+  "service": "parameter-golf-watchdog.service",
+  "verified_MainPID": 872606,
+  "verified_ActiveState": "active",
+  "verified_SubState": "running",
+  "completion_signal": "/home/azureuser/parameter-golf-control/FINALIZED"
+}

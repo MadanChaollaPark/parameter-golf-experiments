@@ -3,8 +3,9 @@ import hashlib,json,os,pathlib,re,subprocess,time
 def train(job_id,config):
  import torch
  root=pathlib.Path('/pg');data=root/'data';audit=json.loads((data/'audit.json').read_text())
- assert not audit['overlapping_complete_documents'] and audit['validation_documents']==50000
- available=sum(x.get('tokens',0) for x in audit['files'] if 'fineweb_train_' in x['file'])
+ clean=json.loads((data/'clean_audit.json').read_text())
+ assert clean['postwrite_exact_document_overlaps']==0 and audit['validation_documents']==50000
+ available=clean['retained_training_tokens']
  assert int(config['ITERATIONS'])*524288<=available,'Insufficient distinct training prefix'
  assert torch.cuda.device_count()==8
  names=[torch.cuda.get_device_name(i) for i in range(8)];assert all('H100' in x for x in names),names
@@ -12,9 +13,9 @@ def train(job_id,config):
  topology=subprocess.check_output(['nvidia-smi','topo','-m'],text=True)
  smi=subprocess.check_output(['nvidia-smi'],text=True)
  assert 'NV' in topology,'Expected NVLink topology'
- environment={'gpu_names':names,'topology':topology,'nvidia_smi':smi,'torch':torch.__version__,'cuda':torch.version.cuda,'cudnn':torch.backends.cudnn.version(),'packages':subprocess.check_output(['python','-m','pip','freeze'],text=True),'config':config,'source_sha256':hashlib.sha256(pathlib.Path('/work/train_gpt.py').read_bytes()).hexdigest(),'data_revision':audit['revision']}
+ environment={'gpu_names':names,'topology':topology,'nvidia_smi':smi,'torch':torch.__version__,'cuda':torch.version.cuda,'cudnn':torch.backends.cudnn.version(),'packages':subprocess.check_output(['python','-m','pip','freeze'],text=True),'config':config,'source_sha256':hashlib.sha256(pathlib.Path('/work/train_gpt.py').read_bytes()).hexdigest(),'data_revision':audit['revision'],'clean_audit_sha256':hashlib.sha256((data/'clean_audit.json').read_bytes()).hexdigest(),'data_derivative':'exact-validation-document matches removed from canonical training only'}
  (run/'environment.json').write_text(json.dumps(environment,indent=2));print(json.dumps({k:v for k,v in environment.items() if k!='packages'}),flush=True)
- env=dict(os.environ,**config,DATA_PATH=str(data/'datasets/datasets/fineweb10B_sp1024'),TOKENIZER_PATH=str(data/'datasets/tokenizers/fineweb_1024_bpe.model'),RUN_ID=job_id,NCCL_IB_DISABLE='1',TORCHINDUCTOR_COMPILE_THREADS='8',OMP_NUM_THREADS='1')
+ env=dict(os.environ,**config,DATA_PATH=str(data/'clean_sp1024'),TOKENIZER_PATH=str(data/'datasets/tokenizers/fineweb_1024_bpe.model'),RUN_ID=job_id,NCCL_IB_DISABLE='1',TORCHINDUCTOR_COMPILE_THREADS='1',OMP_NUM_THREADS='1')
  command=['torchrun','--standalone','--nproc_per_node=8','/work/train_gpt.py'];start=time.perf_counter()
  with (run/'train.log').open('w') as log:
   proc=subprocess.Popen(command,cwd=run,env=env,stdout=log,stderr=subprocess.STDOUT)
@@ -35,5 +36,5 @@ def train(job_id,config):
  for name in ['final_model.int8.ptz','train.log','environment.json']:
   p=run/name;artifacts.append({'path':str(p.relative_to(root)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
  model_bytes=(run/'final_model.int8.ptz').stat().st_size
- result={'job_id':job_id,'config':config,'metrics':metrics,'subprocess_wall_seconds':elapsed,'model_bytes':model_bytes,'code_bytes':pathlib.Path('/work/train_gpt.py').stat().st_size,'total_artifact_bytes':model_bytes+pathlib.Path('/work/train_gpt.py').stat().st_size,'artifact_size_pass':model_bytes+pathlib.Path('/work/train_gpt.py').stat().st_size<=16000000,'environment':environment,'artifacts':artifacts,'evidence_tier':'fixed-step pilot with full baseline validation protocol; no official result','baseline_eval_targets':audit['baseline_eval_targets'],'omitted_tail_tokens':audit['baseline_eval_omitted_tail_tokens']}
+ result={'job_id':job_id,'config':config,'metrics':metrics,'subprocess_wall_seconds':elapsed,'model_bytes':model_bytes,'code_bytes':pathlib.Path('/work/train_gpt.py').stat().st_size,'total_artifact_bytes':model_bytes+pathlib.Path('/work/train_gpt.py').stat().st_size,'artifact_size_pass':model_bytes+pathlib.Path('/work/train_gpt.py').stat().st_size<=16000000,'environment':environment,'artifacts':artifacts,'evidence_tier':'fixed-step pilot on decontaminated canonical training with full baseline validation protocol; no official result','baseline_eval_targets':audit['baseline_eval_targets'],'omitted_tail_tokens':audit['baseline_eval_omitted_tail_tokens']}
  (run/'result.json').write_text(json.dumps(result,indent=2));return result

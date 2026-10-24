@@ -1,0 +1,8 @@
+{
+  "reference": "records/track_10min_16mb/2026-03-19_SlidingWindowEval/train_gpt.py at f5c0793",
+  "synthetic_targets": 2048,
+  "reference_scored_count": 3008,
+  "reference_max_multiplicity": 16,
+  "our_scored_count": 2048,
+  "decision": "Reimplement disjoint target ownership; do not copy reference tail loop."
+}

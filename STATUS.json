@@ -1,11 +1,13 @@
 {
   "phase": "failed",
-  "progress": "prep-image-data: failed",
+  "progress": "prep-data-v2: failed",
   "completed_job_ids": [],
-  "reserved_usd": 10.0,
+  "reserved_usd": 11.5,
   "protected_final_usd": 20,
   "best_score": null,
   "evidence_tier": "none",
   "next_step": "Review results and correctness before reserving another job",
-  "updated_utc": "2026-10-24T02:13:38.955200+00:00"
+  "updated_utc": "2026-10-24T02:23:20.159149+00:00",
+  "watchdog_service": "parameter-golf-watchdog.service",
+  "watchdog_pid": 872606
 }

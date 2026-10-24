@@ -14,7 +14,11 @@ image=(modal.Image.from_registry('pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime'
  .add_local_file('scripts/prepare_data.py','/work/prepare_data.py')
  .add_local_file('scripts/correctness_checks.py','/work/correctness_checks.py')
  .add_local_file('scripts/train_remote.py','/work/train_remote.py')
- .add_local_file('train_gpt.py','/work/train_gpt.py'))
+ .add_local_file('train_gpt.py','/work/train_gpt.py')
+ .add_local_file('evaluate.py','/work/evaluate.py')
+ .add_local_file('eval_windows.py','/work/eval_windows.py')
+ .add_local_file('scripts/evaluation_remote.py','/work/evaluation_remote.py')
+ .add_local_file('scripts/clean_data.py','/work/clean_data.py'))
 @app.function(image=image,volumes={'/pg':volume},cpu=(2,2),memory=(8192,8192),timeout=1800,startup_timeout=300,retries=0,max_containers=1,scaledown_window=2)
 def prepare():
  import sys
@@ -30,4 +34,29 @@ def train(job_id,config):
  sys.path.insert(0,'/work')
  from train_remote import train
  try:return train(job_id,config)
+ finally:volume.commit()
+
+evaluation_volume=modal.Volume.from_name('parameter-golf-evaluation-20261024',create_if_missing=True)
+@app.function(image=image,volumes={'/pg':volume,'/evaluation':evaluation_volume},cpu=(2,2),memory=(8192,8192),timeout=240,startup_timeout=60,retries=0,max_containers=1,scaledown_window=2)
+def stage(job_id):
+ import sys
+ sys.path.insert(0,'/work')
+ from evaluation_remote import stage
+ result=stage(job_id);evaluation_volume.commit();return result
+@app.function(image=image,volumes={'/evaluation':evaluation_volume},gpu='H100!:8',cpu=(8,8),memory=(32768,32768),timeout=400,startup_timeout=180,retries=0,max_containers=1,scaledown_window=2,block_network=True)
+def evaluate(job_id):
+ import sys
+ sys.path.insert(0,'/work')
+ from evaluation_remote import evaluate
+ try:return evaluate(job_id)
+ finally:evaluation_volume.commit()
+
+@app.function(image=image,volumes={'/pg':volume},cpu=(2,2),memory=(8192,8192),timeout=1200,startup_timeout=120,retries=0,max_containers=1,scaledown_window=2)
+def clean():
+ import sys
+ sys.path.insert(0,'/work')
+ from clean_data import clean
+ from correctness_checks import check
+ try:
+  result=clean('/pg/data');result['correctness']=check('/pg/data');return result
  finally:volume.commit()

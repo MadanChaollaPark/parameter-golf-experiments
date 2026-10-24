@@ -10,5 +10,18 @@
     "elapsed_app_seconds": 113.97130038891919,
     "finished_utc": "2026-10-24T02:13:38.954853+00:00",
     "app_id": "ap-4ZRZPftCJxOsQWO5DUDhEN"
+  },
+  {
+    "job": "prep-data-v2",
+    "kind": "prepare",
+    "config": {},
+    "code_revision": "bc9a62206680ddb257e11bb1edc845049a72ce7c",
+    "started_utc": "2026-10-24T02:13:57.644616+00:00",
+    "state": "failed",
+    "app_id": "ap-Bt0aNaNNo2xrl2ZpuDcwzh",
+    "call_id": "fc-01M5NV0DM5XMJNM0NCRCV6Z4GS",
+    "error": "AssertionError: Canonical downloaded prefix contains full-document train/val overlap; do not train until reviewed",
+    "elapsed_app_seconds": 562.5138943230268,
+    "finished_utc": "2026-10-24T02:23:20.158764+00:00"
   }
 ]
