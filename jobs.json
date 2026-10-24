@@ -122,5 +122,32 @@
     "error": "RemoteError: Function call was cancelled by user or a failure.",
     "elapsed_app_seconds": 487.2517893430777,
     "finished_utc": "2026-10-24T02:47:41.581374+00:00"
+  },
+  {
+    "job": "control-42-6k",
+    "kind": "train",
+    "config": {
+      "job_id": "control-42-6k",
+      "config": {
+        "SEED": "42",
+        "QK_GAIN_INIT": "1.5",
+        "ITERATIONS": "6000",
+        "MAX_WALLCLOCK_SECONDS": "0",
+        "WARMDOWN_ITERS": "1200",
+        "VAL_LOSS_EVERY": "0",
+        "TRAIN_LOG_EVERY": "200",
+        "WARMUP_STEPS": "20"
+      }
+    },
+    "code_revision": "e4e2ec6cade402b86cb671c57c3410e210eac788",
+    "started_utc": "2026-10-24T02:48:20.309383+00:00",
+    "state": "completed",
+    "app_id": "ap-djeI9mKKXN7CG4qAYzLAoZ",
+    "call_id": "fc-01M5NWYCW0QB4795GBGWDNWNA6",
+    "error": "DeserializationError: Deserialization failed because the 'torch' module is not available in the local environment.",
+    "elapsed_app_seconds": 789.991201801924,
+    "finished_utc": "2026-10-24T03:01:30.300880+00:00",
+    "original_local_state": "failed",
+    "recovery": "Persisted remote result.json retrieved via volume read; training completed and committed; no GPU rerun. Original local TorchVersion deserialization error retained."
   }
 ]

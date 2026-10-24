@@ -1,0 +1,42 @@
+[
+  {
+    "file": "results/control-42-nvlink-preserved-train.log",
+    "bytes": 58178,
+    "sha256": "0be7365ef5ff5a1bb4af7ae98b33718542144407adb820f7c9424cded8382aeb"
+  },
+  {
+    "file": "results/control-42-nvlink-preserved-control-42-nvlink.txt",
+    "bytes": 62184,
+    "sha256": "c3d0a0efd6e92a5cc30f39b99c8c2023fc0779a725acb439f44fb8003d1918ac"
+  },
+  {
+    "file": "results/control-42-nvlink-preserved-environment.json",
+    "bytes": 14143,
+    "sha256": "a8b7d54fe04e24143ca221d037096f7966bdc100dfcf9ee90e13f011e27368b0"
+  },
+  {
+    "job": "control-42-nvlink",
+    "remote_path": "staging.json",
+    "unavailable": "FileNotFoundError"
+  },
+  {
+    "file": "results/control-42-staged-preserved-train.log",
+    "bytes": 11641,
+    "sha256": "8e7a1b56ef9b0d9d6db015d16a414b4e7eec745e61bde18bc781f57cbe20fe19"
+  },
+  {
+    "file": "results/control-42-staged-preserved-control-42-staged.txt",
+    "bytes": 63009,
+    "sha256": "c16bb1a14fd4243d20573f25ea6f478da9b2038e818894d49ee7ed265e500611"
+  },
+  {
+    "file": "results/control-42-staged-preserved-environment.json",
+    "bytes": 14143,
+    "sha256": "db042279cdb0cb507fdc144a79749e23eabe251235b3a632b100221003ef51dd"
+  },
+  {
+    "file": "results/control-42-staged-preserved-staging.json",
+    "bytes": 142,
+    "sha256": "5cbf34fce12f1c467febc4138c65d73a3bb8821b07aaffff222dcc55e6bec320"
+  }
+]

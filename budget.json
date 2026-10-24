@@ -102,7 +102,27 @@
       "phase": "research",
       "details": "Prespecified corrected6000-step matched control, seed42 QK1.5, clean/staged hash-verified data, synchronized guard. Strict8H100 CPU32/RAM64 hard task800 startup120 child700 app960 plus60s margin:1020*.00933728+.25=$9.774<10. No automatic GPU retries.",
       "utc": "2026-10-24T02:48:19.868026+00:00"
+    },
+    {
+      "job": "audited-reconciliation-control-42-6k",
+      "reserved_usd": -1.0,
+      "phase": "research",
+      "kind": "explicit_audited_downward_adjustment",
+      "original_job": "control-42-6k",
+      "original_reservation_preserved_usd": 10.0,
+      "revised_conservative_charge_usd": 9.0,
+      "computed_bound_usd": 8.7469248,
+      "evidence": "evidence/control-42-6k-cost-reconciliation.json",
+      "utc": "2026-10-24T03:02:10.565231+00:00",
+      "details": "Provider app creation-to-stopped duration conservatively charged at full GPU/CPU/RAM limits, plus stated startup/teardown margin and CPU image allowance. Credits count. Not an invoice."
+    },
+    {
+      "job": "candidate-42-6k",
+      "reserved_usd": 10.0,
+      "phase": "research",
+      "details": "Prespecified matched QK5 versus control1.5, seed42, same6000 steps, source02099 and clean staged data. StrictH100!:8 CPU32/RAM64 hard task800 startup120 child700 app960 +60s termination margin gives$9.774 bound. JSON-only result transport fix does not change training. No retries.",
+      "utc": "2026-10-24T03:02:10.599398+00:00"
     }
   ],
-  "total_reserved_usd": 41.0
+  "total_reserved_usd": 50.0
 }

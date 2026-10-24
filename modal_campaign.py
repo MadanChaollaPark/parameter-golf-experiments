@@ -33,7 +33,9 @@ def train(job_id,config):
  import sys
  sys.path.insert(0,'/work')
  from train_remote import train
- try:return train(job_id,config)
+ try:
+  import json
+  return json.loads(json.dumps(train(job_id,config)))
  finally:volume.commit()
 
 evaluation_volume=modal.Volume.from_name('parameter-golf-evaluation-20261024',create_if_missing=True)
@@ -48,7 +50,9 @@ def evaluate(job_id):
  import sys
  sys.path.insert(0,'/work')
  from evaluation_remote import evaluate
- try:return evaluate(job_id)
+ try:
+  import json
+  return json.loads(json.dumps(evaluate(job_id)))
  finally:evaluation_volume.commit()
 
 @app.function(image=image,volumes={'/pg':volume},cpu=(2,2),memory=(8192,8192),timeout=1200,startup_timeout=120,retries=0,max_containers=1,scaledown_window=2)

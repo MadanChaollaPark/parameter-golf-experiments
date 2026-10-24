@@ -1,0 +1,179 @@
+logs/control-42-staged.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:pg-staged-data train_shards:42
+val_loader:shards pattern=/tmp/pg-staged-data/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:14.675687
+warmup_step:1/20
+warmup_step:2/20
+warmup_step:3/20
+warmup_step:4/20
+warmup_step:5/20
+warmup_step:6/20
+warmup_step:7/20
+warmup_step:8/20
+warmup_step:9/20
+warmup_step:10/20
+warmup_step:11/20
+warmup_step:12/20
+warmup_step:13/20
+warmup_step:14/20
+warmup_step:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:144.792745
+step:1/8000 train_loss:6.9365 train_time:62ms step_avg:62.37ms
+step:2/8000 train_loss:16.8866 train_time:86ms step_avg:43.05ms
+step:3/8000 train_loss:8.7475 train_time:133ms step_avg:44.22ms
+step:4/8000 train_loss:6.6323 train_time:181ms step_avg:45.24ms
+step:5/8000 train_loss:6.6020 train_time:225ms step_avg:45.05ms
+step:6/8000 train_loss:7.4052 train_time:274ms step_avg:45.72ms
+step:7/8000 train_loss:6.3295 train_time:321ms step_avg:45.80ms
+step:8/8000 train_loss:6.1950 train_time:365ms step_avg:45.66ms
+step:9/8000 train_loss:6.0812 train_time:414ms step_avg:45.97ms
+step:10/8000 train_loss:5.9909 train_time:774ms step_avg:77.39ms
+step:200/8000 train_loss:2.8634 train_time:14206ms step_avg:71.03ms
+step:400/8000 train_loss:2.3412 train_time:28985ms step_avg:72.46ms
+step:600/8000 train_loss:2.4634 train_time:43169ms step_avg:71.95ms
+step:800/8000 train_loss:2.4600 train_time:57766ms step_avg:72.21ms
+step:1000/8000 train_loss:2.3155 train_time:71904ms step_avg:71.90ms
+step:1200/8000 train_loss:2.2519 train_time:86289ms step_avg:71.91ms
+step:1400/8000 train_loss:2.4057 train_time:100823ms step_avg:72.02ms
+step:1600/8000 train_loss:2.2196 train_time:114996ms step_avg:71.87ms
+step:1800/8000 train_loss:2.2408 train_time:129363ms step_avg:71.87ms
+step:2000/8000 train_loss:2.2452 train_time:143835ms step_avg:71.92ms
+step:2200/8000 train_loss:2.1914 train_time:158074ms step_avg:71.85ms
+step:2400/8000 train_loss:2.1520 train_time:172784ms step_avg:71.99ms
+step:2600/8000 train_loss:2.2641 train_time:187128ms step_avg:71.97ms
+step:2800/8000 train_loss:2.1331 train_time:201823ms step_avg:72.08ms
+W1024 02:47:35.257000 17 site-packages/torch/distributed/elastic/agent/server/api.py:723] Received 2 death signal, shutting down workers
+W1024 02:47:35.258000 17 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 28 closing signal SIGINT
+W1024 02:47:35.259000 17 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 29 closing signal SIGINT
+W1024 02:47:35.260000 17 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 30 closing signal SIGINT
+W1024 02:47:35.260000 17 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 31 closing signal SIGINT
+W1024 02:47:35.261000 17 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 32 closing signal SIGINT
+W1024 02:47:35.261000 17 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 33 closing signal SIGINT
+W1024 02:47:35.261000 17 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 34 closing signal SIGINT
+W1024 02:47:35.262000 17 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 35 closing signal SIGINT
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/work/train_gpt.py", line 1236, in <module>
+[rank1]:     train_main()
+[rank1]:   File "/work/train_gpt.py", line 1025, in train_main
+[rank1]:     (loss * grad_scale).backward()
+[rank1]:   File "/opt/conda/lib/python3.11/site-packages/torch/_tensor.py", line 647, in backward
+[rank1]:     torch.autograd.backward(
+[rank1]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/__init__.py", line 354, in backward
+[rank1]:     _engine_run_backward(
+[rank1]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+[rank1]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]: KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/work/train_gpt.py", line 1236, in <module>
+[rank0]:     train_main()
+[rank0]:   File "/work/train_gpt.py", line 1025, in train_main
+[rank0]:     (loss * grad_scale).backward()
+[rank0]:   File "/opt/conda/lib/python3.11/site-packages/torch/_tensor.py", line 647, in backward
+[rank0]:     torch.autograd.backward(
+[rank0]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/__init__.py", line 354, in backward
+[rank0]:     _engine_run_backward(
+[rank0]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+[rank0]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: KeyboardInterrupt
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/work/train_gpt.py", line 1236, in <module>
+[rank3]:     train_main()
+[rank3]:   File "/work/train_gpt.py", line 1025, in train_main
+[rank3]:     (loss * grad_scale).backward()
+[rank3]:   File "/opt/conda/lib/python3.11/site-packages/torch/_tensor.py", line 647, in backward
+[rank3]:     torch.autograd.backward(
+[rank3]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/__init__.py", line 354, in backward
+[rank3]:     _engine_run_backward(
+[rank3]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+[rank3]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]: KeyboardInterrupt
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/work/train_gpt.py", line 1236, in <module>
+[rank2]:     train_main()
+[rank2]:   File "/work/train_gpt.py", line 1025, in train_main
+[rank2]:     (loss * grad_scale).backward()
+[rank2]:   File "/opt/conda/lib/python3.11/site-packages/torch/_tensor.py", line 647, in backward
+[rank2]:     torch.autograd.backward(
+[rank2]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/__init__.py", line 354, in backward
+[rank2]:     _engine_run_backward(
+[rank2]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+[rank2]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]: KeyboardInterrupt
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/work/train_gpt.py", line 1236, in <module>
+[rank6]:     train_main()
+[rank6]:   File "/work/train_gpt.py", line 1025, in train_main
+[rank6]:     (loss * grad_scale).backward()
+[rank6]:   File "/opt/conda/lib/python3.11/site-packages/torch/_tensor.py", line 647, in backward
+[rank6]:     torch.autograd.backward(
+[rank6]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/__init__.py", line 354, in backward
+[rank6]:     _engine_run_backward(
+[rank6]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+[rank6]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]: KeyboardInterrupt
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/work/train_gpt.py", line 1236, in <module>
+[rank5]:     train_main()
+[rank5]:   File "/work/train_gpt.py", line 1025, in train_main
+[rank5]:     (loss * grad_scale).backward()
+[rank5]:   File "/opt/conda/lib/python3.11/site-packages/torch/_tensor.py", line 647, in backward
+[rank5]:     torch.autograd.backward(
+[rank5]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/__init__.py", line 354, in backward
+[rank5]:     _engine_run_backward(
+[rank5]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+[rank5]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]: KeyboardInterrupt
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "/work/train_gpt.py", line 1236, in <module>
+[rank7]:     train_main()
+[rank7]:   File "/work/train_gpt.py", line 1025, in train_main
+[rank7]:     (loss * grad_scale).backward()
+[rank7]:   File "/opt/conda/lib/python3.11/site-packages/torch/_tensor.py", line 647, in backward
+[rank7]:     torch.autograd.backward(
+[rank7]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/__init__.py", line 354, in backward
+[rank7]:     _engine_run_backward(
+[rank7]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+[rank7]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]: KeyboardInterrupt
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/work/train_gpt.py", line 1236, in <module>
+[rank4]:     train_main()
+[rank4]:   File "/work/train_gpt.py", line 1025, in train_main
+[rank4]:     (loss * grad_scale).backward()
+[rank4]:   File "/opt/conda/lib/python3.11/site-packages/torch/_tensor.py", line 647, in backward
+[rank4]:     torch.autograd.backward(
+[rank4]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/__init__.py", line 354, in backward
+[rank4]:     _engine_run_backward(
+[rank4]:   File "/opt/conda/lib/python3.11/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+[rank4]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]: KeyboardInterrupt
+[rank0]:[W1024 02:47:36.667505037 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Traceback (most recent call last):
+  File "/opt/conda/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^object address  : 0x2b25e66c1300
+object refcount : 2

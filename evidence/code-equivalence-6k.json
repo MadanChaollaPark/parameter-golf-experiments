@@ -1,0 +1,30 @@
+{
+  "original_model_optimizer_quantizer_and_baseline_evaluator_AST_identical": true,
+  "compared_definitions": [
+    "Block",
+    "CastedLinear",
+    "CausalSelfAttention",
+    "DistributedTokenLoader",
+    "GPT",
+    "Hyperparameters",
+    "MLP",
+    "Muon",
+    "RMSNorm",
+    "Rotary",
+    "TokenStream",
+    "apply_rotary_emb",
+    "build_sentencepiece_luts",
+    "dequantize_state_dict_int8",
+    "eval_val",
+    "keep_float_tensor",
+    "load_data_shard",
+    "load_validation_tokens",
+    "quantize_float_tensor",
+    "quantize_state_dict_int8",
+    "restore_low_dim_params_to_fp32",
+    "tensor_nbytes",
+    "zeropower_via_newtonschulz5"
+  ],
+  "bundled_source_sha256": "02099aa4623012c9bbe020215e6579ea793c00deb99e28fcea93a2c33f696a67",
+  "bundled_source_bytes": 55167
+}
