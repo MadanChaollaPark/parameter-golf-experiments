@@ -1,0 +1,62 @@
+✓ Initialized. View run at 
+https://modal.com/apps/releasedrats/main/ap-AtUDGB5INXyhaSn3xP3vad
+✓ Created objects.
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/modal_campaign.py
+├── ✓ Uploaded scripts/clean_data.py
+├── ✓ Uploaded scripts/evaluation_remote.py
+├── ✓ Uploaded eval_windows.py
+├── ✓ Uploaded evaluate.py
+├── ✓ Uploaded submission/train_gpt.py
+├── ✓ Uploaded scripts/train_remote.py
+├── ✓ Uploaded scripts/correctness_checks.py
+├── ✓ Uploaded scripts/prepare_data.py
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/vendor
+├── ✓ Created Function install_packages.
+├── ✓ Created Function prepare.
+├── ✓ Created Function train.
+├── ✓ Created Function stage.
+├── ✓ Created Function evaluate.
+└── ✓ Created Function clean.
+APP_ID ap-AtUDGB5INXyhaSn3xP3vad
+Traceback (most recent call last):
+Stopping app - uncaught exception raised in remote container: CalledProcessError(255, ['nvidia-smi', 'topo', '-m']).
+  File "/pkg/modal/_runtime/container_io_manager.py", line 987, in handle_input_exception
+    yield
+  File "/pkg/modal/_container_entrypoint.py", line 189, in run_input_sync
+    values = io_context.call_function_sync()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pkg/modal/_runtime/container_io_manager.py", line 266, in call_function_sync
+    expected_value_or_values = self.finalized_function.callable(*args, **kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/modal_campaign.py", line 36, in train
+    try:return train(job_id,config)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/work/train_remote.py", line 13, in train
+    topology=subprocess.check_output(['nvidia-smi','topo','-m'],text=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['nvidia-smi', 'topo', '-m']' returned non-zero exit status 255.
+Traceback (most recent call last):
+  File "/home/azureuser/parameter-golf-experiments/scripts/run_job.py", line 27, in <module>
+    try:result=call.get(timeout=10);break
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_object.py", line 49, in wrapped
+    return await method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_functions.py", line 2424, in get
+    return await self._invocation().poll_function(timeout=timeout, index=index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_functions.py", line 350, in poll_function
+    return await _process_result(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_utils/function_utils.py", line 572, in _process_result
+    raise exc_with_hints(exc)
+  File "<ta-01M5NVX42DS905CWJ4YZS45N3R>:/root/modal_campaign.py", line 36, in train
+  File "<ta-01M5NVX42DS905CWJ4YZS45N3R>:/work/train_remote.py", line 13, in train
+  File "<ta-01M5NVX42DS905CWJ4YZS45N3R>:/opt/conda/lib/python3.11/subprocess.py", line 466, in check_output
+  File "<ta-01M5NVX42DS905CWJ4YZS45N3R>:/opt/conda/lib/python3.11/subprocess.py", line 571, in run
+subprocess.CalledProcessError: Command '['nvidia-smi', 'topo', '-m']' returned non-zero exit status 255.

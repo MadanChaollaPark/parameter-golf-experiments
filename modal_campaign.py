@@ -60,3 +60,17 @@ def clean():
  try:
   result=clean('/pg/data');result['correctness']=check('/pg/data');return result
  finally:volume.commit()
+
+@app.function(image=image,gpu='H100!:8',cpu=(2,2),memory=(8192,8192),timeout=60,startup_timeout=120,retries=0,max_containers=1,scaledown_window=2)
+def hardware():
+ import subprocess,time,torch
+ start=time.perf_counter();records=[]
+ for command in [['nvidia-smi'],['nvidia-smi','--query-gpu=name,memory.total,power.max_limit,driver_version','--format=csv'],['nvidia-smi','topo','-m'],['nvidia-smi','topo','-p2p','n'],['nvidia-smi','nvlink','--status']]:
+  r=subprocess.run(command,capture_output=True,text=True,timeout=8);records.append({'command':command,'returncode':r.returncode,'stdout':r.stdout,'stderr':r.stderr})
+ names=[torch.cuda.get_device_name(i) for i in range(torch.cuda.device_count())]
+ peer=[[bool(torch.cuda.can_device_access_peer(i,j)) if i!=j else True for j in range(len(names))] for i in range(len(names))]
+ checks=[]
+ for i in range(len(names)):
+  with torch.cuda.device(i):
+   x=torch.ones((16,16),device='cuda');y=x@x;torch.cuda.synchronize();checks.append(float(y[0,0])==16.)
+ return {'gpu_names':names,'cuda_version':torch.version.cuda,'peer_access':peer,'small_cuda_matmul_checks':checks,'commands':records,'elapsed_seconds':time.perf_counter()-start,'purpose':'Read-only hardware characterization after topology CLI failure; no training retry'}

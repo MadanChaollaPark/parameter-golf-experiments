@@ -35,5 +35,30 @@
     "call_id": "fc-01M5NVKQ5NKWHHK7HQA6S1YEER",
     "elapsed_app_seconds": 265.40544859995134,
     "finished_utc": "2026-10-24T02:29:26.507915+00:00"
+  },
+  {
+    "job": "control-42",
+    "kind": "train",
+    "config": {
+      "job_id": "control-42",
+      "config": {
+        "SEED": "42",
+        "QK_GAIN_INIT": "1.5",
+        "ITERATIONS": "8000",
+        "MAX_WALLCLOCK_SECONDS": "0",
+        "WARMDOWN_ITERS": "1200",
+        "VAL_LOSS_EVERY": "0",
+        "TRAIN_LOG_EVERY": "200",
+        "WARMUP_STEPS": "20"
+      }
+    },
+    "code_revision": "7de2a13ffa771cc6ebc568314e9df05936068d81",
+    "started_utc": "2026-10-24T02:30:10.283232+00:00",
+    "state": "failed",
+    "app_id": "ap-AtUDGB5INXyhaSn3xP3vad",
+    "call_id": "fc-01M5NVX3RTDN4EYEY9S035PSSB",
+    "error": "CalledProcessError: Command '['nvidia-smi', 'topo', '-m']' returned non-zero exit status 255.",
+    "elapsed_app_seconds": 12.886395131004974,
+    "finished_utc": "2026-10-24T02:30:23.169852+00:00"
   }
 ]

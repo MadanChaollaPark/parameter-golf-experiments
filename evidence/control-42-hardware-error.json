@@ -1,0 +1,6 @@
+{
+  "type": "CalledProcessError",
+  "stdout": "\t\u001b[4mGPU0\tGPU1\tGPU2\tGPU3\tGPU4\tGPU5\tGPU6\tGPU7\tCPU Affinity\tNUMA Affinity\tGPU NUMA ID\u001b[0m\nFailed to run topology matrix\n\n",
+  "stderr": null,
+  "returncode": 255
+}
