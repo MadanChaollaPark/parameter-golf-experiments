@@ -29,8 +29,8 @@ From this directory, in the pinned CUDA environment described in ../../REPRODUCE
 
 ```bash
 python ../../scripts/download_eval_inputs.py --directory .
-OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 TORCHINDUCTOR_COMPILE_THREADS=1 NCCL_IB_DISABLE=1 \\
-  torchrun --standalone --nproc_per_node=8 train_gpt.py --evaluate --directory .
+OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 TORCHINDUCTOR_COMPILE_THREADS=1 NCCL_IB_DISABLE=1 NCCL_SOCKET_IFNAME=lo GLOO_SOCKET_IFNAME=lo \\
+  torchrun --nnodes=1 --master_addr=127.0.0.1 --master_port=29500 --max_restarts=0 --nproc_per_node=8 train_gpt.py --evaluate --directory .
 ```
 
 The first command downloads only the hash-pinned canonical validation shard and tokenizer. Run evaluation offline afterward, without training data mounted. Those unchanged benchmark fixtures are supplied separately, following the upstream code-plus-weights size convention. No training data is included in this package. See ../../BEST_ARTIFACT.json for file hashes and conservative total package size, including these notices and metadata, and ../../REPORT.md for all limitations and failed approaches.

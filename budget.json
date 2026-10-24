@@ -182,7 +182,14 @@
       "phase": "final",
       "details": "CPU-only final integrity gate, no GPU: selectedcandidate1337 immutable checkpoint/val/tokenizer staging, all50000docs decode vs officialLUT bytes, synthetic1024/2048 causal perturbation checks. CPU2/RAM8GiB hard function240 startup60 app360; cached-image allowance plus fullCPU builder900s and termination fits$0.50. No fitting/calibration.",
       "utc": "2026-10-24T03:35:33.270658+00:00"
+    },
+    {
+      "job": "eval-primary",
+      "reserved_usd": 7.0,
+      "phase": "final",
+      "details": "Fresh offline frozen H2/H3 primary candidate1337 after full CPU gate passes:151080891 bytes/50000docs and synthetic1024/2048 causality. H100!:8 CPU32/RAM64 hard task500 startup120 child470 app630+60s tail:690*.00933728+.25=$6.6928<7. Only eval volume, outbound network blocked, loopback distributed bootstrap, retries0 and persistent single-execution claim.",
+      "utc": "2026-10-24T03:37:16.105157+00:00"
     }
   ],
-  "total_reserved_usd": 63.5
+  "total_reserved_usd": 70.5
 }

@@ -56,11 +56,16 @@ def evaluate(job_id):
  assert not list(root.glob('*train*'))
  environment={'gpu_names':[torch.cuda.get_device_name(i) for i in range(8)],'nvidia_smi':subprocess.check_output(['nvidia-smi'],text=True),'topology':subprocess.check_output(['nvidia-smi','topo','-p2p','n'],text=True)}
  assert environment['topology'].count('\tOK')==56,'Expected complete NVLink peer connectivity'
- env=dict(os.environ,NCCL_IB_DISABLE='1',OMP_NUM_THREADS='1',TORCHINDUCTOR_COMPILE_THREADS='1',HF_HUB_OFFLINE='1')
+ env=dict(os.environ,NCCL_IB_DISABLE='1',NCCL_SOCKET_IFNAME='lo',GLOO_SOCKET_IFNAME='lo',OMP_NUM_THREADS='1',TORCHINDUCTOR_COMPILE_THREADS='1',HF_HUB_OFFLINE='1')
  config=json.loads((root/'config.json').read_text())
  source=pathlib.Path('/work/final_train_gpt.py')
  assert hashlib.sha256(source.read_bytes()).hexdigest()==json.loads((root/'manifest.json').read_text())['evaluation_source_sha256']
- command=['torchrun','--standalone','--nproc_per_node=8',str(source),'--evaluate','--directory',str(root)]
+ import socket
+ with socket.socket() as listener:
+  listener.bind(('127.0.0.1',0));local_port=listener.getsockname()[1]
+ command=['torchrun','--nnodes=1','--nproc_per_node=8','--master_addr=127.0.0.1',f'--master_port={local_port}','--max_restarts=0',str(source),'--evaluate','--directory',str(root)]
+ environment['distributed_bootstrap']='loopback only; NCCL/Gloo socket interface lo, static rendezvous127.0.0.1, worker restarts0'
+ environment['command']=command
  start=time.perf_counter()
  with (root/'eval.log').open('w') as f:
   p=subprocess.Popen(command,cwd='/work',env=env,stdout=f,stderr=subprocess.STDOUT)

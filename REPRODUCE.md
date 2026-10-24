@@ -37,8 +37,8 @@ The final published checkpoint directory will include `config.json` and `manifes
 
 ```bash
 python scripts/download_eval_inputs.py --directory artifacts/BEST_CHECKPOINT
-OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 TORCHINDUCTOR_COMPILE_THREADS=1 NCCL_IB_DISABLE=1 \
-  torchrun --standalone --nproc_per_node=8 submission/final_train_gpt.py --evaluate --directory artifacts/BEST_CHECKPOINT
+OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 TORCHINDUCTOR_COMPILE_THREADS=1 NCCL_IB_DISABLE=1 NCCL_SOCKET_IFNAME=lo GLOO_SOCKET_IFNAME=lo \
+  torchrun --nnodes=1 --master_addr=127.0.0.1 --master_port=29500 --max_restarts=0 --nproc_per_node=8 submission/final_train_gpt.py --evaluate --directory artifacts/BEST_CHECKPOINT
 ```
 
 The evaluator loads weights from disk in a fresh process, checks their hash, disables gradients, compares the original baseline prefix score, and then scores the full identical target set with non-overlapping and stride64 windows. The final-phase source also includes the prespecified context2048/stride128 policy. It verifies frozen state hashes after each comparison, equal target and byte counts, and writes `evaluation.json`. `python eval_windows.py` exercises edge cases and proves exact coverage over the full target count. Causal attention is inherited from the baseline and separately tested using synthetic future-token perturbations.

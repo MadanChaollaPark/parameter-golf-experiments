@@ -223,5 +223,19 @@
     "call_id": "fc-01M5NZ2SAH36S4SYM39TXVX44F",
     "elapsed_app_seconds": 564.7459197139833,
     "finished_utc": "2026-10-24T03:35:06.585740+00:00"
+  },
+  {
+    "job": "stage-primary",
+    "kind": "stage",
+    "config": {
+      "job_id": "candidate-1337-6k"
+    },
+    "code_revision": "cee459b507badf415ea250b6ee6f3af5dad8d138",
+    "started_utc": "2026-10-24T03:35:34.179018+00:00",
+    "state": "completed",
+    "app_id": "ap-6E5ze67Mso9D7u1rpI2ZTC",
+    "call_id": "fc-01M5NZMVDVACY2VVH8M3D7G1WP",
+    "elapsed_app_seconds": 50.17605239409022,
+    "finished_utc": "2026-10-24T03:36:24.355456+00:00"
   }
 ]
