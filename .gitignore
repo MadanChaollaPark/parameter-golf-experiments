@@ -3,3 +3,7 @@ __pycache__/
 .cache/
 data/
 *.tmp
+
+# Public evaluation inputs are reproducible fixtures, not model artifacts.
+**/fineweb_val_*.bin
+**/fineweb_1024_bpe.model

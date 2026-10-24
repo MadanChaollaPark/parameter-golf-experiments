@@ -33,9 +33,10 @@ Seeds, fixed step count, schedules and all intentional overrides are in `configs
 ## Frozen offline evaluation
 For final-phase jobs whose config has EXPORT_BEFORE_SCORING=1, use `submission/final_train_gpt.py`. Rebuild it with `python scripts/build_final_artifact.py`; this retains the identical training/quantizer/scorer and exports before held-out scoring, with redundant CPU export restricted to rank0. The recorded launcher-to-export observation includes up to10 seconds polling delay and excludes only separately timed data staging.
 
-The final published checkpoint directory will include `config.json` and `manifest.json`. Add only the pinned canonical validation shard and tokenizer to that directory; no training shards. Run:
+The final published checkpoint directory will include `config.json` and `manifest.json`. Download only the pinned validation fixtures before entering the offline environment, then evaluate:
 
 ```bash
+python scripts/download_eval_inputs.py --directory artifacts/BEST_CHECKPOINT
 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 TORCHINDUCTOR_COMPILE_THREADS=1 NCCL_IB_DISABLE=1 \
   torchrun --standalone --nproc_per_node=8 submission/final_train_gpt.py --evaluate --directory artifacts/BEST_CHECKPOINT
 ```

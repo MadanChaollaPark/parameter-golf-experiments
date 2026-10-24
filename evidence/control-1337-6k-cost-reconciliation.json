@@ -1,0 +1,15 @@
+{
+  "job": "control-1337-6k",
+  "app_id": "ap-okpD7iQSXrGMR9mxVqm4Zd",
+  "provider_state": "stopped",
+  "provider_tasks": "0",
+  "provider_created_at": "2026-10-24 03:13:57+00:00",
+  "provider_stopped_at": "2026-10-24 03:25:06+00:00",
+  "extra_startup_teardown_margin_seconds": 120,
+  "gpu_count": 8,
+  "cpu_limit": 32,
+  "memory_limit_gib": 64,
+  "additional_cpu_image_allowance_usd": 0.25,
+  "revised_charge_usd": 8.0,
+  "evidence_source": "evidence/provider-state-after-control-1337-6k.json; full provider app lifetime charged at simultaneous maximum resource limits, including startup/staging/compilation/export/evaluation; additional120s termination uncertainty margin for completed jobs plus cached image allowance; rounded upward to$0.50"
+}

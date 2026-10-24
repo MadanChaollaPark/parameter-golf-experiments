@@ -1,4 +1,5 @@
 import hashlib,json,os,pathlib,sys
+os.sched_setaffinity(0,{min(os.sched_getaffinity(0))})
 ROOT=pathlib.Path(__file__).resolve().parents[1];os.chdir(ROOT)
 os.environ['MODAL_CONFIG_PATH']='/home/azureuser/parameter-golf-control/private/modal.toml'
 import modal

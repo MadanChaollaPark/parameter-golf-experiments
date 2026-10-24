@@ -173,5 +173,30 @@
     "call_id": "fc-01M5NXQQD85KZHYPTTZBYJJ7D6",
     "elapsed_app_seconds": 668.8955545350909,
     "finished_utc": "2026-10-24T03:13:19.828166+00:00"
+  },
+  {
+    "job": "control-1337-6k",
+    "kind": "train",
+    "config": {
+      "job_id": "control-1337-6k",
+      "config": {
+        "SEED": "1337",
+        "QK_GAIN_INIT": "1.5",
+        "ITERATIONS": "6000",
+        "MAX_WALLCLOCK_SECONDS": "0",
+        "WARMDOWN_ITERS": "1200",
+        "VAL_LOSS_EVERY": "0",
+        "TRAIN_LOG_EVERY": "200",
+        "WARMUP_STEPS": "20",
+        "EXPORT_BEFORE_SCORING": "1"
+      }
+    },
+    "code_revision": "1d5193d7e89074a832782b90a9d7ab518bf4a606",
+    "started_utc": "2026-10-24T03:13:57.492028+00:00",
+    "state": "completed",
+    "app_id": "ap-okpD7iQSXrGMR9mxVqm4Zd",
+    "call_id": "fc-01M5NYD9QV6CETA040YVG7TADK",
+    "elapsed_app_seconds": 668.5863869579043,
+    "finished_utc": "2026-10-24T03:25:06.078772+00:00"
   }
 ]
