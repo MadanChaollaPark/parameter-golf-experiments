@@ -1,7 +1,7 @@
 {
-  "utc": "2026-10-24T04:04:31.756452+00:00",
-  "worktree_files_checked": 208,
-  "history_blobs_checked": 292,
+  "utc": "2026-10-24T04:05:10.496596+00:00",
+  "worktree_files_checked": 209,
+  "history_blobs_checked": 328,
   "credential_checks_passed": true,
   "private_paths_excluded": true,
   "scope": "Exact current GitHub credential, standard GitHub/Modal token shapes, PEM keys, AWS signed URL signatures; current files and all reachable Git blobs. No raw controller transcripts included."

@@ -1,6 +1,6 @@
 {
-  "phase": "publishing",
-  "progress": "Research and verification complete; all16 recorded Modal apps are stopped with zero tasks and both campaign volumes deleted. Sanitization scan passed. Publishing public artifact/report now.",
+  "phase": "complete",
+  "progress": "Completed controlled campaign and public publication: best1.211140044 BPB, H2 repeated on both seeds, H3 negative on both. All campaign Modal apps stopped and volumes deleted. Conservative charge$77; no official submission.",
   "completed_job_ids": [
     "ap-OQk0CYqO1SxeZPzmNz1cR1",
     "ap-vNj7TBP3Coeec0DtGOljVC",
@@ -16,11 +16,15 @@
   "reserved_usd": 77.0,
   "protected_final_usd": 0,
   "best_score": 1.2111400440145654,
-  "evidence_tier": "independent full-coverage primary plus same-policy second-seed replication; not official",
-  "next_step": "Verify public GitHub commit and objective audit, publish audit, set FINALIZED and complete native goal",
-  "updated_utc": "2026-10-24T04:04:37.567778+00:00",
+  "evidence_tier": "independent full-coverage timing-qualified primary artifact plus second-seed frozen-policy replication; not official",
+  "next_step": "No further compute planned; native goal closure follows publication of completion audit",
+  "updated_utc": "2026-10-24T04:05:09.484672+00:00",
   "watchdog_service": "parameter-golf-watchdog.service",
   "watchdog_pid": 872606,
   "uncommitted_usd": 3.0,
-  "cost_basis": "Conservative nonrefunded reservations at full list price, not provider invoice"
+  "cost_basis": "Conservative nonrefunded reservations at full list price, not provider invoice",
+  "public_repository": "https://github.com/MadanChaollaPark/parameter-golf-experiments",
+  "verified_deliverables_commit": "4c33ac2b0ce8f7d7ab5be4b0d89853445cdc004a",
+  "compute_shutdown_verified": true,
+  "completed_utc": "2026-10-24T04:05:09.484581+00:00"
 }

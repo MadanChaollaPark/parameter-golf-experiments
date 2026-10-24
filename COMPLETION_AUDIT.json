@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-24T04:04:54.364891+00:00",
+  "public_repository": "https://github.com/MadanChaollaPark/parameter-golf-experiments",
+  "unauthenticated_public_access_verified": true,
+  "verified_deliverables_commit": "4c33ac2b0ce8f7d7ab5be4b0d89853445cdc004a",
+  "objective_audit": {
+    "current_owner_rules_leaders_and_comparability_documented": true,
+    "bounded_baseline_and_matched_two_seed_research_completed": true,
+    "negative_results_and_all_expenses_preserved": true,
+    "full_coverage_frozen_primary_evaluation_verified": true,
+    "artifact_under16MB_and_separate_train_eval_under600s": true,
+    "sanitized_report_code_artifact_and_reproduction_public": true,
+    "all_recorded_campaign_apps_stopped_and_zero_tasks": true,
+    "campaign_data_volumes_deleted": true,
+    "no_competition_submission": true
+  },
+  "budget_conservative_charge_usd": 77.0,
+  "budget_is_provider_invoice": false,
+  "best_bpb": 1.2111400440145654,
+  "not_claimed": [
+    "official_result",
+    "leaderboard_record",
+    "statistical_significance",
+    "global_optimality",
+    "independently_rebuilt_historical_tokenizer_fit",
+    "near_duplicate_free_training_data"
+  ],
+  "watchdog_service_preserved": "parameter-golf-watchdog.service",
+  "finalizer_sequence": "This audit follows verified public deliverables and live provider shutdown. Publish this audit next, then write private FINALIZED and complete the native goal."
+}
