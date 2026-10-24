@@ -1,5 +1,5 @@
 """Publish this sanitized worktree only; never submit to the competition."""
-import json, os, pathlib, subprocess, urllib.request, urllib.error
+import json, os, pathlib, subprocess, urllib.request, urllib.error, re
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 CONTROL=pathlib.Path('/home/azureuser/parameter-golf-control')
 def api(path,method='GET',data=None):
@@ -16,8 +16,8 @@ def publish():
         assert not p.is_symlink(),str(p)
         assert 'private' not in p.parts and p.stat().st_size<95_000_000,str(p)
         b=p.read_bytes()
-        assert token not in b and b'-----BEGIN OPENSSH PRIVATE KEY-----' not in b,'Secret detected'
-        assert b'github_pat_' not in b and b'ghp_' not in b,'Credential-shaped content'
+        assert token not in b and not re.search(rb'-----BEGIN [A-Z ]*PRIVATE KEY-----\n', b),'Secret detected'
+        assert not re.search(rb'(?:github_pat_[A-Za-z0-9_]{30,}|gh[pousr]_[A-Za-z0-9]{30,})', b),'Credential-shaped content'
     slug='MadanChaollaPark/parameter-golf-experiments'
     try:r=api('repos/'+slug)
     except urllib.error.HTTPError as e:

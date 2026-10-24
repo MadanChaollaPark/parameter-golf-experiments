@@ -3,7 +3,7 @@ import hashlib,json,pathlib,time
 REPO='willdepueoai/parameter-golf'
 REV='a85b0e6035c3c94bc23685a07c81a8f3bf89db80'
 PREFIX='datasets/datasets/fineweb10B_sp1024/'
-FILES=[f'{PREFIX}fineweb_val_000000.bin']+[f'{PREFIX}fineweb_train_{i:06d}.bin' for i in range(8)]+['datasets/tokenizers/fineweb_1024_bpe.model','datasets/manifest.json','datasets/docs_selected.source_manifest.json']
+FILES=[f'{PREFIX}fineweb_val_000000.bin']+[f'{PREFIX}fineweb_train_{i:06d}.bin' for i in range(80)]+['datasets/tokenizers/fineweb_1024_bpe.model','datasets/manifest.json','datasets/docs_selected.source_manifest.json']
 def prepare(root='/pg/data'):
  import numpy as np
  from huggingface_hub import HfApi,hf_hub_download
@@ -33,7 +33,7 @@ def prepare(root='/pg/data'):
  ends=list(starts[1:])+[len(val)]
  for a,b in zip(starts,ends):hashes.add(hashlib.sha256(val[a:b]).digest());val_lengths.append(int(b-a))
  overlap=[];complete=0;carry=np.empty(0,dtype='<u2')
- for name in FILES[1:9]:
+ for name in FILES[1:81]:
   tok=np.fromfile(root/name,dtype='<u2',offset=1024)
   tok=np.concatenate((carry,tok)); starts=np.flatnonzero(tok==1);assert starts[0]==0
   for a,b in zip(starts[:-1],starts[1:]):
@@ -42,7 +42,7 @@ def prepare(root='/pg/data'):
   carry=tok[starts[-1]:].copy()
  report={'repo':REPO,'revision':REV,'files':records,'validation_documents':50000,'validation_tokens':len(val),
   'validation_unique_document_hashes':len(hashes),'training_complete_documents_checked':complete,'overlapping_complete_documents':overlap,
-  'trailing_training_partial_document_tokens':len(carry),'split_policy':'Canonical export flushes validation at document 50000 before starting train; source code reviewed. Downloaded 8 train shards form a prefix; final partial document is not a complete-document hash comparison.',
+  'trailing_training_partial_document_tokens':len(carry),'split_policy':'Canonical export flushes validation at document 50000 before starting train; source code reviewed. Downloaded 80 train shards form a prefix; final partial document is not a complete-document hash comparison.',
   'source_docs_cache_downloaded':False,'source_docs_cache_limitation':'48GB source JSONL not redownloaded/re-tokenized; provider-pinned shard hashes, split code/manifest and tokenized-document overlap checks establish bounded provenance, not a new independent raw-corpus rebuild.',
   'baseline_eval_targets':((len(val)-1)//1024)*1024,'baseline_eval_omitted_tail_tokens':(len(val)-1)%1024}
  (root/'audit.json').write_text(json.dumps(report,indent=2))

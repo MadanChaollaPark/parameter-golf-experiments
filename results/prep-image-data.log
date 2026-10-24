@@ -1,0 +1,70 @@
+✓ Initialized. View run at 
+https://modal.com/apps/releasedrats/main/ap-4ZRZPftCJxOsQWO5DUDhEN
+Building image im-Ra2eLDe8XIpzMsRE21ELzp
+
+=> Step 0: FROM pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime
+Getting image source signatures
+Copying blob sha256:fe02679948c8f9694674f682dd9bd2e15105c83da90b1be1affc52549eadf14c
+Copying blob sha256:66587c81b81a58d07e40c48d900a1517516bbf58c4378c687d89d645824f5e5f
+Copying blob sha256:27f025450560594e82b23efaaf1184b1434d3e60c9e712f070e154da0d898f3b
+Copying blob sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+Copying blob sha256:653c16bb1f7bbf244aca8a719695abe818c8343614d1706ff249df9dc7e4afe3
+Copying config sha256:feff74a1cd5c70ca7acf5bfe6d0cb4ac1e0bcb8e9e1b42d761c8f4f99ed6ff4d
+Writing manifest to image destination
+Unpacking OCI image
+   • unpacking rootfs ...     
+   • ... done                 
+   • unpacked image rootfs: /tmp/task-data/ta-01M5NTVAKFG1NN4EC86KE3X0DB/registry-unpackSj7WWT
+Copied image in 4.57s
+Saving image...
+Image saved, took 8.54s
+
+Built image im-Ra2eLDe8XIpzMsRE21ELzp in 98.07s
+
+
+Building image im-DHYv0B3dJWnpR3StfxhVR8
+
+=> Step 0: running function 'install_packages'
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/task_lifecycle_manager.py", line 84, in handle_task_lifecycle_exception
+    yield
+  File "/pkg/modal/_container_entrypoint.py", line 362, in hydrate_function
+    service = get_function_service(function_def, _client)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pkg/modal/_container_entrypoint.py", line 340, in get_function_service
+    service = import_single_function_service(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pkg/modal/_runtime/user_code_imports.py", line 509, in import_single_function_service
+    module = importlib.import_module(function_def.module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modal_campaign'
+Saving image...
+Stopping app - uncaught exception raised locally: ImageBuildError('Image build for im-DHYv0B3dJWnpR3StfxhVR8 failed.\nView the build logs:\n  modal image logs im-DHYv0B3dJWnpR3StfxhVR8').
+Traceback (most recent call last):
+  File "/home/azureuser/parameter-golf-experiments/scripts/run_job.py", line 21, in <module>
+    with modal.enable_output(),mc.app.run():
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/app.py", line 494, in run
+    async with _run_app(
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/runner.py", line 455, in _run_app
+    await _create_all_objects(running_app, local_app_state, load_context)
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/runner.py", line 203, in _create_all_objects
+    await asyncio.gather(*[tc.create_task(_load(tag, obj)) for tag, obj in indexed_objects.items()])
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/runner.py", line 194, in _load
+    await resolver.load(obj, load_context, existing_object_id=existing_object_id)
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_image.py", line 792, in _load
+    raise ImageBuildError(msg, image_id)
+modal.exception.ImageBuildError: Image build for im-DHYv0B3dJWnpR3StfxhVR8 failed.
+View the build logs:
+  modal image logs im-DHYv0B3dJWnpR3StfxhVR8

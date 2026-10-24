@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-10-24",
+  "official_repository_revision": "f5c079314c4877fbb0af378c0abade5a8ca33d3a",
+  "sources": [
+    "https://github.com/openai/parameter-golf",
+    "https://github.com/openai/parameter-golf/pull/2135",
+    "https://github.com/openai/parameter-golf/pull/2014",
+    "https://github.com/openai/parameter-golf/issues/2127",
+    "https://github.com/openai/parameter-golf/issues/1017",
+    "https://modal.com/pricing",
+    "https://modal.com/docs/guide/gpu"
+  ],
+  "leaderboard": [
+    {
+      "pr": 2135,
+      "mean_bpb": 1.05650768,
+      "audit": "cocohearts, collaborator: included under grace policy; canonical CaseOps 80 training shards, no doubled local datasets path, token-only ngram gates"
+    },
+    {
+      "pr": 2014,
+      "mean_bpb": 1.05759252,
+      "reported_full_target_tokens": 47853343,
+      "reported_max_artifact_bytes": 15984387,
+      "reported_max_eval_seconds": 572.4
+    }
+  ],
+  "policy_authority": "Owner-maintained current README authoritative. Issue1017 is explanatory community text. No TTT used, so no reliance on disputed TTT interpretations.",
+  "statistical_discrepancy": "README 0.005 nats with p<0.01; leader late-row p=0.014 and p=0.011 do not meet that literal threshold. Not reconciled or used to claim official win.",
+  "compilation_policy": "Conservative end-to-end timing recorded; baseline warmup excludes compilation from own train timer. Any overrun classified as timing-unverified or pilot; no inference of compliance from baseline timer alone.",
+  "data_audit": "Issue2127 identifies local CaseOps split at document10000 instead of50000. Avoid local CaseOps exports entirely. Canonical pinned SP1024 manifest and tokenized document hashes audited before training."
+}

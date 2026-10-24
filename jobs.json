@@ -1,0 +1,14 @@
+[
+  {
+    "job": "prep-image-data",
+    "kind": "prepare",
+    "config": {},
+    "code_revision": "9047228d075a496c8e76363b0dd3d14221a601a8",
+    "started_utc": "2026-10-24T02:11:44.983399+00:00",
+    "state": "failed",
+    "error": "ImageBuildError: Image build for im-DHYv0B3dJWnpR3StfxhVR8 failed.\nView the build logs:\n  modal image logs im-DHYv0B3dJWnpR3StfxhVR8",
+    "elapsed_app_seconds": 113.97130038891919,
+    "finished_utc": "2026-10-24T02:13:38.954853+00:00",
+    "app_id": "ap-4ZRZPftCJxOsQWO5DUDhEN"
+  }
+]
