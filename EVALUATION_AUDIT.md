@@ -10,7 +10,7 @@ For context length `L` and stride `S`, the first window owns `[0, min(N,L))`. Ev
 
 For owned target `t`, the corresponding input position is `t-start`. The baseline's causal attention permits only positions `start..t`, strictly before target token `t+1`. RMS normalization and MLPs act separately on each token; targets enter only the cross-entropy calculation after logits. Future inputs in a padded/windowed batch cannot influence an earlier prediction. Synthetic future-token perturbation checks activate nonzero attention/MLP projections and mask later losses; final CPU staging checks both 1,024 and 2,048 context lengths.
 
-Unowned labels and padded rows use cross-entropy's `ignore_index=-100`. Each batch mean is multiplied by its actual scored-target count. Contiguous rank partitions cover the window list exactly once; float64 all-reduces sum NLL, target count and byte count. The evaluator asserts the final target count.
+Unowned positions within a window use cross-entropy's `ignore_index=-100`. Final batches use their actual row count, matching upstream numerical execution. Each batch mean is multiplied by its actual scored-target count. Contiguous rank partitions cover the window list exactly once; float64 all-reduces sum NLL, target count and byte count. The evaluator asserts the final target count.
 
 The original truncated baseline prefix is checked separately against the training roundtrip BPB within 0.000002. Full-coverage comparisons include the additional 213 targets. The stride-1024 comparator left-fills the final partial window with available past context. No result should be inferred by comparing unequal target sets.
 

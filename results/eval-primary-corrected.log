@@ -1,0 +1,1511 @@
+✓ Initialized. View run at 
+https://modal.com/apps/releasedrats/main/ap-iXnwXPa2lzDmRa1rKTjQxo
+✓ Created objects.
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/modal_campaign.py
+├── ✓ Uploaded scripts/clean_data.py
+├── ✓ Uploaded scripts/evaluation_remote.py
+├── ✓ Uploaded eval_windows.py
+├── ✓ Uploaded evaluate.py
+├── ✓ Uploaded submission/verified_train_gpt.py
+├── ✓ Uploaded submission/final_train_gpt.py
+├── ✓ Uploaded submission/train_gpt.py
+├── ✓ Uploaded scripts/train_remote.py
+├── ✓ Uploaded scripts/correctness_checks.py
+├── ✓ Uploaded scripts/prepare_data.py
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/vendor
+├── ✓ Created Function install_packages.
+├── ✓ Created Function prepare.
+├── ✓ Created Function train.
+├── ✓ Created Function stage.
+├── ✓ Created Function evaluate.
+├── ✓ Created Function clean.
+└── ✓ Created Function hardware.
+APP_ID ap-iXnwXPa2lzDmRa1rKTjQxo
+[W1024 03:47:13.291991972 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:13.292927897 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+ostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+
+03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+
+03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+
+03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+
+03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+
+03:47:19.110758289 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+
+ socket cannot be retrieved. err=-3
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+
+[W1024 03:47:20.240063523 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+
+ent socket cannot be retrieved. err=-3
+[W1024 03:47:20.240958792 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+
+cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+lient socket cannot be retrieved. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+
+. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+
+. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+
+. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+
+. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+
+. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+
+. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+
+. err=-3
+[W1024 03:47:20.409055601 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+
+ocket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+eval stride=128 windows=16000/60566
+
+f the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+eval stride=128 windows=16000/60566
+eval stride=128 windows=32000/60566
+
+f the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+eval stride=128 windows=16000/60566
+eval stride=128 windows=32000/60566
+
+ved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+eval stride=128 windows=16000/60566
+eval stride=128 windows=32000/60566
+eval stride=128 windows=48000/60566
+
+ved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+eval stride=128 windows=16000/60566
+eval stride=128 windows=32000/60566
+eval stride=128 windows=48000/60566
+
+ved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+eval stride=128 windows=16000/60566
+eval stride=128 windows=32000/60566
+eval stride=128 windows=48000/60566
+
+ved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+eval stride=128 windows=16000/60566
+eval stride=128 windows=32000/60566
+eval stride=128 windows=48000/60566
+
+ved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+eval stride=128 windows=16000/60566
+eval stride=128 windows=32000/60566
+eval stride=128 windows=48000/60566
+
+ved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+eval stride=128 windows=16000/60566
+eval stride=128 windows=32000/60566
+eval stride=128 windows=48000/60566
+
+ved. err=-3
+[W1024 03:47:20.410126927 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.439915252 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.440907943 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451066075 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451315966 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.451931591 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.453573299 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473101297 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+[W1024 03:47:20.473868334 socket.cpp:200] [c10d] The hostname of the client socket cannot be retrieved. err=-3
+eval stride=1024 windows=0/7571
+eval stride=1024 windows=0/7571
+eval stride=64 windows=0/121134
+eval stride=64 windows=16000/121134
+eval stride=64 windows=32000/121134
+eval stride=64 windows=48000/121134
+eval stride=64 windows=64000/121134
+eval stride=64 windows=80000/121134
+eval stride=64 windows=96000/121134
+eval stride=64 windows=112000/121134
+eval stride=128 windows=0/60566
+eval stride=128 windows=16000/60566
+eval stride=128 windows=32000/60566
+eval stride=128 windows=48000/60566
+
+{"targets": 62021845, "windows": 60569, "first_target_token_index": 1, "last_target_token_index": 62021845, "exactly_once": true, "causal_by_index": true}}, {"stride": 64, "context": 1024, "nll_sum": 126832152.18009663, "target_tokens": 62021845, "original_bytes": 151080891, "val_loss": 2.0449593555318555, "val_bpb": 1.2111400440145654, "scoring_seconds_including_first_compile": 53.663545381999995, "coverage": {"targets": 62021845, "windows": 969077, "first_target_token_index": 1, "last_target_token_index": 62021845, "exactly_once": true, "causal_by_index": true}}, {"stride": 128, "context": 2048, "nll_sum": 131051424.3410424, "target_tokens": 62021845, "original_bytes": 151080891, "val_loss": 2.11298816313901, "val_bpb": 1.251430533317791, "scoring_seconds_including_first_compile": 114.36176589500002, "coverage": {"targets": 62021845, "windows": 484531, "first_target_token_index": 1, "last_target_token_index": 62021845, "exactly_once": true, "causal_by_index": true}}], "total_script_seconds": 408.886395398, "reference_prefix": {"val_loss": 2.1029479312441683, "val_bpb": 1.2454842182160013, "expected_training_bpb": 1.24548422, "difference_bpb": -1.7839987265233503e-09, "seconds_including_compile": 65.35370288000001}, "synthetic_warmup": {"synthetic_only": true, "iterations": 20, "optimizer_steps": 0, "weights_unchanged": true, "seconds": 137.665508932}, "torch": "2.8.0+cu128", "cuda": "12.8", "no_ttt": true, "no_training_data_mounted": true, "network_blocked_by_modal": true}
+
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/releasedrats/main/ap-iXnwXPa2lzDmRa1rKTjQxo

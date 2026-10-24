@@ -235,7 +235,27 @@
       "phase": "final",
       "details": "Explicit corrected frozen evaluation after small6e-6 prefix numerical mismatch; NOT automatic retry. Sourceae743 restores upstream DDP/positional-cache synthetic warmup and actual batch sizes. Zero optimizer steps; hashes must prove unchanged weights. Literal upstream scorer and custom prefix must match native within unchanged2e-6 before full H2/H3.8H100!: CPU32/RAM64 task500 startup120 child470 app630+60 tail +cached-image allowance gives$6.6928 bound. Separate persisted attempt claim.",
       "utc": "2026-10-24T03:45:59.156410+00:00"
+    },
+    {
+      "job": "audited-reconciliation-eval-primary-corrected",
+      "reserved_usd": -1.0,
+      "phase": "final",
+      "kind": "explicit_audited_downward_adjustment",
+      "original_job": "eval-primary-corrected",
+      "original_reservation_preserved_usd": 7.0,
+      "revised_conservative_charge_usd": 6.0,
+      "computed_bound_usd": 5.95507808,
+      "evidence": "evidence/eval-primary-corrected-cost-reconciliation.json",
+      "utc": "2026-10-24T03:54:34.651793+00:00",
+      "details": "Provider app creation-to-stopped duration conservatively charged at full GPU/CPU/RAM limits, plus stated startup/teardown margin and CPU image allowance. Credits count. Not an invoice."
+    },
+    {
+      "job": "stage-replication",
+      "reserved_usd": 0.5,
+      "phase": "final",
+      "details": "Prespecified conditional frozen-policy replication using existing candidate42 checkpoint, no training. CPU2/RAM8 hard function240 startup60 app360 plus cached image/build/teardown margin. Same whole-document bytes, hashes and synthetic causality checks; scorer ae743 fixed before primary scores. No retries.",
+      "utc": "2026-10-24T03:54:34.683769+00:00"
     }
   ],
-  "total_reserved_usd": 71.5
+  "total_reserved_usd": 71.0
 }

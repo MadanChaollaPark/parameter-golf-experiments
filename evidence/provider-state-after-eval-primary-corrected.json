@@ -1,0 +1,114 @@
+[
+  {
+    "app_id": "ap-iXnwXPa2lzDmRa1rKTjQxo",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 03:45:59+00:00",
+    "stopped_at": "2026-10-24 03:54:10+00:00"
+  },
+  {
+    "app_id": "ap-Jw21KnM0iF2bLVwh0duuMV",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 03:37:16+00:00",
+    "stopped_at": "2026-10-24 03:40:31+00:00"
+  },
+  {
+    "app_id": "ap-6E5ze67Mso9D7u1rpI2ZTC",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 03:35:34+00:00",
+    "stopped_at": "2026-10-24 03:36:24+00:00"
+  },
+  {
+    "app_id": "ap-s4vx0GG1ELjdaAutlJlxvZ",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 03:25:42+00:00",
+    "stopped_at": "2026-10-24 03:35:06+00:00"
+  },
+  {
+    "app_id": "ap-okpD7iQSXrGMR9mxVqm4Zd",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 03:13:57+00:00",
+    "stopped_at": "2026-10-24 03:25:06+00:00"
+  },
+  {
+    "app_id": "ap-Q06FRZ5Ny2ggdm1tsP2uhs",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 03:02:11+00:00",
+    "stopped_at": "2026-10-24 03:13:19+00:00"
+  },
+  {
+    "app_id": "ap-djeI9mKKXN7CG4qAYzLAoZ",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 02:48:20+00:00",
+    "stopped_at": "2026-10-24 03:01:30+00:00"
+  },
+  {
+    "app_id": "ap-uCNJSrwFBgPYRcdIJ5uyKx",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 02:39:34+00:00",
+    "stopped_at": "2026-10-24 02:47:41+00:00"
+  },
+  {
+    "app_id": "ap-HFh7w5ochSEYzYMFORiLO2",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 02:32:40+00:00",
+    "stopped_at": "2026-10-24 02:38:20+00:00"
+  },
+  {
+    "app_id": "ap-vNj7TBP3Coeec0DtGOljVC",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 02:31:33+00:00",
+    "stopped_at": "2026-10-24 02:32:19+00:00"
+  },
+  {
+    "app_id": "ap-AtUDGB5INXyhaSn3xP3vad",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 02:30:10+00:00",
+    "stopped_at": "2026-10-24 02:30:23+00:00"
+  },
+  {
+    "app_id": "ap-OQk0CYqO1SxeZPzmNz1cR1",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 02:25:01+00:00",
+    "stopped_at": "2026-10-24 02:29:26+00:00"
+  },
+  {
+    "app_id": "ap-Bt0aNaNNo2xrl2ZpuDcwzh",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 02:13:58+00:00",
+    "stopped_at": "2026-10-24 02:23:20+00:00"
+  },
+  {
+    "app_id": "ap-4ZRZPftCJxOsQWO5DUDhEN",
+    "description": "parameter-golf-controlled-20261024",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-24 02:11:45+00:00",
+    "stopped_at": "2026-10-24 02:13:38+00:00"
+  }
+]
