@@ -11,7 +11,7 @@ assert validation['frozen_state_hash_before']==validation['frozen_state_hash_aft
 assert all(r['target_tokens']==62021845 and r['original_bytes']==manifest['full_validation_decoded_bytes'] for r in validation['results'][1:])
 assert abs(validation['results'][0]['val_bpb']-training['metrics']['val_bpb'])<2e-6
 policy=min(validation['results'][1:],key=lambda r:r['val_bpb'])
-code=ROOT/'submission/final_train_gpt.py';assert hashlib.sha256(code.read_bytes()).hexdigest()==validation['source_sha256']
+code=ROOT/'submission/verified_train_gpt.py';assert hashlib.sha256(code.read_bytes()).hexdigest()==validation['source_sha256']
 assert hashlib.sha256((source/'final_model.int8.ptz').read_bytes()).hexdigest()==validation['model_sha256']
 out=ROOT/'submission/strongest';out.mkdir(exist_ok=True)
 for name in ['final_model.int8.ptz','config.json','manifest.json']:shutil.copyfile(source/name,out/name)

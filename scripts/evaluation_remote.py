@@ -44,7 +44,7 @@ def stage(job_id):
    difference=float(abs(first-second));assert difference<1e-6
    causal_checks.append({'context':context,'future_perturbation_prefix_loss_abs_diff':difference,'synthetic_only':True})
  (out/'config.json').write_text(json.dumps(result['config'],indent=2))
- manifest={'job_id':job_id,'model_sha256':hashes['final_model.int8.ptz'],'expected_baseline_bpb':result['metrics']['val_bpb'],'file_sha256':hashes,'data_revision':audit['revision'],'full_validation_decoded_bytes':decoded_bytes,'evaluation_source_sha256':hashlib.sha256(pathlib.Path('/work/final_train_gpt.py').read_bytes()).hexdigest(),'validation_documents_decoded':len(starts),'official_lut_bytes_full':lut_bytes,'synthetic_causality_checks':causal_checks}
+ manifest={'job_id':job_id,'model_sha256':hashes['final_model.int8.ptz'],'expected_baseline_bpb':result['metrics']['val_bpb'],'file_sha256':hashes,'data_revision':audit['revision'],'full_validation_decoded_bytes':decoded_bytes,'evaluation_source_sha256':hashlib.sha256(pathlib.Path('/work/verified_train_gpt.py').read_bytes()).hexdigest(),'validation_documents_decoded':len(starts),'official_lut_bytes_full':lut_bytes,'synthetic_causality_checks':causal_checks}
  (out/'manifest.json').write_text(json.dumps(manifest,indent=2))
  return {'job_id':job_id,'manifest':manifest,'staged_names':sorted(p.name for p in out.iterdir()),'no_training_shards_staged':not any(out.glob('*train*'))}
 
@@ -58,7 +58,7 @@ def evaluate(job_id):
  assert environment['topology'].count('\tOK')==56,'Expected complete NVLink peer connectivity'
  env=dict(os.environ,NCCL_IB_DISABLE='1',NCCL_SOCKET_IFNAME='lo',GLOO_SOCKET_IFNAME='lo',OMP_NUM_THREADS='1',TORCHINDUCTOR_COMPILE_THREADS='1',HF_HUB_OFFLINE='1')
  config=json.loads((root/'config.json').read_text())
- source=pathlib.Path('/work/final_train_gpt.py')
+ source=pathlib.Path('/work/verified_train_gpt.py')
  assert hashlib.sha256(source.read_bytes()).hexdigest()==json.loads((root/'manifest.json').read_text())['evaluation_source_sha256']
  import socket
  with socket.socket() as listener:

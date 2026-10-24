@@ -16,6 +16,7 @@ image=(modal.Image.from_registry('pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime'
  .add_local_file('scripts/train_remote.py','/work/train_remote.py')
  .add_local_file('submission/train_gpt.py','/work/train_gpt.py')
  .add_local_file('submission/final_train_gpt.py','/work/final_train_gpt.py')
+ .add_local_file('submission/verified_train_gpt.py','/work/verified_train_gpt.py')
  .add_local_file('evaluate.py','/work/evaluate.py')
  .add_local_file('eval_windows.py','/work/eval_windows.py')
  .add_local_file('scripts/evaluation_remote.py','/work/evaluation_remote.py')
@@ -57,8 +58,8 @@ def stage(job_id):
  from evaluation_remote import stage
  result=stage(job_id);evaluation_volume.commit();return result
 @app.function(image=image,volumes={'/evaluation':evaluation_volume},gpu='H100!:8',cpu=(32,32),memory=(65536,65536),timeout=500,startup_timeout=120,retries=0,max_containers=1,scaledown_window=2,block_network=True)
-def evaluate(job_id):
- claim_once(evaluation_volume,'/evaluation','evaluate',job_id)
+def evaluate(job_id,attempt_id=None):
+ claim_once(evaluation_volume,'/evaluation','evaluate',attempt_id or job_id)
  import sys
  sys.path.insert(0,'/work')
  from evaluation_remote import evaluate

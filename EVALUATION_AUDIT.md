@@ -22,7 +22,7 @@ This verifies the canonical SentencePiece-decoded byte denominator used by the o
 
 ## Frozen weights and isolated execution
 
-The compressed checkpoint hash must match the staged manifest. A fresh process decompresses and strictly loads its state, disables parameter gradients, and scores under inference mode. State hashes must match before and after every comparison. There is no optimizer, gradient update, test-time training, n-gram adaptation, or validation-informed quantization/calibration in evaluation.
+The compressed checkpoint hash must match the staged manifest. A fresh process decompresses and strictly loads its state, uses upstream DDP gradient metadata for synthetic compilation warmup, performs zero optimizer steps, and scores all actual validation under inference mode. Weight hashes are checked across the synthetic warmup as well. State hashes must match before and after every comparison. There is no optimizer, parameter update, validation gradient calculation, test-time training, n-gram adaptation, or validation-informed quantization/calibration in evaluation.
 
 The GPU function mounts only the dedicated evaluation volume, asserts that the training mount is absent, and blocks outbound network access. Public validation fixtures are staged before evaluation. The source and all model reconstruction/scoring logic reside in one counted Python file. Manifest/configuration bytes are also counted conservatively; the unchanged canonical tokenizer is the standard benchmark fixture, as in the upstream baseline's code-plus-weights accounting. The optional size including that fixture is reported separately.
 
