@@ -14,7 +14,7 @@ image=(modal.Image.from_registry('pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime'
  .add_local_file('scripts/prepare_data.py','/work/prepare_data.py')
  .add_local_file('scripts/correctness_checks.py','/work/correctness_checks.py')
  .add_local_file('scripts/train_remote.py','/work/train_remote.py')
- .add_local_file('train_gpt.py','/work/train_gpt.py')
+ .add_local_file('submission/train_gpt.py','/work/train_gpt.py')
  .add_local_file('evaluate.py','/work/evaluate.py')
  .add_local_file('eval_windows.py','/work/eval_windows.py')
  .add_local_file('scripts/evaluation_remote.py','/work/evaluation_remote.py')

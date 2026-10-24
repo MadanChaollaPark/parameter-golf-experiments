@@ -1,0 +1,103 @@
+✓ Initialized. View run at 
+https://modal.com/apps/releasedrats/main/ap-OQk0CYqO1SxeZPzmNz1cR1
+✓ Created objects.
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/modal_campaign.py
+├── ✓ Uploaded scripts/clean_data.py
+├── ✓ Uploaded scripts/evaluation_remote.py
+├── ✓ Uploaded eval_windows.py
+├── ✓ Uploaded evaluate.py
+├── ✓ Uploaded train_gpt.py
+├── ✓ Uploaded scripts/train_remote.py
+├── ✓ Uploaded scripts/correctness_checks.py
+├── ✓ Uploaded scripts/prepare_data.py
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/vendor
+├── ✓ Created Function install_packages.
+├── ✓ Created Function prepare.
+├── ✓ Created Function train.
+├── ✓ Created Function stage.
+├── ✓ Created Function evaluate.
+└── ✓ Created Function clean.
+APP_ID ap-OQk0CYqO1SxeZPzmNz1cR1
+cleaned 0 removed_docs_so_far 2 retained_tokens 99996779
+cleaned 1 removed_docs_so_far 6 retained_tokens 199985066
+cleaned 2 removed_docs_so_far 13 retained_tokens 299977815
+cleaned 3 removed_docs_so_far 20 retained_tokens 399968235
+cleaned 4 removed_docs_so_far 29 retained_tokens 499961259
+cleaned 5 removed_docs_so_far 33 retained_tokens 599946517
+cleaned 6 removed_docs_so_far 36 retained_tokens 699948379
+cleaned 7 removed_docs_so_far 37 retained_tokens 799947346
+cleaned 8 removed_docs_so_far 37 retained_tokens 899947883
+cleaned 9 removed_docs_so_far 40 retained_tokens 999946154
+cleaned 10 removed_docs_so_far 41 retained_tokens 1099945587
+cleaned 11 removed_docs_so_far 46 retained_tokens 1199940412
+cleaned 12 removed_docs_so_far 48 retained_tokens 1299936080
+cleaned 13 removed_docs_so_far 51 retained_tokens 1399933716
+cleaned 14 removed_docs_so_far 52 retained_tokens 1499933711
+cleaned 15 removed_docs_so_far 53 retained_tokens 1599934130
+cleaned 16 removed_docs_so_far 56 retained_tokens 1699931611
+cleaned 17 removed_docs_so_far 57 retained_tokens 1799931609
+cleaned 18 removed_docs_so_far 58 retained_tokens 1899931014
+cleaned 19 removed_docs_so_far 58 retained_tokens 1999926099
+cleaned 20 removed_docs_so_far 59 retained_tokens 2099926207
+cleaned 21 removed_docs_so_far 60 retained_tokens 2199929336
+cleaned 22 removed_docs_so_far 61 retained_tokens 2299929034
+cleaned 23 removed_docs_so_far 61 retained_tokens 2399927911
+cleaned 24 removed_docs_so_far 63 retained_tokens 2499926146
+cleaned 25 removed_docs_so_far 64 retained_tokens 2599926808
+cleaned 26 removed_docs_so_far 65 retained_tokens 2699926681
+cleaned 27 removed_docs_so_far 66 retained_tokens 2799925082
+cleaned 28 removed_docs_so_far 67 retained_tokens 2899925475
+cleaned 29 removed_docs_so_far 67 retained_tokens 2999924052
+cleaned 30 removed_docs_so_far 70 retained_tokens 3099917900
+cleaned 31 removed_docs_so_far 76 retained_tokens 3199907992
+cleaned 32 removed_docs_so_far 87 retained_tokens 3299898937
+cleaned 33 removed_docs_so_far 94 retained_tokens 3399888083
+cleaned 34 removed_docs_so_far 100 retained_tokens 3499878353
+cleaned 35 removed_docs_so_far 101 retained_tokens 3599876049
+cleaned 36 removed_docs_so_far 103 retained_tokens 3699861517
+cleaned 37 removed_docs_so_far 106 retained_tokens 3799856389
+cleaned 38 removed_docs_so_far 109 retained_tokens 3899874119
+cleaned 39 removed_docs_so_far 111 retained_tokens 3999870978
+cleaned 40 removed_docs_so_far 111 retained_tokens 4099816432
+cleaned 41 removed_docs_so_far 112 retained_tokens 4199871057
+cleaned 42 removed_docs_so_far 114 retained_tokens 4299865299
+cleaned 43 removed_docs_so_far 117 retained_tokens 4399865690
+cleaned 44 removed_docs_so_far 120 retained_tokens 4499865030
+cleaned 45 removed_docs_so_far 120 retained_tokens 4599866625
+cleaned 46 removed_docs_so_far 120 retained_tokens 4699866122
+cleaned 47 removed_docs_so_far 120 retained_tokens 4799759537
+cleaned 48 removed_docs_so_far 121 retained_tokens 4899866342
+cleaned 49 removed_docs_so_far 121 retained_tokens 4999865805
+cleaned 50 removed_docs_so_far 122 retained_tokens 5099819365
+cleaned 51 removed_docs_so_far 124 retained_tokens 5199863846
+cleaned 52 removed_docs_so_far 125 retained_tokens 5299857981
+cleaned 53 removed_docs_so_far 129 retained_tokens 5399842406
+cleaned 54 removed_docs_so_far 131 retained_tokens 5499851581
+cleaned 55 removed_docs_so_far 131 retained_tokens 5599827478
+cleaned 56 removed_docs_so_far 131 retained_tokens 5699853100
+cleaned 57 removed_docs_so_far 131 retained_tokens 5799839148
+cleaned 58 removed_docs_so_far 131 retained_tokens 5899852905
+cleaned 59 removed_docs_so_far 133 retained_tokens 5999849177
+cleaned 60 removed_docs_so_far 133 retained_tokens 6099846070
+cleaned 61 removed_docs_so_far 134 retained_tokens 6199848527
+cleaned 62 removed_docs_so_far 136 retained_tokens 6299841219
+cleaned 63 removed_docs_so_far 138 retained_tokens 6399797087
+cleaned 64 removed_docs_so_far 138 retained_tokens 6499826156
+cleaned 65 removed_docs_so_far 140 retained_tokens 6599819834
+cleaned 66 removed_docs_so_far 144 retained_tokens 6699819495
+cleaned 67 removed_docs_so_far 144 retained_tokens 6799818831
+cleaned 68 removed_docs_so_far 145 retained_tokens 6899818798
+cleaned 69 removed_docs_so_far 147 retained_tokens 6999814473
+cleaned 70 removed_docs_so_far 149 retained_tokens 7099815354
+cleaned 71 removed_docs_so_far 150 retained_tokens 7199799745
+cleaned 72 removed_docs_so_far 151 retained_tokens 7299814075
+cleaned 73 removed_docs_so_far 151 retained_tokens 7399812945
+cleaned 74 removed_docs_so_far 155 retained_tokens 7499802706
+cleaned 75 removed_docs_so_far 156 retained_tokens 7599801325
+cleaned 76 removed_docs_so_far 157 retained_tokens 7699801200
+cleaned 77 removed_docs_so_far 161 retained_tokens 7799799275
+cleaned 78 removed_docs_so_far 162 retained_tokens 7899792751
+cleaned 79 removed_docs_so_far 167 retained_tokens 7999793019
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/releasedrats/main/ap-OQk0CYqO1SxeZPzmNz1cR1

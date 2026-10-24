@@ -28,7 +28,14 @@
       "phase": "research",
       "details": "CPU-only deterministic decontamination and postwrite document-hash audit after canonical overlap discovery. CPU2 hard RAM8GiB hard task1200s startup120s app1500s; (2*.0000131+8*.00000222)*1500=$0.066 plus cached image/build/storage margin. Retain both prior reservations.",
       "utc": "2026-10-24T02:25:00.774960+00:00"
+    },
+    {
+      "job": "control-42",
+      "reserved_usd": 11.0,
+      "phase": "research",
+      "details": "First matched control. Strict H100!:8; CPU8/RAM32GiB hard; function900s startup180s child820s whole-app1080s plus stop/tail margin. 1100s resource bound about $9.85, $11 reserved including build/teardown. Seed42 QK1.5 fixed8000 steps on verified clean data. No retries.",
+      "utc": "2026-10-24T02:30:09.924257+00:00"
     }
   ],
-  "total_reserved_usd": 12.0
+  "total_reserved_usd": 23.0
 }

@@ -1,0 +1,2008 @@
+{
+  "source_revision": "a85b0e6035c3c94bc23685a07c81a8f3bf89db80",
+  "validation_sha256_unchanged": "4860ad80c0516a150b6917ee9ed17be5d27a0726a0b44ba9fe28c323b527c86f",
+  "validation_documents": 50000,
+  "training_data_path": "clean_sp1024",
+  "removed_documents": [
+    {
+      "source_file": "fineweb_train_000000.bin",
+      "start_in_carry_plus_shard": 93228748,
+      "tokens": 2184,
+      "document_sha256": "c861fe41c5fd721daa61d96d334d6d27763c90e02dd9f281e61cae1f467aed2b"
+    },
+    {
+      "source_file": "fineweb_train_000000.bin",
+      "start_in_carry_plus_shard": 96274177,
+      "tokens": 286,
+      "document_sha256": "a913561312101400cb24ea2f41a75d4e2a69e855c6514911f1dbccef101a4e67"
+    },
+    {
+      "source_file": "fineweb_train_000001.bin",
+      "start_in_carry_plus_shard": 13841846,
+      "tokens": 5170,
+      "document_sha256": "5633b1985abd4a1956e850fd3baa00ed118c6807ccd4ec981d6b490734a096a9"
+    },
+    {
+      "source_file": "fineweb_train_000001.bin",
+      "start_in_carry_plus_shard": 15381059,
+      "tokens": 3915,
+      "document_sha256": "44325ddb90cf04e6dcbd476bcdca89cb88c820eff37dac4c9d837a72ea8691bf"
+    },
+    {
+      "source_file": "fineweb_train_000001.bin",
+      "start_in_carry_plus_shard": 75615637,
+      "tokens": 732,
+      "document_sha256": "28d4745355dd4ed706530e12c023883e658614dd85708cf1e3c88613bbdc5d56"
+    },
+    {
+      "source_file": "fineweb_train_000001.bin",
+      "start_in_carry_plus_shard": 91407525,
+      "tokens": 1729,
+      "document_sha256": "184f557c6872f256e2e17254f9a25635c9afa234b5e37566c475357713f93662"
+    },
+    {
+      "source_file": "fineweb_train_000002.bin",
+      "start_in_carry_plus_shard": 17725338,
+      "tokens": 1179,
+      "document_sha256": "5f8ab51ed51db9f1b3bf0587c17eef22b6cb39cd811ea4ff5f18b6accc9acbd3"
+    },
+    {
+      "source_file": "fineweb_train_000002.bin",
+      "start_in_carry_plus_shard": 18633215,
+      "tokens": 1641,
+      "document_sha256": "84780959c5bc72c60a75a4b4ea7eac87b98bb3364f3a06c9cdcc98907d26698e"
+    },
+    {
+      "source_file": "fineweb_train_000002.bin",
+      "start_in_carry_plus_shard": 19740577,
+      "tokens": 550,
+      "document_sha256": "7a4e757fb7661991e3a42614ab7927bad5a8aa0c4a04c6aa8fbc08913cddbbcc"
+    },
+    {
+      "source_file": "fineweb_train_000002.bin",
+      "start_in_carry_plus_shard": 30996913,
+      "tokens": 1095,
+      "document_sha256": "7687d4881278902cfcaf9b0567542cbd63689732d6aac3f5ce2812fe0a175339"
+    },
+    {
+      "source_file": "fineweb_train_000002.bin",
+      "start_in_carry_plus_shard": 35928444,
+      "tokens": 792,
+      "document_sha256": "9f2b9b173adea0daf7e9e657a50294aada0837e5c0618609c670e0ee50fdebca"
+    },
+    {
+      "source_file": "fineweb_train_000002.bin",
+      "start_in_carry_plus_shard": 52357121,
+      "tokens": 1177,
+      "document_sha256": "6e14432849b61ac586b27c6a3837bf2c1c30a21b0200f4352ebb9c5bfe671a51"
+    },
+    {
+      "source_file": "fineweb_train_000002.bin",
+      "start_in_carry_plus_shard": 75780788,
+      "tokens": 768,
+      "document_sha256": "2f81f88fabaf9d7be3f7a10be1ba96a172e9d47cdb465dd1b4519980e49838af"
+    },
+    {
+      "source_file": "fineweb_train_000003.bin",
+      "start_in_carry_plus_shard": 4799178,
+      "tokens": 462,
+      "document_sha256": "2d99a7d7d17bded783b797a84f53c1710a334011dadeb77616d482c776f5a6af"
+    },
+    {
+      "source_file": "fineweb_train_000003.bin",
+      "start_in_carry_plus_shard": 48174237,
+      "tokens": 2280,
+      "document_sha256": "7ba223f4b4a1c5e4d49f67072cfc1a7ecc9c0988cf940f789218ec22732673dd"
+    },
+    {
+      "source_file": "fineweb_train_000003.bin",
+      "start_in_carry_plus_shard": 58518404,
+      "tokens": 464,
+      "document_sha256": "28dc89071325b63d99efd3a927c67ca0151a3babf752e0a3b79cefb65fbfd18f"
+    },
+    {
+      "source_file": "fineweb_train_000003.bin",
+      "start_in_carry_plus_shard": 60826366,
+      "tokens": 1850,
+      "document_sha256": "2e12a7b0e26d5cd36db6192ab2ddc0682b98417da527a309b54be2df524b3c5e"
+    },
+    {
+      "source_file": "fineweb_train_000003.bin",
+      "start_in_carry_plus_shard": 83984809,
+      "tokens": 1390,
+      "document_sha256": "95e0462c5f71d67be80437b4886d824f8bbe33d7b1ec17bc47a86f204b78bec6"
+    },
+    {
+      "source_file": "fineweb_train_000003.bin",
+      "start_in_carry_plus_shard": 90458515,
+      "tokens": 440,
+      "document_sha256": "4cffeaed1e7e4a870a39c4da9be1e54bb338f93607e4b21d934ce3ab82fcb568"
+    },
+    {
+      "source_file": "fineweb_train_000003.bin",
+      "start_in_carry_plus_shard": 93754258,
+      "tokens": 1039,
+      "document_sha256": "4e35b58b5b141cd97a7b86972a7ac4bed905759ecd519b7b5e5ca0e7bf2876d6"
+    },
+    {
+      "source_file": "fineweb_train_000004.bin",
+      "start_in_carry_plus_shard": 12358172,
+      "tokens": 261,
+      "document_sha256": "b263f6704fde9e057e39717d0ce5042f30a286e827128a5edc304d771a3c9cf5"
+    },
+    {
+      "source_file": "fineweb_train_000004.bin",
+      "start_in_carry_plus_shard": 17148681,
+      "tokens": 1230,
+      "document_sha256": "ba48703ea9f9390ec13309b73de809037c8d039d1e593aa10364988764e5910a"
+    },
+    {
+      "source_file": "fineweb_train_000004.bin",
+      "start_in_carry_plus_shard": 46003225,
+      "tokens": 1458,
+      "document_sha256": "9fca4550da63fb57313aea82c2205465ebbecd50db29e88ab8a5efb62e2dec88"
+    },
+    {
+      "source_file": "fineweb_train_000004.bin",
+      "start_in_carry_plus_shard": 48843964,
+      "tokens": 1489,
+      "document_sha256": "ffaa6c4de32b885eb0707130b53221372912c28021cf3b4277f1e017445a20a1"
+    },
+    {
+      "source_file": "fineweb_train_000004.bin",
+      "start_in_carry_plus_shard": 75024999,
+      "tokens": 202,
+      "document_sha256": "06004cde332e7f69535992c132e9d4bfe38deb9b2116086f7ad60230f6abc84b"
+    },
+    {
+      "source_file": "fineweb_train_000004.bin",
+      "start_in_carry_plus_shard": 77882154,
+      "tokens": 721,
+      "document_sha256": "e0014c8b12c65889dc95aba02920cf7446be87fd069e3ea1065fbc4562e019fc"
+    },
+    {
+      "source_file": "fineweb_train_000004.bin",
+      "start_in_carry_plus_shard": 83016068,
+      "tokens": 448,
+      "document_sha256": "d90d976f79cd879f6f98a17f83d74abf5540aa3eabde4072f5e9cc1a4df49106"
+    },
+    {
+      "source_file": "fineweb_train_000004.bin",
+      "start_in_carry_plus_shard": 86789802,
+      "tokens": 1174,
+      "document_sha256": "22c37a46d85bf92ea85ff5e7481ec4c0a397fc3efc823975d1dbbeb8a9954497"
+    },
+    {
+      "source_file": "fineweb_train_000004.bin",
+      "start_in_carry_plus_shard": 98564216,
+      "tokens": 699,
+      "document_sha256": "2277e1e8815b3696b66bac04dd832f35bf282a62f3c4acc096f78fc3e14b20f4"
+    },
+    {
+      "source_file": "fineweb_train_000005.bin",
+      "start_in_carry_plus_shard": 20387583,
+      "tokens": 8954,
+      "document_sha256": "559d8c0023e2946477e7a992d0d6807e63292bd3aea4c1d89a6ee7e983235007"
+    },
+    {
+      "source_file": "fineweb_train_000005.bin",
+      "start_in_carry_plus_shard": 20771596,
+      "tokens": 603,
+      "document_sha256": "f6dc6dd37e530411545255fc494303d73aaf10e91553b1b880ce8bc7514a77c5"
+    },
+    {
+      "source_file": "fineweb_train_000005.bin",
+      "start_in_carry_plus_shard": 76513131,
+      "tokens": 2304,
+      "document_sha256": "941065bccffab14a59805adc63e86c7a48789ef80bf0067f93ee473f27370532"
+    },
+    {
+      "source_file": "fineweb_train_000005.bin",
+      "start_in_carry_plus_shard": 87569325,
+      "tokens": 756,
+      "document_sha256": "88a5675bc94f387a1083c06218411b5bc3eb660bb1ff9d8c1ff2b159ec3a90e8"
+    },
+    {
+      "source_file": "fineweb_train_000006.bin",
+      "start_in_carry_plus_shard": 48321129,
+      "tokens": 1045,
+      "document_sha256": "17ff9cefa48ca9290867156ffbd524f01839194f127c322f50011e026d947640"
+    },
+    {
+      "source_file": "fineweb_train_000006.bin",
+      "start_in_carry_plus_shard": 75914860,
+      "tokens": 302,
+      "document_sha256": "1b60b952fb871893e6fc09a1202cdeb2d7862901779df3e4c9806c61522eea9a"
+    },
+    {
+      "source_file": "fineweb_train_000006.bin",
+      "start_in_carry_plus_shard": 76801763,
+      "tokens": 620,
+      "document_sha256": "5920a52eee409afca72097ee53de2e2f5409db3b45daef3139aff9c25353c340"
+    },
+    {
+      "source_file": "fineweb_train_000007.bin",
+      "start_in_carry_plus_shard": 78732364,
+      "tokens": 499,
+      "document_sha256": "d6afae67c76020c768fd0762650fba9d94b025a07db9d0c22c7d68101fce8697"
+    },
+    {
+      "source_file": "fineweb_train_000009.bin",
+      "start_in_carry_plus_shard": 8452134,
+      "tokens": 239,
+      "document_sha256": "452404383f048f28c5eb1893c0d3c603b93d8d7ab4c08767f780a31da7022047"
+    },
+    {
+      "source_file": "fineweb_train_000009.bin",
+      "start_in_carry_plus_shard": 56288426,
+      "tokens": 495,
+      "document_sha256": "d8a4627a707a96840db9f217e9157def6ead692874e8743398788c5e504c256c"
+    },
+    {
+      "source_file": "fineweb_train_000009.bin",
+      "start_in_carry_plus_shard": 65131245,
+      "tokens": 1103,
+      "document_sha256": "ef251fd9fb2331ca3b76ee76a7663ff5c4af198f51efd4ce0b6589f784ffcb03"
+    },
+    {
+      "source_file": "fineweb_train_000010.bin",
+      "start_in_carry_plus_shard": 533105,
+      "tokens": 560,
+      "document_sha256": "0a1620c418ab8e0343889e6f845529e575a1647debd23f43a6267e4af92762ba"
+    },
+    {
+      "source_file": "fineweb_train_000011.bin",
+      "start_in_carry_plus_shard": 18095400,
+      "tokens": 899,
+      "document_sha256": "92e0e5e1b7bce2a6abf6ebc0404bfab8bfaaf41d222199ba5a40251a5d2860aa"
+    },
+    {
+      "source_file": "fineweb_train_000011.bin",
+      "start_in_carry_plus_shard": 30727565,
+      "tokens": 953,
+      "document_sha256": "6ae3a2157db0d54cecb9a00d1c4bb34db438e0b045db343c70d6418145cae121"
+    },
+    {
+      "source_file": "fineweb_train_000011.bin",
+      "start_in_carry_plus_shard": 31295368,
+      "tokens": 1088,
+      "document_sha256": "cae70c4f329b976f72320655537cd130370b7e5cf1b04f0e7ca08523bda9250e"
+    },
+    {
+      "source_file": "fineweb_train_000011.bin",
+      "start_in_carry_plus_shard": 38066292,
+      "tokens": 1594,
+      "document_sha256": "a8508f90958e1d0d33e87732b337b419501d8f7d5032bbbe09c665c9c95b2317"
+    },
+    {
+      "source_file": "fineweb_train_000011.bin",
+      "start_in_carry_plus_shard": 75754215,
+      "tokens": 196,
+      "document_sha256": "5cfcf75baec9a554bd4edfb5c9b5843a50344f587e7c45246875ace45cc91976"
+    },
+    {
+      "source_file": "fineweb_train_000012.bin",
+      "start_in_carry_plus_shard": 55796889,
+      "tokens": 600,
+      "document_sha256": "420b583616f11e890951ccdf583931b08ba355b00b1c7e94ab27d606550ddf98"
+    },
+    {
+      "source_file": "fineweb_train_000012.bin",
+      "start_in_carry_plus_shard": 90451699,
+      "tokens": 1385,
+      "document_sha256": "879e04bfcb868cdc5f2bccd504ae63bcd62efaa0d4e182fde4923c57ac204c58"
+    },
+    {
+      "source_file": "fineweb_train_000013.bin",
+      "start_in_carry_plus_shard": 4259315,
+      "tokens": 182,
+      "document_sha256": "600b79bdb016bf84329447248e28fe35ff3c52cb7770a6a5de55ba0b839b790b"
+    },
+    {
+      "source_file": "fineweb_train_000013.bin",
+      "start_in_carry_plus_shard": 10420554,
+      "tokens": 258,
+      "document_sha256": "258eedc53b976f3c8f91bdd4b3ab44d0b1c6eef967be8138a20980ebdea16ffa"
+    },
+    {
+      "source_file": "fineweb_train_000013.bin",
+      "start_in_carry_plus_shard": 75431497,
+      "tokens": 360,
+      "document_sha256": "151339a74c1bf761ffda40e9023499170d0c818ff06be310091e6e87d5d1d009"
+    },
+    {
+      "source_file": "fineweb_train_000014.bin",
+      "start_in_carry_plus_shard": 22804225,
+      "tokens": 2717,
+      "document_sha256": "8604cb5b812aef823255e37e03e2710226cd4d1ab5edfe2021752e5977adc282"
+    },
+    {
+      "source_file": "fineweb_train_000015.bin",
+      "start_in_carry_plus_shard": 83507885,
+      "tokens": 625,
+      "document_sha256": "1ba20794bce347d865f0a9a31c90c813fdbbc0e08fae162d88c8c4bfaf304999"
+    },
+    {
+      "source_file": "fineweb_train_000016.bin",
+      "start_in_carry_plus_shard": 4620940,
+      "tokens": 1032,
+      "document_sha256": "b649c564ae443663433b91afa981e1a98aa292a563b3b5f704d7551757a91cae"
+    },
+    {
+      "source_file": "fineweb_train_000016.bin",
+      "start_in_carry_plus_shard": 31642896,
+      "tokens": 1112,
+      "document_sha256": "b5bdc3987abb16df93ab1cf6ca8b17665f80d86a06794332c191c75c2ceda1b4"
+    },
+    {
+      "source_file": "fineweb_train_000016.bin",
+      "start_in_carry_plus_shard": 61283695,
+      "tokens": 440,
+      "document_sha256": "9e2002c5c13e82cf5d7f82c316c02fdf698a68bcceae4d0072c0568ce12bb534"
+    },
+    {
+      "source_file": "fineweb_train_000017.bin",
+      "start_in_carry_plus_shard": 44102457,
+      "tokens": 175,
+      "document_sha256": "062853a747a6eea21723fb64eee3b7c134755e0c1917f9c8280f6de50678c12d"
+    },
+    {
+      "source_file": "fineweb_train_000018.bin",
+      "start_in_carry_plus_shard": 26345478,
+      "tokens": 218,
+      "document_sha256": "870eb40f7e8c201a8439f96505f1def2044f18765086d98b38e8f87f42d34c41"
+    },
+    {
+      "source_file": "fineweb_train_000020.bin",
+      "start_in_carry_plus_shard": 86467780,
+      "tokens": 1690,
+      "document_sha256": "b1eeba0d1ea7e7f8db2d18b107aee395a3ac88ae918b3e3bf337b6f039097176"
+    },
+    {
+      "source_file": "fineweb_train_000021.bin",
+      "start_in_carry_plus_shard": 4804711,
+      "tokens": 389,
+      "document_sha256": "dcb5dd6f40f53a644c02771d904da8fc51e5d173351961d525ea55e44c63b19e"
+    },
+    {
+      "source_file": "fineweb_train_000022.bin",
+      "start_in_carry_plus_shard": 23246,
+      "tokens": 580,
+      "document_sha256": "e40be8f866fddd50dc2038a05e268f3cac4071089408d7323e88dfcd19a2f2fa"
+    },
+    {
+      "source_file": "fineweb_train_000024.bin",
+      "start_in_carry_plus_shard": 30618189,
+      "tokens": 1623,
+      "document_sha256": "147c2d76a1112d987218024a8aaf9016290a2dc8042d435503dca206b5c705f8"
+    },
+    {
+      "source_file": "fineweb_train_000024.bin",
+      "start_in_carry_plus_shard": 45167480,
+      "tokens": 154,
+      "document_sha256": "70ad244c7e4f313010874b8a525a396e7db624f142fea4176c97486e4d7132ac"
+    },
+    {
+      "source_file": "fineweb_train_000025.bin",
+      "start_in_carry_plus_shard": 25008955,
+      "tokens": 252,
+      "document_sha256": "1011f21c18368c75a6aac987ebf657f73a6d1d4b7e50ffa6ff60bd4f84092d62"
+    },
+    {
+      "source_file": "fineweb_train_000026.bin",
+      "start_in_carry_plus_shard": 93805285,
+      "tokens": 285,
+      "document_sha256": "17b122e64bdac53beec3fbe2190586d53f6629bb6c796418bce78edb312e5e1e"
+    },
+    {
+      "source_file": "fineweb_train_000027.bin",
+      "start_in_carry_plus_shard": 62585334,
+      "tokens": 558,
+      "document_sha256": "65c7e8405244edaa86b9b6cbf435836c5eb74770468e70f62fa4733d65c85dab"
+    },
+    {
+      "source_file": "fineweb_train_000028.bin",
+      "start_in_carry_plus_shard": 98167514,
+      "tokens": 337,
+      "document_sha256": "6953901ac25354d47a830d0773ba0315408c0e9426f10c4a628e7b93f18c0369"
+    },
+    {
+      "source_file": "fineweb_train_000030.bin",
+      "start_in_carry_plus_shard": 62092399,
+      "tokens": 389,
+      "document_sha256": "9911ab3922ec8f475ecd517b12ddeed61a999755c974cdfe6d0b8f8d797363de"
+    },
+    {
+      "source_file": "fineweb_train_000030.bin",
+      "start_in_carry_plus_shard": 63353094,
+      "tokens": 6871,
+      "document_sha256": "65f9edb33e5913ba7683ab694824ace6f867d391430c1c212cd9f6213aff984a"
+    },
+    {
+      "source_file": "fineweb_train_000030.bin",
+      "start_in_carry_plus_shard": 69715916,
+      "tokens": 451,
+      "document_sha256": "ebe3cb0020fc256bde246e0fb70d91fd78d0589e7cc46d187667566e1a4af9bd"
+    },
+    {
+      "source_file": "fineweb_train_000031.bin",
+      "start_in_carry_plus_shard": 6085776,
+      "tokens": 372,
+      "document_sha256": "b3b5e958242a289200d7f987a087bd2491458ac26030611adf6de1d960976346"
+    },
+    {
+      "source_file": "fineweb_train_000031.bin",
+      "start_in_carry_plus_shard": 7472529,
+      "tokens": 613,
+      "document_sha256": "7214a8ba8f4f05571e861e2e6cf1888b2953f71333c3163b34eda831345273f2"
+    },
+    {
+      "source_file": "fineweb_train_000031.bin",
+      "start_in_carry_plus_shard": 7681271,
+      "tokens": 288,
+      "document_sha256": "a4b664a52e4bb10af43fb408c7b5dfd230b4fc5e86869de5e96a8b168bbbf400"
+    },
+    {
+      "source_file": "fineweb_train_000031.bin",
+      "start_in_carry_plus_shard": 11905851,
+      "tokens": 249,
+      "document_sha256": "26e95f0b4a96473cfa144050be064aeff613f293967d2dc110f2ab7abc3a9c97"
+    },
+    {
+      "source_file": "fineweb_train_000031.bin",
+      "start_in_carry_plus_shard": 24986464,
+      "tokens": 1413,
+      "document_sha256": "4a74dff90a9316aba8bfc21f0161477717f1938e7cd44dee43b22db4838df5da"
+    },
+    {
+      "source_file": "fineweb_train_000031.bin",
+      "start_in_carry_plus_shard": 68873472,
+      "tokens": 1491,
+      "document_sha256": "3d0c9ce68fce8ea62222b8c17fa7128405e378c570a823bacd777a48fba976a6"
+    },
+    {
+      "source_file": "fineweb_train_000032.bin",
+      "start_in_carry_plus_shard": 17597459,
+      "tokens": 6498,
+      "document_sha256": "e2082dc0276da2364dfac89410e6bfd6fe41f80b5146485ee6340fab566023fc"
+    },
+    {
+      "source_file": "fineweb_train_000032.bin",
+      "start_in_carry_plus_shard": 27229035,
+      "tokens": 696,
+      "document_sha256": "2a55f9552e1ab7d8c8847432d3829924fa48a8ef789b51ff32e2f771fca07556"
+    },
+    {
+      "source_file": "fineweb_train_000032.bin",
+      "start_in_carry_plus_shard": 34467119,
+      "tokens": 1372,
+      "document_sha256": "f7792e18f1bd916f3dc9e6f8b90e5e5517dedaab60241de6d7f38a922e2d9765"
+    },
+    {
+      "source_file": "fineweb_train_000032.bin",
+      "start_in_carry_plus_shard": 35304484,
+      "tokens": 319,
+      "document_sha256": "a281ee83bb6619cfd50cc0ff351babcb761968611eb1991b27e170afdf557af2"
+    },
+    {
+      "source_file": "fineweb_train_000032.bin",
+      "start_in_carry_plus_shard": 46518199,
+      "tokens": 491,
+      "document_sha256": "1a0b36f4de25414ea6bdf19c924e55971333e76a40ac1bf8b6fc236c73939298"
+    },
+    {
+      "source_file": "fineweb_train_000032.bin",
+      "start_in_carry_plus_shard": 52796953,
+      "tokens": 350,
+      "document_sha256": "95d27d86c530f68ed221272c2301fc64c061ec246062de01520ad76f4fbdf5ed"
+    },
+    {
+      "source_file": "fineweb_train_000032.bin",
+      "start_in_carry_plus_shard": 63458221,
+      "tokens": 766,
+      "document_sha256": "bab40f70ce75606eee4c31f58e67b72e77812594ff0b0fa7ed438031ed4ea55e"
+    },
+    {
+      "source_file": "fineweb_train_000032.bin",
+      "start_in_carry_plus_shard": 81118136,
+      "tokens": 530,
+      "document_sha256": "9864489dcbd3a0b13f2fbb69620c7c610f4db8ef7993a1dff3fd011c342d1bd6"
+    },
+    {
+      "source_file": "fineweb_train_000032.bin",
+      "start_in_carry_plus_shard": 87906045,
+      "tokens": 682,
+      "document_sha256": "d32c1e9b98c9eb4946cd5ce5a3b9ada274347637210837cae8b3c1d9a966c859"
+    },
+    {
+      "source_file": "fineweb_train_000032.bin",
+      "start_in_carry_plus_shard": 88798821,
+      "tokens": 402,
+      "document_sha256": "0584f90dab2cabdb019c38dfec06f78327b6525df9ecac38cc057d2c75b4119a"
+    },
+    {
+      "source_file": "fineweb_train_000032.bin",
+      "start_in_carry_plus_shard": 93488751,
+      "tokens": 1762,
+      "document_sha256": "7f647f1f435ad05506282efd6a74bec9621fabb8e53561bfa0e56562139da3bc"
+    },
+    {
+      "source_file": "fineweb_train_000033.bin",
+      "start_in_carry_plus_shard": 20517170,
+      "tokens": 379,
+      "document_sha256": "730654a2949b75dd3e77f23ee7911a1aa68554901cd6dab5a09831815bd881b2"
+    },
+    {
+      "source_file": "fineweb_train_000033.bin",
+      "start_in_carry_plus_shard": 20770595,
+      "tokens": 7534,
+      "document_sha256": "ce17f5a51d9c7c1db1a8b437079d48788375a873ebbfaa637f5870da21f86ae4"
+    },
+    {
+      "source_file": "fineweb_train_000033.bin",
+      "start_in_carry_plus_shard": 27088004,
+      "tokens": 193,
+      "document_sha256": "72d4d9abfd25f7f7a2dbc2185463aac0bb34d3161159f4b076c60f22ffa63767"
+    },
+    {
+      "source_file": "fineweb_train_000033.bin",
+      "start_in_carry_plus_shard": 29722528,
+      "tokens": 1380,
+      "document_sha256": "756f123336a672c108ff9e08fffb5a57e3f2ce66aaaa1286de032dd8b096e763"
+    },
+    {
+      "source_file": "fineweb_train_000033.bin",
+      "start_in_carry_plus_shard": 37356072,
+      "tokens": 165,
+      "document_sha256": "e33ec3cf93aa813976ef3e2a8ff55a1f447834c0534f1482df1afafc4532af46"
+    },
+    {
+      "source_file": "fineweb_train_000033.bin",
+      "start_in_carry_plus_shard": 44760298,
+      "tokens": 814,
+      "document_sha256": "88463359495498e6a780adf57487006138c20a728d689c8cb26b8292ad906ebb"
+    },
+    {
+      "source_file": "fineweb_train_000033.bin",
+      "start_in_carry_plus_shard": 59624254,
+      "tokens": 109,
+      "document_sha256": "90f6ecbdd67f13b84bf081003b6f5e8e53054278710ab998aa7fd9f5d4d5d6a4"
+    },
+    {
+      "source_file": "fineweb_train_000034.bin",
+      "start_in_carry_plus_shard": 11401476,
+      "tokens": 2354,
+      "document_sha256": "c97793d1e029b63260a8e41d4e9fbe718a07b9d013254a5d7be0e46116802975"
+    },
+    {
+      "source_file": "fineweb_train_000034.bin",
+      "start_in_carry_plus_shard": 16846472,
+      "tokens": 1526,
+      "document_sha256": "fdc16023fe93355787f22a7350755f95070868a681939b1b752c74ac043be055"
+    },
+    {
+      "source_file": "fineweb_train_000034.bin",
+      "start_in_carry_plus_shard": 30729950,
+      "tokens": 4736,
+      "document_sha256": "17eb764c0c09a46091fb2ec15efa4e307f93a60c1adff5d64f76c2c5b803e8cd"
+    },
+    {
+      "source_file": "fineweb_train_000034.bin",
+      "start_in_carry_plus_shard": 42533703,
+      "tokens": 630,
+      "document_sha256": "48ee41ae146a5aec42537a3bb5923ec64d272eee96cd7ea0bb39151830a6f729"
+    },
+    {
+      "source_file": "fineweb_train_000034.bin",
+      "start_in_carry_plus_shard": 50389657,
+      "tokens": 228,
+      "document_sha256": "a57ee3199a24222ceb1c3017ac413874d416481d0fed2fd8f082e8d5f59a4d61"
+    },
+    {
+      "source_file": "fineweb_train_000034.bin",
+      "start_in_carry_plus_shard": 58343544,
+      "tokens": 1203,
+      "document_sha256": "056cd43ec88c1d8e88d688dde0d95ca1f59ed97a007e263d8f552ffe29307f57"
+    },
+    {
+      "source_file": "fineweb_train_000035.bin",
+      "start_in_carry_plus_shard": 52040831,
+      "tokens": 661,
+      "document_sha256": "98b1948311d303e241a3389f2ae74a65c6e524e765d65523300b64cab107b125"
+    },
+    {
+      "source_file": "fineweb_train_000036.bin",
+      "start_in_carry_plus_shard": 57939068,
+      "tokens": 232,
+      "document_sha256": "c60e71311e66d0712d28a327430c992b855507882fff68fc6e8e6af4977ccc08"
+    },
+    {
+      "source_file": "fineweb_train_000036.bin",
+      "start_in_carry_plus_shard": 69502664,
+      "tokens": 227,
+      "document_sha256": "06de1ea6a78ab092131fc0b07ed789f078f5caff7c8a20cdc264282a202a7d4a"
+    },
+    {
+      "source_file": "fineweb_train_000037.bin",
+      "start_in_carry_plus_shard": 2368151,
+      "tokens": 455,
+      "document_sha256": "4d4b23746647ac84ef04eea93122c181ccd118c7b300b19c3e34cfacf514ab96"
+    },
+    {
+      "source_file": "fineweb_train_000037.bin",
+      "start_in_carry_plus_shard": 75623297,
+      "tokens": 950,
+      "document_sha256": "ed51b08d46ea5cca088d29632fb3b75ed5834055dc2034e50646100310293282"
+    },
+    {
+      "source_file": "fineweb_train_000037.bin",
+      "start_in_carry_plus_shard": 81703463,
+      "tokens": 607,
+      "document_sha256": "8b6493e9f2f818773cf60952e919410acb37ae1b0bbf783ace4b6646fa0e1053"
+    },
+    {
+      "source_file": "fineweb_train_000038.bin",
+      "start_in_carry_plus_shard": 41164119,
+      "tokens": 269,
+      "document_sha256": "83315adc47bc7a3ab9bc4299de5743f35bc8b078cead0feb64b066717a591fc7"
+    },
+    {
+      "source_file": "fineweb_train_000038.bin",
+      "start_in_carry_plus_shard": 68466616,
+      "tokens": 178,
+      "document_sha256": "f04c5c156d63344a4ccbbe530949a4137f53b00be18179da0c4199e35029a550"
+    },
+    {
+      "source_file": "fineweb_train_000038.bin",
+      "start_in_carry_plus_shard": 70169990,
+      "tokens": 544,
+      "document_sha256": "09e8a8b3dc6ffda79aa4cc79cc83fb32ab9735234189696c9b8eb4a2fe8c4eb3"
+    },
+    {
+      "source_file": "fineweb_train_000039.bin",
+      "start_in_carry_plus_shard": 57466541,
+      "tokens": 499,
+      "document_sha256": "335b10c4750d6cfeda597f39c746115b4d2a859542e2ce6f5c9541cca961846a"
+    },
+    {
+      "source_file": "fineweb_train_000039.bin",
+      "start_in_carry_plus_shard": 92856950,
+      "tokens": 1320,
+      "document_sha256": "c277479a0db7dfef75e45b8b49b1d0f6d4081a1b72d2729c0c8a5acc932fa402"
+    },
+    {
+      "source_file": "fineweb_train_000041.bin",
+      "start_in_carry_plus_shard": 43079056,
+      "tokens": 1289,
+      "document_sha256": "fd7c8990ac919e167c1ee21558d5c84176fc2b1d5788e4dddd785a10c7998b1a"
+    },
+    {
+      "source_file": "fineweb_train_000042.bin",
+      "start_in_carry_plus_shard": 27053986,
+      "tokens": 1357,
+      "document_sha256": "3cbec5e0ae0f8c23444a94f85791909c5203507912f46b92f57e427367579f50"
+    },
+    {
+      "source_file": "fineweb_train_000042.bin",
+      "start_in_carry_plus_shard": 64833765,
+      "tokens": 469,
+      "document_sha256": "1b04e190680f8709fb398f84ae9636c6c5f2fe72c3127b3a1ff8682a6fb46b3c"
+    },
+    {
+      "source_file": "fineweb_train_000043.bin",
+      "start_in_carry_plus_shard": 15417282,
+      "tokens": 470,
+      "document_sha256": "797dffb7efd3c49e0df106bf665e653023a5624868c7d5991a47668f0312b6bc"
+    },
+    {
+      "source_file": "fineweb_train_000043.bin",
+      "start_in_carry_plus_shard": 85131287,
+      "tokens": 850,
+      "document_sha256": "bc39d6478cc91efab353844c719e219734f878e5a8871c1ca3f747d77b1b9f9e"
+    },
+    {
+      "source_file": "fineweb_train_000043.bin",
+      "start_in_carry_plus_shard": 93666741,
+      "tokens": 494,
+      "document_sha256": "6885127e3f61e8a549205e904d81dc212206e7b2d545d3fbf626ccd2436cc5e5"
+    },
+    {
+      "source_file": "fineweb_train_000044.bin",
+      "start_in_carry_plus_shard": 14079520,
+      "tokens": 290,
+      "document_sha256": "ff215f45c9a8faa825ebb74fcdb108d5b2b3011e3471076a22eb9825b63d0c77"
+    },
+    {
+      "source_file": "fineweb_train_000044.bin",
+      "start_in_carry_plus_shard": 28723484,
+      "tokens": 436,
+      "document_sha256": "0e7d218c9069fde3eaa1b0fa63c969c202357325199bb719df62402cf49b599a"
+    },
+    {
+      "source_file": "fineweb_train_000044.bin",
+      "start_in_carry_plus_shard": 87525833,
+      "tokens": 317,
+      "document_sha256": "c92914681535df30f8a2d4489db834636e31aa4e6824b026fff92718f5e66a61"
+    },
+    {
+      "source_file": "fineweb_train_000048.bin",
+      "start_in_carry_plus_shard": 49515613,
+      "tokens": 165,
+      "document_sha256": "12aa5f3ddfee80ebfa593a6771d9801fc24e412ec53c6260269255a706e7e963"
+    },
+    {
+      "source_file": "fineweb_train_000050.bin",
+      "start_in_carry_plus_shard": 44961356,
+      "tokens": 810,
+      "document_sha256": "91a596f24939b1bb6dbf5763b2f796e15e10b5c52775d7fc7d1cd2879fa40c84"
+    },
+    {
+      "source_file": "fineweb_train_000051.bin",
+      "start_in_carry_plus_shard": 20165378,
+      "tokens": 1326,
+      "document_sha256": "f4bfb20edd85f2bd19b1bd25d306595053fba94169302e424d67a5a8b5ec46b3"
+    },
+    {
+      "source_file": "fineweb_train_000051.bin",
+      "start_in_carry_plus_shard": 29670583,
+      "tokens": 255,
+      "document_sha256": "a9adf6f7001937173e490c6959c0526a916d9006f610162ae70237685ecf8516"
+    },
+    {
+      "source_file": "fineweb_train_000052.bin",
+      "start_in_carry_plus_shard": 4656087,
+      "tokens": 5626,
+      "document_sha256": "2ea6bd863d2da0ed30ef7438ad7c6704be9225a70d94de5cc601497ed05b53fb"
+    },
+    {
+      "source_file": "fineweb_train_000053.bin",
+      "start_in_carry_plus_shard": 14487109,
+      "tokens": 1336,
+      "document_sha256": "23fe74cb6efd0417f065d576f6052359b84576bde69606374f6472cdbf3daf80"
+    },
+    {
+      "source_file": "fineweb_train_000053.bin",
+      "start_in_carry_plus_shard": 59778007,
+      "tokens": 220,
+      "document_sha256": "474679091e09d12e2bce4d4f74597a9e7ff6b4aab87e8d0d60fe19ab1175c3d9"
+    },
+    {
+      "source_file": "fineweb_train_000053.bin",
+      "start_in_carry_plus_shard": 60615961,
+      "tokens": 2914,
+      "document_sha256": "4b3916c788325a68722817347888eee119f1e1ccbdff10502892d93e168fb90f"
+    },
+    {
+      "source_file": "fineweb_train_000053.bin",
+      "start_in_carry_plus_shard": 97628820,
+      "tokens": 499,
+      "document_sha256": "3ab7ed83780ebdedc9dd0b0dab788f251d6f2812052ebea8efd99f5a32028af0"
+    },
+    {
+      "source_file": "fineweb_train_000054.bin",
+      "start_in_carry_plus_shard": 5823587,
+      "tokens": 173,
+      "document_sha256": "80ecc0c86b71452951b633e401fe2fbf8fa3f195542af65b5a3ec388a57b2ea6"
+    },
+    {
+      "source_file": "fineweb_train_000054.bin",
+      "start_in_carry_plus_shard": 54355656,
+      "tokens": 303,
+      "document_sha256": "39799aaeb70a572e3bc4415d3bf38f7fb3dc5c1425beb366dcf79f6ad9d5b282"
+    },
+    {
+      "source_file": "fineweb_train_000059.bin",
+      "start_in_carry_plus_shard": 9891926,
+      "tokens": 667,
+      "document_sha256": "9c1de22d292a9f76902f8abef0c0a34ee6aaaaf9cd7008d363e034865f25c1e6"
+    },
+    {
+      "source_file": "fineweb_train_000059.bin",
+      "start_in_carry_plus_shard": 17937529,
+      "tokens": 2747,
+      "document_sha256": "b1e0b807e46346d3a9f249ab224e75fc55e9741cd34a6763b8d88432030233de"
+    },
+    {
+      "source_file": "fineweb_train_000061.bin",
+      "start_in_carry_plus_shard": 50786808,
+      "tokens": 882,
+      "document_sha256": "e50aec10c959ca9c523a0cfb90379cbdf622a3622f9945bf8fabcd06eb1dcb0b"
+    },
+    {
+      "source_file": "fineweb_train_000062.bin",
+      "start_in_carry_plus_shard": 24958849,
+      "tokens": 1448,
+      "document_sha256": "58811134304ef7852d16371801e955fe921156253e970dbee6b6aba571b4c003"
+    },
+    {
+      "source_file": "fineweb_train_000062.bin",
+      "start_in_carry_plus_shard": 54650961,
+      "tokens": 1894,
+      "document_sha256": "48dc2e92f38ba83f8d6947c73e5c0b4b9304d615cdf8cb5d10586f123320949f"
+    },
+    {
+      "source_file": "fineweb_train_000063.bin",
+      "start_in_carry_plus_shard": 13362021,
+      "tokens": 18790,
+      "document_sha256": "6f100392f4b0c1d5556b91394b42fb580f05b85e3fb0a2b99c657d02255745ab"
+    },
+    {
+      "source_file": "fineweb_train_000063.bin",
+      "start_in_carry_plus_shard": 97168250,
+      "tokens": 288,
+      "document_sha256": "bbcd0f8d66b8f147587f425f39193cc8689b72bccf04172c3d373f801ecb5089"
+    },
+    {
+      "source_file": "fineweb_train_000065.bin",
+      "start_in_carry_plus_shard": 52927891,
+      "tokens": 3312,
+      "document_sha256": "8986328ec156806b00a51b5180fe72b27f5434f7ee23677792af6313f6295acb"
+    },
+    {
+      "source_file": "fineweb_train_000065.bin",
+      "start_in_carry_plus_shard": 68283384,
+      "tokens": 619,
+      "document_sha256": "4dc507c0ac99794ed07e4e2001ea4642b7a30b4e175f3546378a7565d938a4f3"
+    },
+    {
+      "source_file": "fineweb_train_000066.bin",
+      "start_in_carry_plus_shard": 41134833,
+      "tokens": 890,
+      "document_sha256": "2662e310b59720b2b2b1ef74c5ed1feede9406014ef343e935c209afd1ab6093"
+    },
+    {
+      "source_file": "fineweb_train_000066.bin",
+      "start_in_carry_plus_shard": 42517529,
+      "tokens": 300,
+      "document_sha256": "e69ee189aa857c345590ea560e0f61ea9261bf10cc7f698ac096632414049d2c"
+    },
+    {
+      "source_file": "fineweb_train_000066.bin",
+      "start_in_carry_plus_shard": 59160729,
+      "tokens": 1440,
+      "document_sha256": "ac950c677cf2af0f3042cd9b4b773017098123c58248ddcb4ee8ce3105860f73"
+    },
+    {
+      "source_file": "fineweb_train_000066.bin",
+      "start_in_carry_plus_shard": 74512709,
+      "tokens": 402,
+      "document_sha256": "41e2ce30e11f7570916f7f4e0d72c29f023f2ccd553bd1699f5c2b3520973d20"
+    },
+    {
+      "source_file": "fineweb_train_000068.bin",
+      "start_in_carry_plus_shard": 32766210,
+      "tokens": 533,
+      "document_sha256": "3a164a1160a956b3b5392ca6cbd77b53b44a9d381ad6849bb1d087ee67acf4de"
+    },
+    {
+      "source_file": "fineweb_train_000069.bin",
+      "start_in_carry_plus_shard": 2242007,
+      "tokens": 254,
+      "document_sha256": "ab557dffbdf4cf345748f7a6c1d84173ee48b303c830199973d3bcd7e75337fa"
+    },
+    {
+      "source_file": "fineweb_train_000069.bin",
+      "start_in_carry_plus_shard": 72369258,
+      "tokens": 205,
+      "document_sha256": "0c103dae43bb42521b78da5a4cb5a772f103e8fc1ab83f4bc227266df09c5eea"
+    },
+    {
+      "source_file": "fineweb_train_000070.bin",
+      "start_in_carry_plus_shard": 27748229,
+      "tokens": 1507,
+      "document_sha256": "992bebdf891ce23d338bb27f6e384a3cc51622c678e243d1399522952cf5cb08"
+    },
+    {
+      "source_file": "fineweb_train_000070.bin",
+      "start_in_carry_plus_shard": 34743776,
+      "tokens": 423,
+      "document_sha256": "34812a1ce9f69ef68abbb12043b394a5fdd56594fccb19a8d0bdd8b2fbf215fe"
+    },
+    {
+      "source_file": "fineweb_train_000071.bin",
+      "start_in_carry_plus_shard": 22477178,
+      "tokens": 1067,
+      "document_sha256": "98a2e853392b093dba5f5c6ce5794f29e4d60d025e9bc8b354bf049618e345da"
+    },
+    {
+      "source_file": "fineweb_train_000072.bin",
+      "start_in_carry_plus_shard": 9089753,
+      "tokens": 268,
+      "document_sha256": "9e6951ce87f1c608ffa96cf609b01aff3c126e6b4ee508a38b39b0b964c7c8e9"
+    },
+    {
+      "source_file": "fineweb_train_000074.bin",
+      "start_in_carry_plus_shard": 8020302,
+      "tokens": 1717,
+      "document_sha256": "df238489654c0bffd81bb30aeac36bcbde81a25f2d5585dcee9c4323ffb79055"
+    },
+    {
+      "source_file": "fineweb_train_000074.bin",
+      "start_in_carry_plus_shard": 25767404,
+      "tokens": 6899,
+      "document_sha256": "590c50569f0423b4be6f2811d8da00a13f4911a8843e148f393021b16ab9aacb"
+    },
+    {
+      "source_file": "fineweb_train_000074.bin",
+      "start_in_carry_plus_shard": 33444044,
+      "tokens": 419,
+      "document_sha256": "440e87c43b4f2809838e462bb9409bbe216c34627117873425dd5955fe2a34b8"
+    },
+    {
+      "source_file": "fineweb_train_000074.bin",
+      "start_in_carry_plus_shard": 91030201,
+      "tokens": 2748,
+      "document_sha256": "648220d1475dc93a7e680592eee1adedb95e629f79059e200139c7d60a5e2238"
+    },
+    {
+      "source_file": "fineweb_train_000075.bin",
+      "start_in_carry_plus_shard": 71897196,
+      "tokens": 746,
+      "document_sha256": "43f4a113a2d511d90992fbb849f07ffd2d8c258390e0b80b5c20c007fa37bcd3"
+    },
+    {
+      "source_file": "fineweb_train_000076.bin",
+      "start_in_carry_plus_shard": 92014673,
+      "tokens": 1143,
+      "document_sha256": "5e4d85cc39b2923cae1cfa6d464c68eef314a4e7652dfcce4eeab3bb69e92911"
+    },
+    {
+      "source_file": "fineweb_train_000077.bin",
+      "start_in_carry_plus_shard": 35679955,
+      "tokens": 186,
+      "document_sha256": "42f8d8cc4822bf217f1cd4d7a772b129d7c0df22595b08cd9b4924850cb502f9"
+    },
+    {
+      "source_file": "fineweb_train_000077.bin",
+      "start_in_carry_plus_shard": 44086464,
+      "tokens": 1260,
+      "document_sha256": "ff03c4ae894432a3e9fba601b87adefe86ba965f12b7354530deaf74a3e8a81c"
+    },
+    {
+      "source_file": "fineweb_train_000077.bin",
+      "start_in_carry_plus_shard": 65825087,
+      "tokens": 341,
+      "document_sha256": "be2200b4249b8accefa11de9bed4318b7e6a49aa48ce76ebe9fb0a49bde942c9"
+    },
+    {
+      "source_file": "fineweb_train_000077.bin",
+      "start_in_carry_plus_shard": 74340621,
+      "tokens": 313,
+      "document_sha256": "b7e4fca8b6b70f835f51f7c2ccc9ae992f6e74add8c026430cbe2bf6d0b1c114"
+    },
+    {
+      "source_file": "fineweb_train_000078.bin",
+      "start_in_carry_plus_shard": 16986265,
+      "tokens": 1397,
+      "document_sha256": "7592c6a7200cc48c4ec065a2ddfdcd52b3c9fc0b74495508139fcd7e45d1fc0b"
+    },
+    {
+      "source_file": "fineweb_train_000079.bin",
+      "start_in_carry_plus_shard": 6946768,
+      "tokens": 160,
+      "document_sha256": "f0d00510696bf41775ddd02d0c57a9e06a7a8043b21b0f7653281ab99af376c7"
+    },
+    {
+      "source_file": "fineweb_train_000079.bin",
+      "start_in_carry_plus_shard": 11519691,
+      "tokens": 2246,
+      "document_sha256": "78355bb360d0a67512e279e0b733b777d1883ecc7e551e89a353ff435a0d1091"
+    },
+    {
+      "source_file": "fineweb_train_000079.bin",
+      "start_in_carry_plus_shard": 42528543,
+      "tokens": 589,
+      "document_sha256": "051a81d637ffa8d90a7d7d56e9a81c236a480e5cc1b87685ed63a83fa76c3470"
+    },
+    {
+      "source_file": "fineweb_train_000079.bin",
+      "start_in_carry_plus_shard": 69771453,
+      "tokens": 375,
+      "document_sha256": "399511bac58fcc11cf27402c0bf271c0d1dd268d8eaaba3c14bd6c77eff52188"
+    },
+    {
+      "source_file": "fineweb_train_000079.bin",
+      "start_in_carry_plus_shard": 94171810,
+      "tokens": 691,
+      "document_sha256": "0a026431bb984fbb6b313530431f61dc7b039b66666a447b42e50d2f635a91f1"
+    }
+  ],
+  "removed_document_count": 167,
+  "removed_tokens": 205970,
+  "dropped_incomplete_final_document_tokens": 1011,
+  "retained_complete_documents": 6292772,
+  "retained_training_tokens": 7999793019,
+  "clean_files": [
+    {
+      "file": "clean_sp1024/fineweb_train_000000.bin",
+      "bytes": 199994582,
+      "tokens": 99996779,
+      "sha256": "e25dd53857a669593c32cb845a3f977ba57126969172ac4c7207a48f46417875"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000001.bin",
+      "bytes": 199977598,
+      "tokens": 99988287,
+      "sha256": "fbc860b91ea076dd710a3c262b7dde30c99ba24d7b5efd32c0ba0bf8d51151cc"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000002.bin",
+      "bytes": 199986522,
+      "tokens": 99992749,
+      "sha256": "1c465378befa2e0ea0bc3f76c9d444b6ad99a8ad565d387a45c7f1c3af67b4fc"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000003.bin",
+      "bytes": 199981864,
+      "tokens": 99990420,
+      "sha256": "a933e16b9e53877f591ee15d52ad85833b17c62a163569a0e5979dbc40e02cbc"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000004.bin",
+      "bytes": 199987072,
+      "tokens": 99993024,
+      "sha256": "77f21d3e0fdb640db5c08a6ab826cca54619f91a72e89aeed6cc06d7d89ce5bc"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000005.bin",
+      "bytes": 199971540,
+      "tokens": 99985258,
+      "sha256": "4095682098840c23503d6bdbcc0bc50bb49e5b326b9fd12566bd13e7e37b6c58"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000006.bin",
+      "bytes": 200004748,
+      "tokens": 100001862,
+      "sha256": "735e187f78c38919f56a46e0b9113e9afa397a423de4140d432512603b995d20"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000007.bin",
+      "bytes": 199998958,
+      "tokens": 99998967,
+      "sha256": "e2d80003c04cdde86d82e1e919fd184ad29b1e167837f425b81683dbddcf2177"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000008.bin",
+      "bytes": 200002098,
+      "tokens": 100000537,
+      "sha256": "a7a7887d29bb240aeb5478400c476451dec830ba1d651b5465cfa091a053ee65"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000009.bin",
+      "bytes": 199997566,
+      "tokens": 99998271,
+      "sha256": "29f1a4a6306353f62baf1d71a1bad83418f9852e8323269497b68abaa883c94e"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000010.bin",
+      "bytes": 199999890,
+      "tokens": 99999433,
+      "sha256": "ae29773015bc2329832cdef9a525fecee99d118137cf1b42297f5270489a5186"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000011.bin",
+      "bytes": 199990674,
+      "tokens": 99994825,
+      "sha256": "c4feedfba1432d4c776c045fc21e312f32f7c759c4edf49baa1e0c5fb787f6ea"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000012.bin",
+      "bytes": 199992360,
+      "tokens": 99995668,
+      "sha256": "168b74fa8cb95bc7a7783cebe0e74242855a391a47e992b48c6cfbd88fe2ea52"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000013.bin",
+      "bytes": 199996296,
+      "tokens": 99997636,
+      "sha256": "c3851be17a774992f7a42b8fefc975292eb5cd3f62b45ab5a8d2612bc0c9070d"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000014.bin",
+      "bytes": 200001014,
+      "tokens": 99999995,
+      "sha256": "2d15e56543329bcf81dd69d2ffb7694e1f82b64a31bc143e5bdcf95fa962a44c"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000015.bin",
+      "bytes": 200001862,
+      "tokens": 100000419,
+      "sha256": "0f901f38d8161f87b2dfb0f8685080eddce2e20f102ef037d2119881bdff2118"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000016.bin",
+      "bytes": 199995986,
+      "tokens": 99997481,
+      "sha256": "c082fb5691ef41a852ee12ab3de59431ffeaa4ce5c6d423ffd070b35ecf72a8b"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000017.bin",
+      "bytes": 200001020,
+      "tokens": 99999998,
+      "sha256": "6da5e0be89b81440854ed2db300840759e82167c3a1c0ef5132b0c9af08d9681"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000018.bin",
+      "bytes": 199999834,
+      "tokens": 99999405,
+      "sha256": "b981b9c6b38367a154753247d47dc9b8a182af7dd3bda4d32e7fb902e385c480"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000019.bin",
+      "bytes": 199991194,
+      "tokens": 99995085,
+      "sha256": "bfa2f46459b8fc755b7e0a719998f1a757b85cf8d2f190a639afce338fe9603e"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000020.bin",
+      "bytes": 200001240,
+      "tokens": 100000108,
+      "sha256": "4d45467261b88b5350bba7a364167f13c45ee816e361d575368a17f4d337f1df"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000021.bin",
+      "bytes": 200007282,
+      "tokens": 100003129,
+      "sha256": "b82404fec9c9e543838bba72ff3921b460a2390e28414c40002197c292e93377"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000022.bin",
+      "bytes": 200000420,
+      "tokens": 99999698,
+      "sha256": "60902c00d2fb59ee3c5ad24843b61efb44f5bece1757495d91dbc786c578ce04"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000023.bin",
+      "bytes": 199998778,
+      "tokens": 99998877,
+      "sha256": "e9e8d125e741741ebb95ed6fb68c7c39714b07a26959cfec38413883f8558999"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000024.bin",
+      "bytes": 199997494,
+      "tokens": 99998235,
+      "sha256": "36beb6f46c753a6e2aacdb6de61bb8c1e0774aca0e5f47b7fad48512c5c879f6"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000025.bin",
+      "bytes": 200002348,
+      "tokens": 100000662,
+      "sha256": "56fd6cb314dcf3b91f20ab56fe38ad631419911e25e56cd0bfc2a5fc5820635a"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000026.bin",
+      "bytes": 200000770,
+      "tokens": 99999873,
+      "sha256": "0e0bcd8a00473dc6f8d5041a206690a63ca6ebb934237f52d2a21f2a5e2ad5b4"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000027.bin",
+      "bytes": 199997826,
+      "tokens": 99998401,
+      "sha256": "55f48c360a504d1e4b641f5ed37fa80198c54e5f4a22e9e8da8deed591b31b62"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000028.bin",
+      "bytes": 200001810,
+      "tokens": 100000393,
+      "sha256": "c1011022dc2fcdad54b7765f73dd61e15706c3c6afde191a9d5506dc48ac8be4"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000029.bin",
+      "bytes": 199998178,
+      "tokens": 99998577,
+      "sha256": "3bfd601f8c0d2ac7e75b6eb3f178d3b657f0730d13da5b19ac92e7ba2f76861d"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000030.bin",
+      "bytes": 199988720,
+      "tokens": 99993848,
+      "sha256": "e7f9974139e7d54568557cc0f8a698e69f55ac34c3dcfc26a3de0d474d7cd85a"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000031.bin",
+      "bytes": 199981208,
+      "tokens": 99990092,
+      "sha256": "72d3434492f00c339e26177ec61af06951b7b0fca71fc01866fb53d37ca6e345"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000032.bin",
+      "bytes": 199982914,
+      "tokens": 99990945,
+      "sha256": "353dca74fbc182fc90dc3e80c297a9eb9e9444b33cc313e509a954329c928746"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000033.bin",
+      "bytes": 199979316,
+      "tokens": 99989146,
+      "sha256": "92144966373eb016f0eddde4c6296b71653c23e1b233ec82e414f4899f6d8cc1"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000034.bin",
+      "bytes": 199981564,
+      "tokens": 99990270,
+      "sha256": "e4fde6837ec62100389072c156da0f83a155dfe64ca9ede456495a1a428febcf"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000035.bin",
+      "bytes": 199996416,
+      "tokens": 99997696,
+      "sha256": "657db78502fe8381ea611fc0bd9ea0148cf52b4470ff1a8fe3599d6182a9c612"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000036.bin",
+      "bytes": 199971960,
+      "tokens": 99985468,
+      "sha256": "2314024fe98a4c73ab9be9cad861cef04fc7a9e837e61546801bf14d6b05bb08"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000037.bin",
+      "bytes": 199990768,
+      "tokens": 99994872,
+      "sha256": "98b8ea6d9731e0e7f08fb435cc66005d81fc27529f14aaf437e1d63ee77cf543"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000038.bin",
+      "bytes": 200036484,
+      "tokens": 100017730,
+      "sha256": "514ea5856e46061e3404d363edb6e6ab19ea9978ec3d51e7b5aee195c4e1721a"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000039.bin",
+      "bytes": 199994742,
+      "tokens": 99996859,
+      "sha256": "4c99c68a4f999cd9b0e2ea3bb3f4c3315f5dcdc5419096acef0de556141bf4d7"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000040.bin",
+      "bytes": 199891932,
+      "tokens": 99945454,
+      "sha256": "e8de4cd54eaf165b2a2f43b3d576e870961e6419a728e2a9301c606d4981ec3f"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000041.bin",
+      "bytes": 200110274,
+      "tokens": 100054625,
+      "sha256": "1e5c2d4da2723a9d4e2cab348c14b39abd178b5c6a5f6fb3b6c0e2b61bf92bd6"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000042.bin",
+      "bytes": 199989508,
+      "tokens": 99994242,
+      "sha256": "19796e437a09dc74a57ad5fa928bc654ad9261549666ae2dd3ed064c792d747e"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000043.bin",
+      "bytes": 200001806,
+      "tokens": 100000391,
+      "sha256": "eea48a84db63e3e9d920f20ba57639d6d62b3f8d818c0107aca1841b7a33267c"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000044.bin",
+      "bytes": 199999704,
+      "tokens": 99999340,
+      "sha256": "3c56cff7bf85b6322687be90e2dd2460045df7c37a37d936482a359d71dc4869"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000045.bin",
+      "bytes": 200004214,
+      "tokens": 100001595,
+      "sha256": "c40f056fa147ec43ee3d5285cdf437b39acd36a70816e049d20ba266310e10a9"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000046.bin",
+      "bytes": 200000018,
+      "tokens": 99999497,
+      "sha256": "d864e4a6d7e0dc6e7cd7ec2efa4fa5763f5cd9469e2676243decba079ec50198"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000047.bin",
+      "bytes": 199787854,
+      "tokens": 99893415,
+      "sha256": "953bbb26c1812429ed2eee51a764b8adf3e5a2a96ba9de7745ec7fbb2eb0dc20"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000048.bin",
+      "bytes": 200214634,
+      "tokens": 100106805,
+      "sha256": "4ac221e6ff4883a08fc2a1e9ba67d173c941340edfbf52fa31cdcfab43d13c75"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000049.bin",
+      "bytes": 199999950,
+      "tokens": 99999463,
+      "sha256": "ffc6ce0e3125158618d6bc46a181b0009bc1f82f3951af6e1691ba0a559b7133"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000050.bin",
+      "bytes": 199908144,
+      "tokens": 99953560,
+      "sha256": "d05b415514356ce88160cfd3c4d3f65e1a049ae9fb66fa7aabda22807455c41a"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000051.bin",
+      "bytes": 200089986,
+      "tokens": 100044481,
+      "sha256": "d9e338aaa44e5ced36aeba28afc6656924d07448dc81bc7dbd896b6eec4950f3"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000052.bin",
+      "bytes": 199989294,
+      "tokens": 99994135,
+      "sha256": "55c9b393055787380361622977f6c39ab369b955b2725b9fddf6928e7ab81695"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000053.bin",
+      "bytes": 199969874,
+      "tokens": 99984425,
+      "sha256": "4d1ea396cfd2e7e2eaba23299c291170450b75b879db740a5eb7a7567e0f4210"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000054.bin",
+      "bytes": 200019374,
+      "tokens": 100009175,
+      "sha256": "fcd19d152b0306da158bb16d03e83c56a93d3c0404ad4f1c8300072ecb5f4a15"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000055.bin",
+      "bytes": 199952818,
+      "tokens": 99975897,
+      "sha256": "a158fb6a03b28b8c793f6a5716b5df50754721943baa7fe4cc4d4bf90c246fb9"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000056.bin",
+      "bytes": 200052268,
+      "tokens": 100025622,
+      "sha256": "92f36675ef8c2bb0d1b9382ecabb3dd9f0e120fd6be601eae5a11aaf10bbc5a7"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000057.bin",
+      "bytes": 199973120,
+      "tokens": 99986048,
+      "sha256": "d6f9f1200ee9c2194cdc8532495bb6e6ffc0155ca078b0ad274e1793bce4b71a"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000058.bin",
+      "bytes": 200028538,
+      "tokens": 100013757,
+      "sha256": "be43ce2fb0e5aee9ab9e05d99b25f69aa8d645e02eae576b61aae78b128b5766"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000059.bin",
+      "bytes": 199993568,
+      "tokens": 99996272,
+      "sha256": "f20ccd799bc3ca2818e0dcd9176151c782949b65b9d9e15f0454c92868d55faa"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000060.bin",
+      "bytes": 199994810,
+      "tokens": 99996893,
+      "sha256": "a6bd1e23db2a494b6dfeff8e6234539dbf64ddd99f916bf38c8925f88cf36e69"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000061.bin",
+      "bytes": 200005938,
+      "tokens": 100002457,
+      "sha256": "af5a093065ad1bcaa249651f18ce909787bf4b64216a02a25c0af77cbc1507a3"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000062.bin",
+      "bytes": 199986408,
+      "tokens": 99992692,
+      "sha256": "8ab8455ba8e8aac6e4f31f4473c12d4ccf095c27125269bca475eab726bed23e"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000063.bin",
+      "bytes": 199912760,
+      "tokens": 99955868,
+      "sha256": "7e7eeec340e878d01a228dbc1b2b2378c64c61bd2184990a6ff055aa8b206b7e"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000064.bin",
+      "bytes": 200059162,
+      "tokens": 100029069,
+      "sha256": "38154ed11d302e4a9451a4dcfd1c6c68c3e65aaecd86fe0e07925b547306b3b7"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000065.bin",
+      "bytes": 199988380,
+      "tokens": 99993678,
+      "sha256": "b7e2f44853b256edbf0b100f25963a1d281307b9c051b9c87fc8338f319b8a35"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000066.bin",
+      "bytes": 200000346,
+      "tokens": 99999661,
+      "sha256": "cc6e8c58b190c34e11fe4ba6a9aefc47831d50414257886018757c6659036ffe"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000067.bin",
+      "bytes": 199999696,
+      "tokens": 99999336,
+      "sha256": "a9d1750f207eb262db6aec363cc9c137d1b9723044c9ad01a32d75522939581a"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000068.bin",
+      "bytes": 200000958,
+      "tokens": 99999967,
+      "sha256": "db2fe239cd2b1f94a18288b7fdef7eda0a65797d3017cfe967e34d44b480c6be"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000069.bin",
+      "bytes": 199992374,
+      "tokens": 99995675,
+      "sha256": "4bde1bbaad6aa849d8dbee49f2124c24b30d81be7e0139a5fcc7d80be4e25248"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000070.bin",
+      "bytes": 200002786,
+      "tokens": 100000881,
+      "sha256": "4dd606b970bac40ac9ff421bacc3bbc88de683f826cf28129472e905c70a5fdf"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000071.bin",
+      "bytes": 199969806,
+      "tokens": 99984391,
+      "sha256": "45a3f542f24c391456ce4974f6f9c818358255d8cda10b8514638e6b1179a08f"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000072.bin",
+      "bytes": 200029684,
+      "tokens": 100014330,
+      "sha256": "76cfb62ea02105017130a1b183c6aadec7a7878487f14a7c95b39865e402f904"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000073.bin",
+      "bytes": 199998764,
+      "tokens": 99998870,
+      "sha256": "c54c93d2b52df6c5070f82291bf5692f5d265e85cc2eb8bec29d38017a9406f6"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000074.bin",
+      "bytes": 199980546,
+      "tokens": 99989761,
+      "sha256": "a2f807ae58bcebc5615a96cc2676aad1935d586741664ffb1e48d20de7ceff84"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000075.bin",
+      "bytes": 199998262,
+      "tokens": 99998619,
+      "sha256": "517b70674d8abee71ad2a776c01e30efcaf082598ffb7759364902c3c9f8143a"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000076.bin",
+      "bytes": 200000774,
+      "tokens": 99999875,
+      "sha256": "6935f982270883026ff165edc7f5ce95e200e7ebf8683d9571c3861a6f8d975d"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000077.bin",
+      "bytes": 199997174,
+      "tokens": 99998075,
+      "sha256": "fd81dcbfe624ac822f994b670c5c59ad7698f6a92a72fd1681649d63783cb924"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000078.bin",
+      "bytes": 199987976,
+      "tokens": 99993476,
+      "sha256": "50776bc4bd09a04286ce6babec3c61744d49f56de641fc8a1a05700af3ba3b90"
+    },
+    {
+      "file": "clean_sp1024/fineweb_train_000079.bin",
+      "bytes": 200001560,
+      "tokens": 100000268,
+      "sha256": "489279bffb5c05439170f603d15904881c8372e521a6b7847556dacb911ba010"
+    }
+  ],
+  "postwrite_exact_document_overlaps": 0,
+  "data_change_reason": "Exclude exact held-out document token hashes; validation remains untouched. Not an exact official baseline reproduction.",
+  "correctness": {
+    "causality_loss_abs_diff": 0.0,
+    "finite_gradients": true,
+    "quantization_synthetic_mse": 5.487112866831012e-05,
+    "quantization_uses_validation": false,
+    "token_byte_decode_checks": [
+      {
+        "doc_index": 17763,
+        "lut_bytes": 3138,
+        "decoded_bytes": 3138
+      },
+      {
+        "doc_index": 24508,
+        "lut_bytes": 953,
+        "decoded_bytes": 953
+      },
+      {
+        "doc_index": 32742,
+        "lut_bytes": 404,
+        "decoded_bytes": 404
+      },
+      {
+        "doc_index": 41122,
+        "lut_bytes": 439,
+        "decoded_bytes": 439
+      },
+      {
+        "doc_index": 47407,
+        "lut_bytes": 2136,
+        "decoded_bytes": 2136
+      },
+      {
+        "doc_index": 4070,
+        "lut_bytes": 3413,
+        "decoded_bytes": 3413
+      },
+      {
+        "doc_index": 6476,
+        "lut_bytes": 2430,
+        "decoded_bytes": 2430
+      },
+      {
+        "doc_index": 44329,
+        "lut_bytes": 1531,
+        "decoded_bytes": 1531
+      },
+      {
+        "doc_index": 45736,
+        "lut_bytes": 6578,
+        "decoded_bytes": 6578
+      },
+      {
+        "doc_index": 1373,
+        "lut_bytes": 1931,
+        "decoded_bytes": 1931
+      },
+      {
+        "doc_index": 30130,
+        "lut_bytes": 837,
+        "decoded_bytes": 837
+      },
+      {
+        "doc_index": 19824,
+        "lut_bytes": 2621,
+        "decoded_bytes": 2621
+      },
+      {
+        "doc_index": 43601,
+        "lut_bytes": 684,
+        "decoded_bytes": 684
+      },
+      {
+        "doc_index": 3791,
+        "lut_bytes": 1603,
+        "decoded_bytes": 1603
+      },
+      {
+        "doc_index": 49248,
+        "lut_bytes": 2177,
+        "decoded_bytes": 2177
+      },
+      {
+        "doc_index": 2495,
+        "lut_bytes": 659,
+        "decoded_bytes": 659
+      },
+      {
+        "doc_index": 14560,
+        "lut_bytes": 13795,
+        "decoded_bytes": 13795
+      },
+      {
+        "doc_index": 44290,
+        "lut_bytes": 1387,
+        "decoded_bytes": 1387
+      },
+      {
+        "doc_index": 12392,
+        "lut_bytes": 913,
+        "decoded_bytes": 913
+      },
+      {
+        "doc_index": 15263,
+        "lut_bytes": 1516,
+        "decoded_bytes": 1516
+      },
+      {
+        "doc_index": 24491,
+        "lut_bytes": 1083,
+        "decoded_bytes": 1083
+      },
+      {
+        "doc_index": 1062,
+        "lut_bytes": 15754,
+        "decoded_bytes": 15754
+      },
+      {
+        "doc_index": 33438,
+        "lut_bytes": 6833,
+        "decoded_bytes": 6833
+      },
+      {
+        "doc_index": 27371,
+        "lut_bytes": 536,
+        "decoded_bytes": 536
+      },
+      {
+        "doc_index": 30775,
+        "lut_bytes": 1150,
+        "decoded_bytes": 1150
+      },
+      {
+        "doc_index": 45603,
+        "lut_bytes": 6179,
+        "decoded_bytes": 6179
+      },
+      {
+        "doc_index": 36769,
+        "lut_bytes": 1286,
+        "decoded_bytes": 1286
+      },
+      {
+        "doc_index": 49376,
+        "lut_bytes": 3420,
+        "decoded_bytes": 3420
+      },
+      {
+        "doc_index": 49117,
+        "lut_bytes": 625,
+        "decoded_bytes": 625
+      },
+      {
+        "doc_index": 49255,
+        "lut_bytes": 542,
+        "decoded_bytes": 542
+      },
+      {
+        "doc_index": 28202,
+        "lut_bytes": 1071,
+        "decoded_bytes": 1071
+      },
+      {
+        "doc_index": 32983,
+        "lut_bytes": 1485,
+        "decoded_bytes": 1485
+      },
+      {
+        "doc_index": 34044,
+        "lut_bytes": 713,
+        "decoded_bytes": 713
+      },
+      {
+        "doc_index": 8370,
+        "lut_bytes": 7100,
+        "decoded_bytes": 7100
+      },
+      {
+        "doc_index": 37430,
+        "lut_bytes": 1647,
+        "decoded_bytes": 1647
+      },
+      {
+        "doc_index": 1966,
+        "lut_bytes": 493,
+        "decoded_bytes": 493
+      },
+      {
+        "doc_index": 38394,
+        "lut_bytes": 11100,
+        "decoded_bytes": 11100
+      },
+      {
+        "doc_index": 30907,
+        "lut_bytes": 1368,
+        "decoded_bytes": 1368
+      },
+      {
+        "doc_index": 3815,
+        "lut_bytes": 2673,
+        "decoded_bytes": 2673
+      },
+      {
+        "doc_index": 3369,
+        "lut_bytes": 362,
+        "decoded_bytes": 362
+      },
+      {
+        "doc_index": 14179,
+        "lut_bytes": 368,
+        "decoded_bytes": 368
+      },
+      {
+        "doc_index": 15525,
+        "lut_bytes": 2261,
+        "decoded_bytes": 2261
+      },
+      {
+        "doc_index": 48227,
+        "lut_bytes": 381,
+        "decoded_bytes": 381
+      },
+      {
+        "doc_index": 39431,
+        "lut_bytes": 1228,
+        "decoded_bytes": 1228
+      },
+      {
+        "doc_index": 1035,
+        "lut_bytes": 2527,
+        "decoded_bytes": 2527
+      },
+      {
+        "doc_index": 1747,
+        "lut_bytes": 655,
+        "decoded_bytes": 655
+      },
+      {
+        "doc_index": 18300,
+        "lut_bytes": 3036,
+        "decoded_bytes": 3036
+      },
+      {
+        "doc_index": 8318,
+        "lut_bytes": 875,
+        "decoded_bytes": 875
+      },
+      {
+        "doc_index": 27446,
+        "lut_bytes": 4610,
+        "decoded_bytes": 4610
+      },
+      {
+        "doc_index": 46524,
+        "lut_bytes": 593,
+        "decoded_bytes": 593
+      },
+      {
+        "doc_index": 11668,
+        "lut_bytes": 1946,
+        "decoded_bytes": 1946
+      },
+      {
+        "doc_index": 38892,
+        "lut_bytes": 4089,
+        "decoded_bytes": 4089
+      },
+      {
+        "doc_index": 1198,
+        "lut_bytes": 749,
+        "decoded_bytes": 749
+      },
+      {
+        "doc_index": 47415,
+        "lut_bytes": 25434,
+        "decoded_bytes": 25434
+      },
+      {
+        "doc_index": 8330,
+        "lut_bytes": 5453,
+        "decoded_bytes": 5453
+      },
+      {
+        "doc_index": 36403,
+        "lut_bytes": 1498,
+        "decoded_bytes": 1498
+      },
+      {
+        "doc_index": 39010,
+        "lut_bytes": 4097,
+        "decoded_bytes": 4097
+      },
+      {
+        "doc_index": 40108,
+        "lut_bytes": 534,
+        "decoded_bytes": 534
+      },
+      {
+        "doc_index": 14074,
+        "lut_bytes": 1994,
+        "decoded_bytes": 1994
+      },
+      {
+        "doc_index": 43026,
+        "lut_bytes": 932,
+        "decoded_bytes": 932
+      },
+      {
+        "doc_index": 35319,
+        "lut_bytes": 3748,
+        "decoded_bytes": 3748
+      },
+      {
+        "doc_index": 38324,
+        "lut_bytes": 2510,
+        "decoded_bytes": 2510
+      },
+      {
+        "doc_index": 24706,
+        "lut_bytes": 674,
+        "decoded_bytes": 674
+      },
+      {
+        "doc_index": 14911,
+        "lut_bytes": 1709,
+        "decoded_bytes": 1709
+      },
+      {
+        "doc_index": 35422,
+        "lut_bytes": 2035,
+        "decoded_bytes": 2035
+      },
+      {
+        "doc_index": 45326,
+        "lut_bytes": 723,
+        "decoded_bytes": 723
+      },
+      {
+        "doc_index": 32243,
+        "lut_bytes": 2668,
+        "decoded_bytes": 2668
+      },
+      {
+        "doc_index": 13803,
+        "lut_bytes": 2228,
+        "decoded_bytes": 2228
+      },
+      {
+        "doc_index": 28692,
+        "lut_bytes": 585,
+        "decoded_bytes": 585
+      },
+      {
+        "doc_index": 7139,
+        "lut_bytes": 316,
+        "decoded_bytes": 316
+      },
+      {
+        "doc_index": 40646,
+        "lut_bytes": 1504,
+        "decoded_bytes": 1504
+      },
+      {
+        "doc_index": 19760,
+        "lut_bytes": 589,
+        "decoded_bytes": 589
+      },
+      {
+        "doc_index": 42269,
+        "lut_bytes": 2290,
+        "decoded_bytes": 2290
+      },
+      {
+        "doc_index": 34657,
+        "lut_bytes": 955,
+        "decoded_bytes": 955
+      },
+      {
+        "doc_index": 23530,
+        "lut_bytes": 5928,
+        "decoded_bytes": 5928
+      },
+      {
+        "doc_index": 35754,
+        "lut_bytes": 4247,
+        "decoded_bytes": 4247
+      },
+      {
+        "doc_index": 42752,
+        "lut_bytes": 13611,
+        "decoded_bytes": 13611
+      },
+      {
+        "doc_index": 16820,
+        "lut_bytes": 2902,
+        "decoded_bytes": 2902
+      },
+      {
+        "doc_index": 24544,
+        "lut_bytes": 2751,
+        "decoded_bytes": 2751
+      },
+      {
+        "doc_index": 11517,
+        "lut_bytes": 3289,
+        "decoded_bytes": 3289
+      },
+      {
+        "doc_index": 10594,
+        "lut_bytes": 382,
+        "decoded_bytes": 382
+      },
+      {
+        "doc_index": 29649,
+        "lut_bytes": 3623,
+        "decoded_bytes": 3623
+      },
+      {
+        "doc_index": 34495,
+        "lut_bytes": 2349,
+        "decoded_bytes": 2349
+      },
+      {
+        "doc_index": 28011,
+        "lut_bytes": 347,
+        "decoded_bytes": 347
+      },
+      {
+        "doc_index": 26734,
+        "lut_bytes": 3802,
+        "decoded_bytes": 3802
+      },
+      {
+        "doc_index": 39496,
+        "lut_bytes": 799,
+        "decoded_bytes": 799
+      },
+      {
+        "doc_index": 25028,
+        "lut_bytes": 7156,
+        "decoded_bytes": 7156
+      },
+      {
+        "doc_index": 32322,
+        "lut_bytes": 2301,
+        "decoded_bytes": 2301
+      },
+      {
+        "doc_index": 37379,
+        "lut_bytes": 4889,
+        "decoded_bytes": 4889
+      },
+      {
+        "doc_index": 9455,
+        "lut_bytes": 4323,
+        "decoded_bytes": 4323
+      },
+      {
+        "doc_index": 33185,
+        "lut_bytes": 1122,
+        "decoded_bytes": 1122
+      },
+      {
+        "doc_index": 37844,
+        "lut_bytes": 2578,
+        "decoded_bytes": 2578
+      },
+      {
+        "doc_index": 37902,
+        "lut_bytes": 703,
+        "decoded_bytes": 703
+      },
+      {
+        "doc_index": 34325,
+        "lut_bytes": 680,
+        "decoded_bytes": 680
+      },
+      {
+        "doc_index": 17063,
+        "lut_bytes": 298,
+        "decoded_bytes": 298
+      },
+      {
+        "doc_index": 13732,
+        "lut_bytes": 4461,
+        "decoded_bytes": 4461
+      },
+      {
+        "doc_index": 15627,
+        "lut_bytes": 8236,
+        "decoded_bytes": 8236
+      },
+      {
+        "doc_index": 8508,
+        "lut_bytes": 838,
+        "decoded_bytes": 838
+      },
+      {
+        "doc_index": 39346,
+        "lut_bytes": 8509,
+        "decoded_bytes": 8509
+      },
+      {
+        "doc_index": 11604,
+        "lut_bytes": 1489,
+        "decoded_bytes": 1489
+      }
+    ],
+    "validation_used_only_for_metric_correctness": true
+  }
+}

@@ -33,7 +33,7 @@ def evaluate(job_id):
  assert not list(root.glob('*train*'))
  environment={'gpu_names':[torch.cuda.get_device_name(i) for i in range(8)],'nvidia_smi':subprocess.check_output(['nvidia-smi'],text=True),'topology':subprocess.check_output(['nvidia-smi','topo','-m'],text=True)}
  env=dict(os.environ,NCCL_IB_DISABLE='1',OMP_NUM_THREADS='1',TORCHINDUCTOR_COMPILE_THREADS='1',HF_HUB_OFFLINE='1')
- command=['torchrun','--standalone','--nproc_per_node=8','/work/evaluate.py','--directory',str(root)]
+ command=['torchrun','--standalone','--nproc_per_node=8','/work/train_gpt.py','--evaluate','--directory',str(root)]
  start=time.perf_counter()
  with (root/'eval.log').open('w') as f:
   p=subprocess.Popen(command,cwd='/work',env=env,stdout=f,stderr=subprocess.STDOUT)
@@ -43,7 +43,7 @@ def evaluate(job_id):
  assert p.returncode==0,(root/'eval.log').read_text()[-4000:]
  d=json.loads((root/'evaluation.json').read_text());d['subprocess_wall_seconds']=time.perf_counter()-start;d['environment']=environment
  d['training_script_bytes']=pathlib.Path('/work/train_gpt.py').stat().st_size
- d['evaluation_code_bytes']=sum(pathlib.Path('/work',f).stat().st_size for f in ['evaluate.py','eval_windows.py'])
+ d['evaluation_code_bytes']=0  # All required evaluator code is bundled in train_gpt.py
  d['model_bytes']=(root/'final_model.int8.ptz').stat().st_size
  d['configuration_bytes']=sum((root/f).stat().st_size for f in ['manifest.json','config.json'])
  d['artifact_bytes']=d['model_bytes']+d['training_script_bytes']+d['evaluation_code_bytes']+d['configuration_bytes']

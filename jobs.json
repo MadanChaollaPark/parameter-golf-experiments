@@ -23,5 +23,17 @@
     "error": "AssertionError: Canonical downloaded prefix contains full-document train/val overlap; do not train until reviewed",
     "elapsed_app_seconds": 562.5138943230268,
     "finished_utc": "2026-10-24T02:23:20.158764+00:00"
+  },
+  {
+    "job": "clean-data",
+    "kind": "clean",
+    "config": {},
+    "code_revision": "98c85791c47d8dddd68060bed9e18b317624bf25",
+    "started_utc": "2026-10-24T02:25:01.102242+00:00",
+    "state": "completed",
+    "app_id": "ap-OQk0CYqO1SxeZPzmNz1cR1",
+    "call_id": "fc-01M5NVKQ5NKWHHK7HQA6S1YEER",
+    "elapsed_app_seconds": 265.40544859995134,
+    "finished_utc": "2026-10-24T02:29:26.507915+00:00"
   }
 ]
