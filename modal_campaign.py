@@ -15,6 +15,7 @@ image=(modal.Image.from_registry('pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime'
  .add_local_file('scripts/correctness_checks.py','/work/correctness_checks.py')
  .add_local_file('scripts/train_remote.py','/work/train_remote.py')
  .add_local_file('submission/train_gpt.py','/work/train_gpt.py')
+ .add_local_file('submission/final_train_gpt.py','/work/final_train_gpt.py')
  .add_local_file('evaluate.py','/work/evaluate.py')
  .add_local_file('eval_windows.py','/work/eval_windows.py')
  .add_local_file('scripts/evaluation_remote.py','/work/evaluation_remote.py')
@@ -28,8 +29,18 @@ def prepare():
  from correctness_checks import check
  result['correctness']=check('/pg/data');volume.commit();return result
 
+def claim_once(vol,root,kind,job_id):
+ # Modal can restart containers after infrastructure failures even with retries=0.
+ # Persist the claim BEFORE research work; a restarted invocation must fail closed.
+ import datetime,json,pathlib
+ directory=pathlib.Path(root)/'execution_claims';directory.mkdir(exist_ok=True)
+ with (directory/(kind+'-'+job_id+'.json')).open('x') as f:
+  json.dump({'kind':kind,'job_id':job_id,'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'automatic_reexecution_forbidden':True},f)
+ vol.commit()
+
 @app.function(image=image,volumes={'/pg':volume},gpu='H100!:8',cpu=(32,32),memory=(65536,65536),timeout=800,startup_timeout=120,retries=0,max_containers=1,scaledown_window=2)
 def train(job_id,config):
+ claim_once(volume,'/pg','train',job_id)
  import sys
  sys.path.insert(0,'/work')
  from train_remote import train
@@ -45,8 +56,9 @@ def stage(job_id):
  sys.path.insert(0,'/work')
  from evaluation_remote import stage
  result=stage(job_id);evaluation_volume.commit();return result
-@app.function(image=image,volumes={'/evaluation':evaluation_volume},gpu='H100!:8',cpu=(32,32),memory=(65536,65536),timeout=400,startup_timeout=120,retries=0,max_containers=1,scaledown_window=2,block_network=True)
+@app.function(image=image,volumes={'/evaluation':evaluation_volume},gpu='H100!:8',cpu=(32,32),memory=(65536,65536),timeout=500,startup_timeout=120,retries=0,max_containers=1,scaledown_window=2,block_network=True)
 def evaluate(job_id):
+ claim_once(evaluation_volume,'/evaluation','evaluate',job_id)
  import sys
  sys.path.insert(0,'/work')
  from evaluation_remote import evaluate

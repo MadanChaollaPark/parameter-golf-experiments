@@ -19,7 +19,7 @@ start=time.monotonic()
 guard=subprocess.Popen([sys.executable,'scripts/job_guard.py',a.job,str(a.limit)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,start_new_session=True)
 try:
  with modal.enable_output(),mc.app.run():
-  job['app_id']=mc.app.app_id;job['state']='running';jobs_path.write_text(json.dumps(jobs,indent=2)+'\n');print('APP_ID',job['app_id'],flush=True)
+  job['app_id']=mc.app.app_id;job['state']='running';jobs_path.write_text(json.dumps(jobs,indent=2)+'\n');print('APP_ID',job['app_id'],flush=True);update(phase='running',progress=a.job+' running',next_step='Review completion before any further reservation')
   fn=getattr(mc,a.kind);call=fn.spawn(**job['config']);job['call_id']=call.object_id;jobs_path.write_text(json.dumps(jobs,indent=2)+'\n')
   while True:
    if (CONTROL/'STOP').exists() or (CONTROL/'STOP_JOBS').exists() or time.monotonic()-start>a.limit:

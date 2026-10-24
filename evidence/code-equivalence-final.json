@@ -1,0 +1,31 @@
+{
+  "original_model_optimizer_quantizer_and_baseline_evaluator_AST_identical": true,
+  "compared_definitions": [
+    "Block",
+    "CastedLinear",
+    "CausalSelfAttention",
+    "DistributedTokenLoader",
+    "GPT",
+    "Hyperparameters",
+    "MLP",
+    "Muon",
+    "RMSNorm",
+    "Rotary",
+    "TokenStream",
+    "apply_rotary_emb",
+    "build_sentencepiece_luts",
+    "dequantize_state_dict_int8",
+    "eval_val",
+    "keep_float_tensor",
+    "load_data_shard",
+    "load_validation_tokens",
+    "quantize_float_tensor",
+    "quantize_state_dict_int8",
+    "restore_low_dim_params_to_fp32",
+    "tensor_nbytes",
+    "zeropower_via_newtonschulz5"
+  ],
+  "bundled_source_sha256": "a9f05de2296f313cf7daacb4366a7067eb494fda3116030fcd7ca91b365be42e",
+  "bundled_source_bytes": 56359,
+  "change": "Rank0-only identical CPU export; prespecified longer-context2048/stride128 frozen comparison added. Optional EXPORT_BEFORE_SCORING=1 skips unquantized held-out diagnostic after final optimizer step; export and reconstruction precede all held-out scoring. Extra timer begins before Python imports. Same compressed roundtrip scorer."
+}

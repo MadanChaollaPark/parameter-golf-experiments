@@ -31,14 +31,16 @@ python scripts/reproduce.py --config configs/candidate-42-6k.json --data ./data 
 Seeds, fixed step count, schedules and all intentional overrides are in `configs/`. Default model/optimizer parameters are in the pinned `train_gpt.py`. All required model/training/evaluation code is bundled into `submission/train_gpt.py`, which is the executed and counted script. `vendor/train_gpt.py` is the unmodified upstream source; `scripts/instrument_baseline.py` reproduces the timing-only patch; `python scripts/build_artifact.py` deterministically bundles the frozen evaluator. Full code revision and actual source SHA256 are recorded per job. The source logs itself in the run log. `final_model.int8.ptz` is the compressed artifact; raw `final_model.pt` is diagnostic and not the evaluation artifact.
 
 ## Frozen offline evaluation
+For final-phase jobs whose config has EXPORT_BEFORE_SCORING=1, use `submission/final_train_gpt.py`. Rebuild it with `python scripts/build_final_artifact.py`; this retains the identical training/quantizer/scorer and exports before held-out scoring, with redundant CPU export restricted to rank0. The recorded launcher-to-export observation includes up to10 seconds polling delay and excludes only separately timed data staging.
+
 The final published checkpoint directory will include `config.json` and `manifest.json`. Add only the pinned canonical validation shard and tokenizer to that directory; no training shards. Run:
 
 ```bash
 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 TORCHINDUCTOR_COMPILE_THREADS=1 NCCL_IB_DISABLE=1 \
-  torchrun --standalone --nproc_per_node=8 submission/train_gpt.py --evaluate --directory artifacts/BEST_CHECKPOINT
+  torchrun --standalone --nproc_per_node=8 submission/final_train_gpt.py --evaluate --directory artifacts/BEST_CHECKPOINT
 ```
 
-The evaluator loads weights from disk in a fresh process, checks their hash, disables gradients, compares the original baseline prefix score, and then scores the full identical target set with non-overlapping and stride64 windows. It verifies frozen state hashes, equal target and byte counts, and writes `evaluation.json`. `python eval_windows.py` exercises edge cases and proves exact coverage over the full target count. Causal attention is inherited from the baseline and separately tested using synthetic future-token perturbations.
+The evaluator loads weights from disk in a fresh process, checks their hash, disables gradients, compares the original baseline prefix score, and then scores the full identical target set with non-overlapping and stride64 windows. The final-phase source also includes the prespecified context2048/stride128 policy. It verifies frozen state hashes after each comparison, equal target and byte counts, and writes `evaluation.json`. `python eval_windows.py` exercises edge cases and proves exact coverage over the full target count. Causal attention is inherited from the baseline and separately tested using synthetic future-token perturbations.
 
 Timing includes compilation and startup within the evaluator subprocess. Modal final validation also blocks external networking and mounts a separate volume containing only evaluation inputs. A full-coverage result remains an independent measurement; it is not an official leaderboard result. See the report for training timing compliance and all limitations.
 

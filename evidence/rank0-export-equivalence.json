@@ -1,0 +1,7 @@
+{
+  "rank0_export_statements_AST_identical": true,
+  "statement_count": 6,
+  "collectives_in_skipped_peer_block": false,
+  "write_and_reload_barrier_unchanged": true,
+  "model_optimizer_quantizer_unchanged": true
+}

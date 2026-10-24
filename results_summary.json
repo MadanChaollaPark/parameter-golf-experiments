@@ -2,5 +2,15 @@
   "pairs": [],
   "replicated_directional_improvement": false,
   "decision": "No completed matched pair yet",
-  "scored_runs": {}
+  "scored_runs": {
+    "control-42-6k": {
+      "bpb": 1.24724648,
+      "model_bytes": 15804344,
+      "total_counted_training_artifact_bytes": 15859511,
+      "completed_requested_steps": true,
+      "main_to_export_seconds": 621.917041,
+      "subprocess_wall_seconds": 640.4138648859999,
+      "staging_seconds": 113.238168714
+    }
+  }
 }

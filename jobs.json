@@ -149,5 +149,27 @@
     "finished_utc": "2026-10-24T03:01:30.300880+00:00",
     "original_local_state": "failed",
     "recovery": "Persisted remote result.json retrieved via volume read; training completed and committed; no GPU rerun. Original local TorchVersion deserialization error retained."
+  },
+  {
+    "job": "candidate-42-6k",
+    "kind": "train",
+    "config": {
+      "job_id": "candidate-42-6k",
+      "config": {
+        "SEED": "42",
+        "QK_GAIN_INIT": "5.0",
+        "ITERATIONS": "6000",
+        "MAX_WALLCLOCK_SECONDS": "0",
+        "WARMDOWN_ITERS": "1200",
+        "VAL_LOSS_EVERY": "0",
+        "TRAIN_LOG_EVERY": "200",
+        "WARMUP_STEPS": "20"
+      }
+    },
+    "code_revision": "b5be6d9e198b047f4e8450226d392ad666fe99ad",
+    "started_utc": "2026-10-24T03:02:10.932265+00:00",
+    "state": "running",
+    "app_id": "ap-Q06FRZ5Ny2ggdm1tsP2uhs",
+    "call_id": "fc-01M5NXQQD85KZHYPTTZBYJJ7D6"
   }
 ]

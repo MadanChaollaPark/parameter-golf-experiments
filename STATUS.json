@@ -1,18 +1,19 @@
 {
-  "phase": "failed",
-  "progress": "control-42-6k: failed",
+  "phase": "matched-candidate-6k",
+  "progress": "Candidate passed4000/6000 steps; source/data/config matched to control except QK initial gain. Final-phase timing and H2/H3 policies frozen before its validation result.",
   "completed_job_ids": [
     "ap-OQk0CYqO1SxeZPzmNz1cR1",
-    "ap-vNj7TBP3Coeec0DtGOljVC"
+    "ap-vNj7TBP3Coeec0DtGOljVC",
+    "ap-djeI9mKKXN7CG4qAYzLAoZ"
   ],
-  "reserved_usd": 41.0,
+  "reserved_usd": 50.0,
   "protected_final_usd": 20.0,
-  "best_score": null,
-  "evidence_tier": "none",
-  "next_step": "Review results and correctness before reserving another job",
-  "updated_utc": "2026-10-24T03:01:30.301942+00:00",
+  "best_score": 1.24724648,
+  "evidence_tier": "completed fixed-step pilot; baseline target coverage; conservative standard timing unverified",
+  "next_step": "Read completed matched result, then reserve the appropriate final verification/replication",
+  "updated_utc": "2026-10-24T03:09:50.270402+00:00",
   "watchdog_service": "parameter-golf-watchdog.service",
   "watchdog_pid": 872606,
-  "uncommitted_usd": 39.0,
+  "uncommitted_usd": 30.0,
   "cost_basis": "Conservative nonrefunded reservations at full list price, not provider invoice"
 }

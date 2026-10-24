@@ -34,16 +34,19 @@ def evaluate(job_id):
  environment={'gpu_names':[torch.cuda.get_device_name(i) for i in range(8)],'nvidia_smi':subprocess.check_output(['nvidia-smi'],text=True),'topology':subprocess.check_output(['nvidia-smi','topo','-p2p','n'],text=True)}
  assert environment['topology'].count('\tOK')==56,'Expected complete NVLink peer connectivity'
  env=dict(os.environ,NCCL_IB_DISABLE='1',OMP_NUM_THREADS='1',TORCHINDUCTOR_COMPILE_THREADS='1',HF_HUB_OFFLINE='1')
- command=['torchrun','--standalone','--nproc_per_node=8','/work/train_gpt.py','--evaluate','--directory',str(root)]
+ config=json.loads((root/'config.json').read_text())
+ source=pathlib.Path('/work/final_train_gpt.py' if config.get('EXPORT_BEFORE_SCORING')=='1' else '/work/train_gpt.py')
+ command=['torchrun','--standalone','--nproc_per_node=8',str(source),'--evaluate','--directory',str(root)]
  start=time.perf_counter()
  with (root/'eval.log').open('w') as f:
   p=subprocess.Popen(command,cwd='/work',env=env,stdout=f,stderr=subprocess.STDOUT)
   while p.poll() is None:
    time.sleep(5);print((root/'eval.log').read_text()[-1500:],flush=True)
-   if time.perf_counter()-start>370:p.kill();p.wait();raise TimeoutError('Offline evaluation 370s limit')
+   if time.perf_counter()-start>470:p.kill();p.wait();raise TimeoutError('Offline evaluation 470s limit')
  assert p.returncode==0,(root/'eval.log').read_text()[-4000:]
  d=json.loads((root/'evaluation.json').read_text());d['subprocess_wall_seconds']=time.perf_counter()-start;d['environment']=environment
- d['training_script_bytes']=pathlib.Path('/work/train_gpt.py').stat().st_size
+ d['training_script_bytes']=source.stat().st_size
+ d['source_sha256']=hashlib.sha256(source.read_bytes()).hexdigest()
  d['evaluation_code_bytes']=0  # All required evaluator code is bundled in train_gpt.py
  d['model_bytes']=(root/'final_model.int8.ptz').stat().st_size
  d['configuration_bytes']=sum((root/f).stat().st_size for f in ['manifest.json','config.json'])

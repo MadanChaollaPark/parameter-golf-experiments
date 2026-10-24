@@ -1,0 +1,10 @@
+{
+  "canonical_fixture": "fineweb_1024_bpe.model from pinned official-default HF export",
+  "sha256_verified_against_provider": true,
+  "tokenizer_fitted_or_calibrated_by_campaign": false,
+  "custom_normalization_added": false,
+  "source_manifest_tokenizer_train_docs": 5000000,
+  "current_export_reference_sentence_iterator": "vendor/data_export_reference.py:220 iterates docs_jsonl from beginning; no split exclusion in this helper",
+  "historical_provider_tokenizer_fit_independently_reproduced": false,
+  "interpretation": "Canonical unchanged benchmark fixture, as used by official main baseline. Do not claim independently verified held-out-free vocabulary fitting. Current reference helper alone does not prove the historical provider build procedure. Full-byte check compares canonical SentencePiece-decoded document bytes with official token-byte LUT; raw pre-normalization JSONL bytes are not re-exported or independently counted."
+}
