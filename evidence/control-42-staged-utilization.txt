@@ -1,0 +1,9 @@
+utilization.gpu [%], utilization.memory [%], power.draw [W], clocks.current.sm [MHz]
+100 %, 58 %, 486.74 W, 1980 MHz
+0 %, 0 %, 463.31 W, 1980 MHz
+100 %, 51 %, 496.56 W, 1980 MHz
+100 %, 0 %, 484.04 W, 1980 MHz
+100 %, 0 %, 496.81 W, 1980 MHz
+100 %, 46 %, 482.04 W, 1980 MHz
+100 %, 51 %, 498.14 W, 1980 MHz
+100 %, 7 %, 480.94 W, 1980 MHz

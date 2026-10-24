@@ -36,8 +36,8 @@ def train(job_id,config):
   while proc.poll() is None:
    time.sleep(10)
    tail=(run/'train.log').read_text()[-1200:];print(tail,flush=True)
-   if time.perf_counter()-start>820:
-    proc.kill();proc.wait();raise TimeoutError('Training subprocess 820s limit; no retry')
+   if time.perf_counter()-start>700:
+    proc.kill();proc.wait();raise TimeoutError('Training subprocess 700s limit; no retry')
  elapsed=time.perf_counter()-start
  text=(run/'train.log').read_text();assert proc.returncode==0,f'training exit {proc.returncode}; tail={text[-3000:]}'
  metrics={}

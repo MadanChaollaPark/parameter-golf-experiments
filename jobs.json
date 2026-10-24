@@ -97,5 +97,30 @@
     "error": "RemoteError: Function call was cancelled by user or a failure.",
     "elapsed_app_seconds": 340.17611410003155,
     "finished_utc": "2026-10-24T02:38:20.196182+00:00"
+  },
+  {
+    "job": "control-42-staged",
+    "kind": "train",
+    "config": {
+      "job_id": "control-42-staged",
+      "config": {
+        "SEED": "42",
+        "QK_GAIN_INIT": "1.5",
+        "ITERATIONS": "8000",
+        "MAX_WALLCLOCK_SECONDS": "0",
+        "WARMDOWN_ITERS": "1200",
+        "VAL_LOSS_EVERY": "0",
+        "TRAIN_LOG_EVERY": "200",
+        "WARMUP_STEPS": "20"
+      }
+    },
+    "code_revision": "ba0b9d165ef7ba1808f18330bf499b29d6bb9a5b",
+    "started_utc": "2026-10-24T02:39:34.329273+00:00",
+    "state": "failed",
+    "app_id": "ap-uCNJSrwFBgPYRcdIJ5uyKx",
+    "call_id": "fc-01M5NWEA6AXMT9T4WMEFFY7YST",
+    "error": "RemoteError: Function call was cancelled by user or a failure.",
+    "elapsed_app_seconds": 487.2517893430777,
+    "finished_utc": "2026-10-24T02:47:41.581374+00:00"
   }
 ]

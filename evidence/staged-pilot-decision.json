@@ -1,0 +1,8 @@
+{
+  "job": "control-42-staged",
+  "action": "intentional cancellation",
+  "reason": "Observed71.9ms/step implies ~720s setup+optimization for8000 steps; initial650s safety guard is not correctly synchronized with wallclock cap disabled. Do not allow that faulty branch to execute. No scored result.",
+  "h0_result": "Local staging improved throughput versus82.3ms but insufficient; host variability remains. Cgroup metrics not exposed. GPU-utilization snapshot retained.",
+  "new_prespecification": "6000fixed steps, seed42/1337 paired QK1.5vs5, CPU32/RAM64 hard. Synchronized guard every100 steps. No validation scores have been observed.",
+  "utc": "2026-10-24T02:47:34.223993+00:00"
+}

@@ -28,7 +28,7 @@ def prepare():
  from correctness_checks import check
  result['correctness']=check('/pg/data');volume.commit();return result
 
-@app.function(image=image,volumes={'/pg':volume},gpu='H100!:8',cpu=(8,8),memory=(32768,32768),timeout=900,startup_timeout=180,retries=0,max_containers=1,scaledown_window=2)
+@app.function(image=image,volumes={'/pg':volume},gpu='H100!:8',cpu=(32,32),memory=(65536,65536),timeout=800,startup_timeout=120,retries=0,max_containers=1,scaledown_window=2)
 def train(job_id,config):
  import sys
  sys.path.insert(0,'/work')
@@ -43,7 +43,7 @@ def stage(job_id):
  sys.path.insert(0,'/work')
  from evaluation_remote import stage
  result=stage(job_id);evaluation_volume.commit();return result
-@app.function(image=image,volumes={'/evaluation':evaluation_volume},gpu='H100!:8',cpu=(8,8),memory=(32768,32768),timeout=400,startup_timeout=180,retries=0,max_containers=1,scaledown_window=2,block_network=True)
+@app.function(image=image,volumes={'/evaluation':evaluation_volume},gpu='H100!:8',cpu=(32,32),memory=(65536,65536),timeout=400,startup_timeout=120,retries=0,max_containers=1,scaledown_window=2,block_network=True)
 def evaluate(job_id):
  import sys
  sys.path.insert(0,'/work')
