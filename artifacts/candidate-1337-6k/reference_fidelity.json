@@ -1,0 +1,17 @@
+{
+  "reference": {
+    "val_loss": 2.1029479312441683,
+    "val_bpb": 1.2454842182160013,
+    "expected_training_bpb": 1.24548422,
+    "difference_bpb": -1.7839987265233503e-09,
+    "seconds_including_compile": 65.35370288000001
+  },
+  "synthetic_warmup": {
+    "synthetic_only": true,
+    "iterations": 20,
+    "optimizer_steps": 0,
+    "weights_unchanged": true,
+    "seconds": 137.665508932
+  },
+  "weights_unchanged": true
+}

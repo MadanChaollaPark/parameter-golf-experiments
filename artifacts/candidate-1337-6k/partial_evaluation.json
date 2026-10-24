@@ -1,0 +1,97 @@
+{
+  "checkpoint": "candidate-1337-6k",
+  "model_sha256": "70d2b520c406ef459314e2540c0d8087aefcc3a565cf000e1647686209e7bffa",
+  "frozen_state_hash_before": "9b6fdd1a0d2b95e5b214c039669366dce3e288552d6c9b8708a8fbe717bab137",
+  "frozen_state_hash_after": "9b6fdd1a0d2b95e5b214c039669366dce3e288552d6c9b8708a8fbe717bab137",
+  "results": [
+    {
+      "stride": 1024,
+      "context": 1024,
+      "nll_sum": 130428262.70678711,
+      "target_tokens": 62021632,
+      "original_bytes": 151080363,
+      "val_loss": 2.1029479312441683,
+      "val_bpb": 1.2454842182160013,
+      "scoring_seconds_including_first_compile": 1.4347082619999867,
+      "coverage": {
+        "targets": 62021632,
+        "windows": 60568,
+        "first_target_token_index": 1,
+        "last_target_token_index": 62021632,
+        "exactly_once": true,
+        "causal_by_index": true
+      }
+    },
+    {
+      "stride": 1024,
+      "context": 1024,
+      "nll_sum": 130428634.086568,
+      "target_tokens": 62021845,
+      "original_bytes": 151080891,
+      "val_loss": 2.1029466970317956,
+      "val_bpb": 1.2454834118406999,
+      "scoring_seconds_including_first_compile": 22.333087489000008,
+      "coverage": {
+        "targets": 62021845,
+        "windows": 60569,
+        "first_target_token_index": 1,
+        "last_target_token_index": 62021845,
+        "exactly_once": true,
+        "causal_by_index": true
+      }
+    },
+    {
+      "stride": 64,
+      "context": 1024,
+      "nll_sum": 126832152.18009663,
+      "target_tokens": 62021845,
+      "original_bytes": 151080891,
+      "val_loss": 2.0449593555318555,
+      "val_bpb": 1.2111400440145654,
+      "scoring_seconds_including_first_compile": 53.663545381999995,
+      "coverage": {
+        "targets": 62021845,
+        "windows": 969077,
+        "first_target_token_index": 1,
+        "last_target_token_index": 62021845,
+        "exactly_once": true,
+        "causal_by_index": true
+      }
+    },
+    {
+      "stride": 128,
+      "context": 2048,
+      "nll_sum": 131051424.3410424,
+      "target_tokens": 62021845,
+      "original_bytes": 151080891,
+      "val_loss": 2.11298816313901,
+      "val_bpb": 1.251430533317791,
+      "scoring_seconds_including_first_compile": 114.36176589500002,
+      "coverage": {
+        "targets": 62021845,
+        "windows": 484531,
+        "first_target_token_index": 1,
+        "last_target_token_index": 62021845,
+        "exactly_once": true,
+        "causal_by_index": true
+      }
+    }
+  ],
+  "total_script_seconds": 408.809201741,
+  "completed_comparisons": 4,
+  "reference_prefix": {
+    "val_loss": 2.1029479312441683,
+    "val_bpb": 1.2454842182160013,
+    "expected_training_bpb": 1.24548422,
+    "difference_bpb": -1.7839987265233503e-09,
+    "seconds_including_compile": 65.35370288000001
+  },
+  "synthetic_warmup": {
+    "synthetic_only": true,
+    "iterations": 20,
+    "optimizer_steps": 0,
+    "weights_unchanged": true,
+    "seconds": 137.665508932
+  },
+  "no_ttt": true
+}

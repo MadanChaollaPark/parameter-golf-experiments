@@ -1,0 +1,26 @@
+✓ Initialized. View run at 
+https://modal.com/apps/releasedrats/main/ap-xbAndf311mIMvQ1zi3zVGk
+✓ Created objects.
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/modal_campaign.py
+├── ✓ Uploaded scripts/clean_data.py
+├── ✓ Uploaded scripts/evaluation_remote.py
+├── ✓ Uploaded eval_windows.py
+├── ✓ Uploaded evaluate.py
+├── ✓ Uploaded submission/verified_train_gpt.py
+├── ✓ Uploaded submission/final_train_gpt.py
+├── ✓ Uploaded submission/train_gpt.py
+├── ✓ Uploaded scripts/train_remote.py
+├── ✓ Uploaded scripts/correctness_checks.py
+├── ✓ Uploaded scripts/prepare_data.py
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/vendor
+├── ✓ Created Function install_packages.
+├── ✓ Created Function prepare.
+├── ✓ Created Function train.
+├── ✓ Created Function stage.
+├── ✓ Created Function evaluate.
+├── ✓ Created Function hardware.
+└── ✓ Created Function clean.
+APP_ID ap-xbAndf311mIMvQ1zi3zVGk
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/releasedrats/main/ap-xbAndf311mIMvQ1zi3zVGk

@@ -1,0 +1,27 @@
+{
+  "job_id": "candidate-42-6k",
+  "model_sha256": "a145f3e341acd1dd6d34321101a5572833fc548ba9340f6281c86ea0a6cafa9f",
+  "expected_baseline_bpb": 1.24678452,
+  "file_sha256": {
+    "final_model.int8.ptz": "a145f3e341acd1dd6d34321101a5572833fc548ba9340f6281c86ea0a6cafa9f",
+    "fineweb_val_000000.bin": "4860ad80c0516a150b6917ee9ed17be5d27a0726a0b44ba9fe28c323b527c86f",
+    "fineweb_1024_bpe.model": "4f5e8adb109c66b4886963bc75a7befd73bda36d27fd7102df8e9e66503b0e2a"
+  },
+  "data_revision": "a85b0e6035c3c94bc23685a07c81a8f3bf89db80",
+  "full_validation_decoded_bytes": 151080891,
+  "evaluation_source_sha256": "ae7430a9f0f3de13f0eb264394cb039ef39c81e7a784bbabde0d4d377a30bff4",
+  "validation_documents_decoded": 50000,
+  "official_lut_bytes_full": 151080891,
+  "synthetic_causality_checks": [
+    {
+      "context": 1024,
+      "future_perturbation_prefix_loss_abs_diff": 0.0,
+      "synthetic_only": true
+    },
+    {
+      "context": 2048,
+      "future_perturbation_prefix_loss_abs_diff": 0.0,
+      "synthetic_only": true
+    }
+  ]
+}

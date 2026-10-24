@@ -1,0 +1,32 @@
+[
+  {
+    "file": "config.json",
+    "bytes": 204,
+    "sha256": "6d0e94eb9185c49ab48083af0ce6a71b7513be3bfe2403aebc2ca7588f991ce7"
+  },
+  {
+    "file": "manifest.json",
+    "bytes": 1039,
+    "sha256": "7d6ca79e9b12a320823389af1033971f866670dcb220cb7f7f8ead439910aaa2"
+  },
+  {
+    "file": "evaluation.json",
+    "bytes": 9123,
+    "sha256": "d2d5ae4aa7cfb6dbbde4010dd7bdf3e1dedb53c9ccf3e85d033c07c2d0bfa703"
+  },
+  {
+    "file": "partial_evaluation.json",
+    "bytes": 2966,
+    "sha256": "cadfdcaf5668c2f83da29937c5b822178152eb4031b8eecd8685bbc1f973beee"
+  },
+  {
+    "file": "reference_fidelity.json",
+    "bytes": 425,
+    "sha256": "829ee3d7c9073c6772129c7c61642ca3a461da618af82d6930e50e82c6489e68"
+  },
+  {
+    "file": "eval.log",
+    "bytes": 4980,
+    "sha256": "82ea0fe0f6d87821820d5d9029bf01113c5af65bf1d2bb378ad31e2ccbff5aaf"
+  }
+]

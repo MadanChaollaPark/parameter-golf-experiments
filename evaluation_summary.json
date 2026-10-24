@@ -19,9 +19,29 @@
       "artifact_bytes_with_config_manifest": 15864336,
       "training_timing_verified_under600": true,
       "official_result": false
+    },
+    {
+      "checkpoint": "candidate-42-6k",
+      "seed": "42",
+      "qk_gain_init": "5.0",
+      "model_sha256": "a145f3e341acd1dd6d34321101a5572833fc548ba9340f6281c86ea0a6cafa9f",
+      "source_sha256": "ae7430a9f0f3de13f0eb264394cb039ef39c81e7a784bbabde0d4d377a30bff4",
+      "target_tokens": 62021845,
+      "original_bytes": 151080891,
+      "baseline_prefix_bpb": 1.2467845192344862,
+      "fresh_prefix_minus_training_bpb": -7.655138745121803e-10,
+      "full_nonoverlap_bpb": 1.2467837949956377,
+      "full_sliding1024_bpb": 1.2124251871216365,
+      "full_sliding2048_bpb": 1.2590880489891634,
+      "H2_delta_bpb": -0.034358607874001246,
+      "H3_delta_bpb": 0.046662861867526884,
+      "eval_command_seconds": 405.057710834,
+      "artifact_bytes_with_config_manifest": 15857984,
+      "training_timing_verified_under600": false,
+      "official_result": false
     }
   ],
-  "H2_directionally_replicated": false,
+  "H2_directionally_replicated": true,
   "H3_directionally_replicated": false,
   "claim_limit": "Descriptive fixed-policy comparisons across available checkpoints; no statistical-significance, hidden-test, novelty or official-record claim."
 }

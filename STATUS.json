@@ -1,6 +1,6 @@
 {
-  "phase": "completed",
-  "progress": "eval-primary-corrected: completed",
+  "phase": "publishing",
+  "progress": "Research and verification complete; all16 recorded Modal apps are stopped with zero tasks and both campaign volumes deleted. Sanitization scan passed. Publishing public artifact/report now.",
   "completed_job_ids": [
     "ap-OQk0CYqO1SxeZPzmNz1cR1",
     "ap-vNj7TBP3Coeec0DtGOljVC",
@@ -9,16 +9,18 @@
     "ap-okpD7iQSXrGMR9mxVqm4Zd",
     "ap-s4vx0GG1ELjdaAutlJlxvZ",
     "ap-6E5ze67Mso9D7u1rpI2ZTC",
-    "ap-iXnwXPa2lzDmRa1rKTjQxo"
+    "ap-iXnwXPa2lzDmRa1rKTjQxo",
+    "ap-xbAndf311mIMvQ1zi3zVGk",
+    "ap-YkgcWPyisHcAzIyuKAD1TA"
   ],
-  "reserved_usd": 71.5,
+  "reserved_usd": 77.0,
   "protected_final_usd": 0,
-  "best_score": 1.24548422,
-  "evidence_tier": "two-seed descriptive H1 result; primary training timing verified, full-coverage fresh score pending",
-  "next_step": "Review results and correctness before reserving another job",
-  "updated_utc": "2026-10-24T03:54:10.397429+00:00",
+  "best_score": 1.2111400440145654,
+  "evidence_tier": "independent full-coverage primary plus same-policy second-seed replication; not official",
+  "next_step": "Verify public GitHub commit and objective audit, publish audit, set FINALIZED and complete native goal",
+  "updated_utc": "2026-10-24T04:04:37.567778+00:00",
   "watchdog_service": "parameter-golf-watchdog.service",
   "watchdog_pid": 872606,
-  "uncommitted_usd": 8.5,
+  "uncommitted_usd": 3.0,
   "cost_basis": "Conservative nonrefunded reservations at full list price, not provider invoice"
 }

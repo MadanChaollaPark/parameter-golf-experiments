@@ -32,6 +32,7 @@ for name in volumes:
 (ROOT/'evidence/execution-claims.json').write_text(json.dumps(claims,indent=2)+'\n')
 for name in volumes:modal.Volume.objects.delete(name,allow_missing=True)
 listed=json.loads(subprocess.check_output([python,'-m','modal','volume','list','--json'],text=True))
-assert not any(r.get('name',r.get('Name')) in volumes for r in listed)
+assert isinstance(listed,list) and all('name' in r for r in listed),'Unknown provider volume-list schema'
+assert not any(r['name'] in volumes for r in listed)
 result={'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'all_recorded_apps_stopped':True,'active_tasks':0,'provider_apps':after,'deleted_campaign_volumes':volumes,'volume_absence_verified':True,'compressed_models_and_evaluation_logs_preserved_locally':True,'production_azure_vm_and_other_services_preserved':True,'watchdog_service_preserved':'parameter-golf-watchdog.service','FINALIZED_marker_still_requires_publication':True}
 (ROOT/'evidence/shutdown.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps({k:v for k,v in result.items() if k!='provider_apps'},indent=2))

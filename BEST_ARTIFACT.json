@@ -1,0 +1,65 @@
+{
+  "checkpoint": "candidate-1337-6k",
+  "evidence_tier": "independent full-coverage fresh evaluation with verified standard hardware/size/training/evaluation time bounds; not official",
+  "selected_policy": {
+    "stride": 64,
+    "context": 1024,
+    "nll_sum": 126832152.18009663,
+    "target_tokens": 62021845,
+    "original_bytes": 151080891,
+    "val_loss": 2.0449593555318555,
+    "val_bpb": 1.2111400440145654,
+    "scoring_seconds_including_first_compile": 53.663545381999995,
+    "coverage": {
+      "targets": 62021845,
+      "windows": 969077,
+      "first_target_token_index": 1,
+      "last_target_token_index": 62021845,
+      "exactly_once": true,
+      "causal_by_index": true
+    }
+  },
+  "training_launch_to_export_observed_upper_bound_seconds": 490.096132673,
+  "fresh_evaluation_command_seconds": 415.048886077,
+  "package_bytes_including_code_model_configuration_manifest_and_notices": 15868536,
+  "canonical_benchmark_fixtures_excluded_from_size": true,
+  "files": [
+    {
+      "file": "submission/strongest/LICENSE",
+      "bytes": 1063,
+      "sha256": "7de1e115d165f176e68f962acdb809b5ab8d8ae78d3981e0701392b2ac50c713"
+    },
+    {
+      "file": "submission/strongest/README.md",
+      "bytes": 1796,
+      "sha256": "770884aecc323489ee057fc8d78414848da8fa6ade3f98dd486464aed6cc24dd"
+    },
+    {
+      "file": "submission/strongest/THIRD_PARTY_NOTICES.md",
+      "bytes": 1341,
+      "sha256": "197bd74c0c267ff8fcd37816b6a0b5854ce2c758f2c1f39d3619ce7c82d74b23"
+    },
+    {
+      "file": "submission/strongest/config.json",
+      "bytes": 238,
+      "sha256": "2aa6f48d10dac0cd5a8e6b46c8fd21e735d0d09f8922f6edc60275e441976c60"
+    },
+    {
+      "file": "submission/strongest/final_model.int8.ptz",
+      "bytes": 15804351,
+      "sha256": "70d2b520c406ef459314e2540c0d8087aefcc3a565cf000e1647686209e7bffa"
+    },
+    {
+      "file": "submission/strongest/manifest.json",
+      "bytes": 1155,
+      "sha256": "d01a7685562937373b8ea716f0930c8b29d04c5e89a03258bd5f411c75057b0a"
+    },
+    {
+      "file": "submission/strongest/train_gpt.py",
+      "bytes": 58592,
+      "sha256": "ae7430a9f0f3de13f0eb264394cb039ef39c81e7a784bbabde0d4d377a30bff4"
+    }
+  ],
+  "official_submission": false,
+  "global_optimality_claim": false
+}

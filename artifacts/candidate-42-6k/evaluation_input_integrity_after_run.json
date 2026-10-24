@@ -1,0 +1,8 @@
+{
+  "verified_after_evaluation": true,
+  "sha256": {
+    "fineweb_val_000000.bin": "4860ad80c0516a150b6917ee9ed17be5d27a0726a0b44ba9fe28c323b527c86f",
+    "fineweb_1024_bpe.model": "4f5e8adb109c66b4886963bc75a7befd73bda36d27fd7102df8e9e66503b0e2a"
+  },
+  "raw_input_bytes_not_stored_locally": true
+}

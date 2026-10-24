@@ -1,0 +1,52 @@
+[
+  {
+    "volume": "parameter-golf-controlled-20261024",
+    "path": "execution_claims/train-candidate-1337-6k.json",
+    "claim": {
+      "kind": "train",
+      "job_id": "candidate-1337-6k",
+      "utc": "2026-10-24T03:25:48.366769+00:00",
+      "automatic_reexecution_forbidden": true
+    }
+  },
+  {
+    "volume": "parameter-golf-controlled-20261024",
+    "path": "execution_claims/train-control-1337-6k.json",
+    "claim": {
+      "kind": "train",
+      "job_id": "control-1337-6k",
+      "utc": "2026-10-24T03:14:34.508498+00:00",
+      "automatic_reexecution_forbidden": true
+    }
+  },
+  {
+    "volume": "parameter-golf-evaluation-20261024",
+    "path": "execution_claims/evaluate-candidate-42-6k.json",
+    "claim": {
+      "kind": "evaluate",
+      "job_id": "candidate-42-6k",
+      "utc": "2026-10-24T03:56:48.602835+00:00",
+      "automatic_reexecution_forbidden": true
+    }
+  },
+  {
+    "volume": "parameter-golf-evaluation-20261024",
+    "path": "execution_claims/evaluate-primary-protocol-corrected-v2.json",
+    "claim": {
+      "kind": "evaluate",
+      "job_id": "primary-protocol-corrected-v2",
+      "utc": "2026-10-24T03:47:05.713660+00:00",
+      "automatic_reexecution_forbidden": true
+    }
+  },
+  {
+    "volume": "parameter-golf-evaluation-20261024",
+    "path": "execution_claims/evaluate-candidate-1337-6k.json",
+    "claim": {
+      "kind": "evaluate",
+      "job_id": "candidate-1337-6k",
+      "utc": "2026-10-24T03:37:24.052928+00:00",
+      "automatic_reexecution_forbidden": true
+    }
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "checkpoint": "candidate-42-6k",
+  "model_sha256": "a145f3e341acd1dd6d34321101a5572833fc548ba9340f6281c86ea0a6cafa9f",
+  "frozen_state_hash_before": "a96b26d95c8e3ec72a78835f6674b904b010ad8693a4353250c5d595ac4b8b8f",
+  "frozen_state_hash_after": "a96b26d95c8e3ec72a78835f6674b904b010ad8693a4353250c5d595ac4b8b8f",
+  "results": [
+    {
+      "stride": 1024,
+      "context": 1024,
+      "nll_sum": 130564431.43566895,
+      "target_tokens": 62021632,
+      "original_bytes": 151080363,
+      "val_loss": 2.105143435046484,
+      "val_bpb": 1.2467845192344862,
+      "scoring_seconds_including_first_compile": 1.4441788570000256,
+      "coverage": {
+        "targets": 62021632,
+        "windows": 60568,
+        "first_target_token_index": 1,
+        "last_target_token_index": 62021632,
+        "exactly_once": true,
+        "causal_by_index": true
+      }
+    },
+    {
+      "stride": 1024,
+      "context": 1024,
+      "nll_sum": 130564811.89277184,
+      "target_tokens": 62021845,
+      "original_bytes": 151080891,
+      "val_loss": 2.1051423396510027,
+      "val_bpb": 1.2467837949956377,
+      "scoring_seconds_including_first_compile": 20.749305908999986,
+      "coverage": {
+        "targets": 62021845,
+        "windows": 60569,
+        "first_target_token_index": 1,
+        "last_target_token_index": 62021845,
+        "exactly_once": true,
+        "causal_by_index": true
+      }
+    },
+    {
+      "stride": 64,
+      "context": 1024,
+      "nll_sum": 126966734.02877283,
+      "target_tokens": 62021845,
+      "original_bytes": 151080891,
+      "val_loss": 2.047129265967061,
+      "val_bpb": 1.2124251871216365,
+      "scoring_seconds_including_first_compile": 52.78107845100001,
+      "coverage": {
+        "targets": 62021845,
+        "windows": 969077,
+        "first_target_token_index": 1,
+        "last_target_token_index": 62021845,
+        "exactly_once": true,
+        "causal_by_index": true
+      }
+    },
+    {
+      "stride": 128,
+      "context": 2048,
+      "nll_sum": 131853329.2881645,
+      "target_tokens": 62021845,
+      "original_bytes": 151080891,
+      "val_loss": 2.1259175583726106,
+      "val_bpb": 1.2590880489891634,
+      "scoring_seconds_including_first_compile": 112.45655518399997,
+      "coverage": {
+        "targets": 62021845,
+        "windows": 484531,
+        "first_target_token_index": 1,
+        "last_target_token_index": 62021845,
+        "exactly_once": true,
+        "causal_by_index": true
+      }
+    }
+  ],
+  "total_script_seconds": 395.191040585,
+  "reference_prefix": {
+    "val_loss": 2.105143435046484,
+    "val_bpb": 1.2467845192344862,
+    "expected_training_bpb": 1.24678452,
+    "difference_bpb": -7.655138745121803e-10,
+    "seconds_including_compile": 64.38146203
+  },
+  "synthetic_warmup": {
+    "synthetic_only": true,
+    "iterations": 20,
+    "optimizer_steps": 0,
+    "weights_unchanged": true,
+    "seconds": 128.37467940899998
+  },
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "no_ttt": true,
+  "no_training_data_mounted": true,
+  "network_blocked_by_modal": true,
+  "subprocess_wall_seconds": 405.057710834,
+  "environment": {
+    "gpu_names": [
+      "NVIDIA H100 80GB HBM3",
+      "NVIDIA H100 80GB HBM3",
+      "NVIDIA H100 80GB HBM3",
+      "NVIDIA H100 80GB HBM3",
+      "NVIDIA H100 80GB HBM3",
+      "NVIDIA H100 80GB HBM3",
+      "NVIDIA H100 80GB HBM3",
+      "NVIDIA H100 80GB HBM3"
+    ],
+    "nvidia_smi": "Sat Oct 24 03:56:55 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA H100 80GB HBM3          On  |   00000000:04:00.0 Off |                    0 |\n| N/A   33C    P0             67W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA H100 80GB HBM3          On  |   00000000:05:00.0 Off |                    0 |\n| N/A   29C    P0             69W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA H100 80GB HBM3          On  |   00000000:0A:00.0 Off |                    0 |\n| N/A   32C    P0             71W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA H100 80GB HBM3          On  |   00000000:0B:00.0 Off |                    0 |\n| N/A   30C    P0             68W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   4  NVIDIA H100 80GB HBM3          On  |   00000000:84:00.0 Off |                    0 |\n| N/A   32C    P0             69W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   5  NVIDIA H100 80GB HBM3          On  |   00000000:85:00.0 Off |                    0 |\n| N/A   29C    P0             67W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   6  NVIDIA H100 80GB HBM3          On  |   00000000:8A:00.0 Off |                    0 |\n| N/A   31C    P0             67W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   7  NVIDIA H100 80GB HBM3          On  |   00000000:8B:00.0 Off |                    0 |\n| N/A   29C    P0             67W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n",
+    "topology": " \t\u001b[4mGPU0\tGPU1\tGPU2\tGPU3\tGPU4\tGPU5\tGPU6\tGPU7\t\u001b[0m\n GPU0\tX\tOK\tOK\tOK\tOK\tOK\tOK\tOK\t\n GPU1\tOK\tX\tOK\tOK\tOK\tOK\tOK\tOK\t\n GPU2\tOK\tOK\tX\tOK\tOK\tOK\tOK\tOK\t\n GPU3\tOK\tOK\tOK\tX\tOK\tOK\tOK\tOK\t\n GPU4\tOK\tOK\tOK\tOK\tX\tOK\tOK\tOK\t\n GPU5\tOK\tOK\tOK\tOK\tOK\tX\tOK\tOK\t\n GPU6\tOK\tOK\tOK\tOK\tOK\tOK\tX\tOK\t\n GPU7\tOK\tOK\tOK\tOK\tOK\tOK\tOK\tX\t\n\nLegend:\n\n  X    = Self\n  OK   = Status Ok\n  CNS  = Chipset not supported\n  GNS  = GPU not supported\n  TNS  = Topology not supported\n  NS   = Not supported\n  DR   = Disabled by regkey\n  U    = Unknown\n",
+    "distributed_bootstrap": "loopback only; NCCL/Gloo socket interface lo, static rendezvous127.0.0.1, worker restarts0",
+    "command": [
+      "torchrun",
+      "--nnodes=1",
+      "--nproc_per_node=8",
+      "--master_addr=127.0.0.1",
+      "--master_port=61680",
+      "--max_restarts=0",
+      "/work/verified_train_gpt.py",
+      "--evaluate",
+      "--directory",
+      "/evaluation/candidate-42-6k"
+    ]
+  },
+  "training_script_bytes": 58592,
+  "source_sha256": "ae7430a9f0f3de13f0eb264394cb039ef39c81e7a784bbabde0d4d377a30bff4",
+  "evaluation_code_bytes": 0,
+  "model_bytes": 15798149,
+  "configuration_bytes": 1243,
+  "artifact_bytes": 15857984,
+  "artifact_bytes_including_canonical_tokenizer": 16112467,
+  "under_600_seconds": true,
+  "artifact_size_pass": true
+}

@@ -26,6 +26,9 @@ For each completed configuration identified in the report:
 ```bash
 python scripts/reproduce.py --config configs/control-42-6k.json --data ./data --output ./runs/control-42
 python scripts/reproduce.py --config configs/candidate-42-6k.json --data ./data --output ./runs/candidate-42
+# Timing-qualified confirmation pair; candidate1337 is the final artifact:
+python scripts/reproduce.py --config configs/control-1337-6k.json --data ./data --output ./runs/control-1337
+python scripts/reproduce.py --config configs/candidate-1337-6k.json --data ./data --output ./runs/candidate-1337
 ```
 
 Seeds, fixed step count, schedules and all intentional overrides are in `configs/`. Default model/optimizer parameters are in the pinned `train_gpt.py`. All required model/training/evaluation code is bundled into `submission/train_gpt.py`, which is the executed and counted script. `vendor/train_gpt.py` is the unmodified upstream source; `scripts/instrument_baseline.py` reproduces the timing-only patch; `python scripts/build_artifact.py` deterministically bundles the frozen evaluator. Full code revision and actual source SHA256 are recorded per job. The source logs itself in the run log. `final_model.int8.ptz` is the compressed artifact; raw `final_model.pt` is diagnostic and not the evaluation artifact.
@@ -33,12 +36,12 @@ Seeds, fixed step count, schedules and all intentional overrides are in `configs
 ## Frozen offline evaluation
 For final-phase jobs whose config has EXPORT_BEFORE_SCORING=1, use `submission/final_train_gpt.py`. Rebuild it with `python scripts/build_final_artifact.py`; this retains the identical training/quantizer/scorer and exports before held-out scoring, with redundant CPU export restricted to rank0. The recorded launcher-to-export observation includes up to10 seconds polling delay and excludes only separately timed data staging.
 
-The final published checkpoint directory will include `config.json` and `manifest.json`. Download only the pinned validation fixtures before entering the offline environment, then evaluate:
+The published checkpoint directory `submission/strongest` includes `config.json` and `manifest.json`. Download only the pinned validation fixtures before entering the offline environment, then evaluate:
 
 ```bash
-python scripts/download_eval_inputs.py --directory artifacts/BEST_CHECKPOINT
+python scripts/download_eval_inputs.py --directory submission/strongest
 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 TORCHINDUCTOR_COMPILE_THREADS=1 NCCL_IB_DISABLE=1 NCCL_SOCKET_IFNAME=lo GLOO_SOCKET_IFNAME=lo \
-  torchrun --nnodes=1 --master_addr=127.0.0.1 --master_port=29500 --max_restarts=0 --nproc_per_node=8 submission/verified_train_gpt.py --evaluate --directory artifacts/BEST_CHECKPOINT
+  torchrun --nnodes=1 --master_addr=127.0.0.1 --master_port=29500 --max_restarts=0 --nproc_per_node=8 submission/verified_train_gpt.py --evaluate --directory submission/strongest
 ```
 
 The evaluator loads weights from disk in a fresh process, checks their hash, scores validation in inference mode, compares the original baseline prefix score, and then scores the full identical target set with non-overlapping and stride64 windows. The final-phase source also includes the prespecified context2048/stride128 policy. It verifies frozen state hashes after each comparison, equal target and byte counts, and writes `evaluation.json`. `python eval_windows.py` exercises edge cases and proves exact coverage over the full target count. Causal attention is inherited from the baseline and separately tested using synthetic future-token perturbations.
@@ -48,3 +51,9 @@ Timing includes compilation and startup within the evaluator subprocess. Modal f
 The full-coverage stride1024 comparator uses a left-filled final partial window, so the last213 targets receive past context while still being scored exactly once. The original truncated-prefix score is checked separately against the training roundtrip.
 
 The first fresh evaluator failed its strict prefix fidelity check by0.00000594 BPB. `python scripts/build_verified_evaluator.py` derives the corrected single-file evaluator from the preserved final training source. It restores upstream DDP/cache/batch execution, uses20 synthetic compilation warmups with zero optimizer steps and verified unchanged weights, and checks the literal upstream scorer plus the custom prefix against the training score before full comparisons. All real validation scoring uses inference mode; all synthetic warmup/compilation time is included. The2e-6 BPB tolerance is unchanged. See EXPERIMENTS.md for the failed attempt and exact code hashes.
+
+## Selected artifact verification without retraining
+
+Clone this public repository and use the pinned environment on eight H100 SXM GPUs. The commands above for `submission/strongest` require only about125MB of public validation fixtures, plus the included compressed checkpoint. Expected selected-policy BPB is1.2111400440; the complete report distinguishes rounding/numerical agreement from training-seed variability. The script evaluates the complete prespecified policy set, not an unmeasured faster path. The recorded fresh subprocess took415.049 seconds; future hosts/compilers can differ, and the script's recorded metrics do not guarantee runtime on other hardware.
+
+For the selected seed1337 training reproduction, the output compressed model is expected to be semantically reproducible in the pinned environment; exact bitwise equality across different CUDA hosts is not promised. Preserve the resulting logs and hashes and compare the score rather than substituting an old score. The cloud orchestration scripts use this campaign's absolute paths and budget ledger and are supplied as audit/reproduction references, not as an instruction to reuse already-spent job IDs. `scripts/reproduce.py` operates on an existing machine and does not provision compute.

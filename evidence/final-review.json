@@ -1,0 +1,13 @@
+{
+  "primary_artifact_pass": true,
+  "primary_training_app_provider_lifetime_seconds": 564,
+  "primary_fresh_eval_app_provider_lifetime_seconds": 491,
+  "all_standard_timing_bounds_include_compilation": true,
+  "original_fidelity_tolerance_bpb": 2e-06,
+  "model_source_unchanged_during_replication": true,
+  "no_additional_research_planned_after_replication": true,
+  "budget_cap": 80,
+  "current_reservations": 78.0,
+  "utc": "2026-10-24T04:01:08.726905+00:00",
+  "phase": "primary complete, final replication active"
+}

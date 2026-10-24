@@ -255,7 +255,27 @@
       "phase": "final",
       "details": "Prespecified conditional frozen-policy replication using existing candidate42 checkpoint, no training. CPU2/RAM8 hard function240 startup60 app360 plus cached image/build/teardown margin. Same whole-document bytes, hashes and synthetic causality checks; scorer ae743 fixed before primary scores. No retries.",
       "utc": "2026-10-24T03:54:34.683769+00:00"
+    },
+    {
+      "job": "eval-replication",
+      "reserved_usd": 7,
+      "phase": "final",
+      "details": "Final prespecified second-seed check on existing candidate42 checkpoint. Identical fixed evaluator ae743, H2/H3 policies and unchanged2e-6 literal-reference/prefix gates; zero optimizer steps. StrictH100!:8 CPU32/RAM64 hard task500 startup120 child470 app630+60s tail plus$0.25 image allowance bounds$6.6928. Persistent execution claim, retries0, no training volume, network blocked. Seed42 training timing remains unverified.",
+      "utc": "2026-10-24T03:55:40.084610+00:00"
+    },
+    {
+      "job": "audited-reconciliation-eval-replication",
+      "reserved_usd": -1.0,
+      "phase": "final",
+      "kind": "explicit_audited_downward_adjustment",
+      "original_job": "eval-replication",
+      "original_reservation_preserved_usd": 7,
+      "revised_conservative_charge_usd": 6.0,
+      "computed_bound_usd": 5.92706624,
+      "evidence": "evidence/eval-replication-cost-reconciliation.json",
+      "utc": "2026-10-24T04:04:00.272189+00:00",
+      "details": "Provider app creation-to-stopped duration conservatively charged at full GPU/CPU/RAM limits, plus stated startup/teardown margin and CPU image allowance. Credits count. Not an invoice."
     }
   ],
-  "total_reserved_usd": 71.0
+  "total_reserved_usd": 77.0
 }

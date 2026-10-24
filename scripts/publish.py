@@ -8,6 +8,7 @@ def api(path,method='GET',data=None):
         data=None if data is None else json.dumps(data).encode())
     with urllib.request.urlopen(req,timeout=40) as r:return json.load(r)
 def publish():
+    os.sched_setaffinity(0,{min(os.sched_getaffinity(0))})
     os.chdir(ROOT)
     # Scan every publishable file before staging. Never follow symlinks or stage private inputs.
     files=[p for p in ROOT.rglob('*') if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts and p.name not in ['.budget.lock'] and not p.name.endswith('.tmp')]

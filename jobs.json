@@ -267,5 +267,33 @@
     "call_id": "fc-01M5P08010KQ50RRQA7835XTNQ",
     "elapsed_app_seconds": 490.87850292399526,
     "finished_utc": "2026-10-24T03:54:10.396756+00:00"
+  },
+  {
+    "job": "stage-replication",
+    "kind": "stage",
+    "config": {
+      "job_id": "candidate-42-6k"
+    },
+    "code_revision": "332a08952d30c3170f150e75ffe47037d6d1e267",
+    "started_utc": "2026-10-24T03:54:42.099597+00:00",
+    "state": "completed",
+    "app_id": "ap-xbAndf311mIMvQ1zi3zVGk",
+    "call_id": "fc-01M5P0QWC4KKZBDBEKP06A886Y",
+    "elapsed_app_seconds": 37.45887581515126,
+    "finished_utc": "2026-10-24T03:55:19.559187+00:00"
+  },
+  {
+    "job": "eval-replication",
+    "kind": "evaluate",
+    "config": {
+      "job_id": "candidate-42-6k"
+    },
+    "code_revision": "332a08952d30c3170f150e75ffe47037d6d1e267",
+    "started_utc": "2026-10-24T03:55:40.423732+00:00",
+    "state": "completed",
+    "app_id": "ap-YkgcWPyisHcAzIyuKAD1TA",
+    "call_id": "fc-01M5P0SNB8H3MP7W6ZN681TDJ9",
+    "elapsed_app_seconds": 487.9479369849432,
+    "finished_utc": "2026-10-24T04:03:48.372192+00:00"
   }
 ]
