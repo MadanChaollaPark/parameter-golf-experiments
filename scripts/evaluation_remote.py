@@ -31,7 +31,8 @@ def evaluate(job_id):
  root=pathlib.Path('/evaluation')/job_id
  assert not pathlib.Path('/pg').exists(),'Training volume must not be mounted'
  assert not list(root.glob('*train*'))
- environment={'gpu_names':[torch.cuda.get_device_name(i) for i in range(8)],'nvidia_smi':subprocess.check_output(['nvidia-smi'],text=True),'topology':subprocess.check_output(['nvidia-smi','topo','-m'],text=True)}
+ environment={'gpu_names':[torch.cuda.get_device_name(i) for i in range(8)],'nvidia_smi':subprocess.check_output(['nvidia-smi'],text=True),'topology':subprocess.check_output(['nvidia-smi','topo','-p2p','n'],text=True)}
+ assert environment['topology'].count('\tOK')==56,'Expected complete NVLink peer connectivity'
  env=dict(os.environ,NCCL_IB_DISABLE='1',OMP_NUM_THREADS='1',TORCHINDUCTOR_COMPILE_THREADS='1',HF_HUB_OFFLINE='1')
  command=['torchrun','--standalone','--nproc_per_node=8','/work/train_gpt.py','--evaluate','--directory',str(root)]
  start=time.perf_counter()

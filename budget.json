@@ -55,7 +55,14 @@
       "phase": "research",
       "details": "Distinct diagnostic after topo CLI failure, no training. H100!:8 CPU2/RAM8GiB hard task60 startup120 app210 +50s stop/tail =>260s at .00881996=$2.293 plus cached-image allowance < $3. retries0.",
       "utc": "2026-10-24T02:31:32.778919+00:00"
+    },
+    {
+      "job": "control-42-nvlink",
+      "reserved_usd": 11.0,
+      "phase": "research",
+      "details": "Actual matched training starts after separate hardware characterization proves strict H100SXMs with 56 NVLink peer links OK. Corrected topology gate only, same frozen source f0f3dffa..., seed42 QK1.5 8000steps. CPU8/RAM32 hard task900 startup180 child820 app1080 +margin. No automatic retry.",
+      "utc": "2026-10-24T02:32:39.652460+00:00"
     }
   ],
-  "total_reserved_usd": 18.0
+  "total_reserved_usd": 29.0
 }

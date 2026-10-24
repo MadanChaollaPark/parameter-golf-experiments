@@ -60,5 +60,17 @@
     "error": "CalledProcessError: Command '['nvidia-smi', 'topo', '-m']' returned non-zero exit status 255.",
     "elapsed_app_seconds": 12.886395131004974,
     "finished_utc": "2026-10-24T02:30:23.169852+00:00"
+  },
+  {
+    "job": "hardware-characterization",
+    "kind": "hardware",
+    "config": {},
+    "code_revision": "7061984107a4e080e2f1d55265addf4549bc06ab",
+    "started_utc": "2026-10-24T02:31:33.099532+00:00",
+    "state": "completed",
+    "app_id": "ap-vNj7TBP3Coeec0DtGOljVC",
+    "call_id": "fc-01M5NVZN59W5W0M62G3N7Y30K8",
+    "elapsed_app_seconds": 46.56239647208713,
+    "finished_utc": "2026-10-24T02:32:19.662175+00:00"
   }
 ]

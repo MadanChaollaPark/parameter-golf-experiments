@@ -1,0 +1,13 @@
+{
+  "job_id": "control-42-nvlink",
+  "config": {
+    "SEED": "42",
+    "QK_GAIN_INIT": "1.5",
+    "ITERATIONS": "8000",
+    "MAX_WALLCLOCK_SECONDS": "0",
+    "WARMDOWN_ITERS": "1200",
+    "VAL_LOSS_EVERY": "0",
+    "TRAIN_LOG_EVERY": "200",
+    "WARMUP_STEPS": "20"
+  }
+}

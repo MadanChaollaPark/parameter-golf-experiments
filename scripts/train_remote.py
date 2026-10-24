@@ -10,9 +10,9 @@ def train(job_id,config):
  assert torch.cuda.device_count()==8
  names=[torch.cuda.get_device_name(i) for i in range(8)];assert all('H100' in x for x in names),names
  run=root/'runs'/job_id;run.mkdir(parents=True,exist_ok=False)
- topology=subprocess.check_output(['nvidia-smi','topo','-m'],text=True)
+ topology=subprocess.check_output(['nvidia-smi','topo','-p2p','n'],text=True)
  smi=subprocess.check_output(['nvidia-smi'],text=True)
- assert 'NV' in topology,'Expected NVLink topology'
+ assert topology.count('\tOK')==56,'Expected all 56 directed NVLink peer pairs OK'
  environment={'gpu_names':names,'topology':topology,'nvidia_smi':smi,'torch':torch.__version__,'cuda':torch.version.cuda,'cudnn':torch.backends.cudnn.version(),'packages':subprocess.check_output(['python','-m','pip','freeze'],text=True),'config':config,'source_sha256':hashlib.sha256(pathlib.Path('/work/train_gpt.py').read_bytes()).hexdigest(),'data_revision':audit['revision'],'clean_audit_sha256':hashlib.sha256((data/'clean_audit.json').read_bytes()).hexdigest(),'data_derivative':'exact-validation-document matches removed from canonical training only'}
  (run/'environment.json').write_text(json.dumps(environment,indent=2));print(json.dumps({k:v for k,v in environment.items() if k!='packages'}),flush=True)
  env=dict(os.environ,**config,DATA_PATH=str(data/'clean_sp1024'),TOKENIZER_PATH=str(data/'datasets/tokenizers/fineweb_1024_bpe.model'),RUN_ID=job_id,NCCL_IB_DISABLE='1',TORCHINDUCTOR_COMPILE_THREADS='1',OMP_NUM_THREADS='1')
