@@ -72,5 +72,30 @@
     "call_id": "fc-01M5NVZN59W5W0M62G3N7Y30K8",
     "elapsed_app_seconds": 46.56239647208713,
     "finished_utc": "2026-10-24T02:32:19.662175+00:00"
+  },
+  {
+    "job": "control-42-nvlink",
+    "kind": "train",
+    "config": {
+      "job_id": "control-42-nvlink",
+      "config": {
+        "SEED": "42",
+        "QK_GAIN_INIT": "1.5",
+        "ITERATIONS": "8000",
+        "MAX_WALLCLOCK_SECONDS": "0",
+        "WARMDOWN_ITERS": "1200",
+        "VAL_LOSS_EVERY": "0",
+        "TRAIN_LOG_EVERY": "200",
+        "WARMUP_STEPS": "20"
+      }
+    },
+    "code_revision": "2bdec114ac1403f295905ec26997bbd2ae249071",
+    "started_utc": "2026-10-24T02:32:40.019768+00:00",
+    "state": "failed",
+    "app_id": "ap-HFh7w5ochSEYzYMFORiLO2",
+    "call_id": "fc-01M5NW1PT7TQ5N9DES305CGFV8",
+    "error": "RemoteError: Function call was cancelled by user or a failure.",
+    "elapsed_app_seconds": 340.17611410003155,
+    "finished_utc": "2026-10-24T02:38:20.196182+00:00"
   }
 ]

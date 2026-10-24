@@ -1,0 +1,604 @@
+✓ Initialized. View run at 
+https://modal.com/apps/releasedrats/main/ap-HFh7w5ochSEYzYMFORiLO2
+✓ Created objects.
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/modal_campaign.py
+├── ✓ Uploaded scripts/clean_data.py
+├── ✓ Uploaded scripts/evaluation_remote.py
+├── ✓ Uploaded eval_windows.py
+├── ✓ Uploaded evaluate.py
+├── ✓ Uploaded submission/train_gpt.py
+├── ✓ Uploaded scripts/train_remote.py
+├── ✓ Uploaded scripts/correctness_checks.py
+├── ✓ Uploaded scripts/prepare_data.py
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/vendor
+├── ✓ Created Function install_packages.
+├── ✓ Created Function prepare.
+├── ✓ Created Function train.
+├── ✓ Created Function stage.
+├── ✓ Created Function evaluate.
+├── ✓ Created Function clean.
+└── ✓ Created Function hardware.
+APP_ID ap-HFh7w5ochSEYzYMFORiLO2
+{"gpu_names": ["NVIDIA H100 80GB HBM3", "NVIDIA H100 80GB HBM3", "NVIDIA H100 80GB HBM3", "NVIDIA H100 80GB HBM3", "NVIDIA H100 80GB HBM3", "NVIDIA H100 80GB HBM3", "NVIDIA H100 80GB HBM3", "NVIDIA H100 80GB HBM3"], "topology": " \t\u001b[4mGPU0\tGPU1\tGPU2\tGPU3\tGPU4\tGPU5\tGPU6\tGPU7\t\u001b[0m\n GPU0\tX\tOK\tOK\tOK\tOK\tOK\tOK\tOK\t\n GPU1\tOK\tX\tOK\tOK\tOK\tOK\tOK\tOK\t\n GPU2\tOK\tOK\tX\tOK\tOK\tOK\tOK\tOK\t\n GPU3\tOK\tOK\tOK\tX\tOK\tOK\tOK\tOK\t\n GPU4\tOK\tOK\tOK\tOK\tX\tOK\tOK\tOK\t\n GPU5\tOK\tOK\tOK\tOK\tOK\tX\tOK\tOK\t\n GPU6\tOK\tOK\tOK\tOK\tOK\tOK\tX\tOK\t\n GPU7\tOK\tOK\tOK\tOK\tOK\tOK\tOK\tX\t\n\nLegend:\n\n  X    = Self\n  OK   = Status Ok\n  CNS  = Chipset not supported\n  GNS  = GPU not supported\n  TNS  = Topology not supported\n  NS   = Not supported\n  DR   = Disabled by regkey\n  U    = Unknown\n", "nvidia_smi": "Sat Oct 24 02:33:32 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA H100 80GB HBM3          On  |   00000000:8D:00.0 Off |                    0 |\n| N/A   45C    P0             72W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA H100 80GB HBM3          On  |   00000000:91:00.0 Off |                    0 |\n| N/A   36C    P0             72W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA H100 80GB HBM3          On  |   00000000:95:00.0 Off |                    0 |\n| N/A   32C    P0             71W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA H100 80GB HBM3          On  |   00000000:99:00.0 Off |                    0 |\n| N/A   30C    P0             70W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   4  NVIDIA H100 80GB HBM3          On  |   00000000:AB:00.0 Off |                    0 |\n| N/A   37C    P0             76W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   5  NVIDIA H100 80GB HBM3          On  |   00000000:AF:00.0 Off |                    0 |\n| N/A   28C    P0             72W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   6  NVIDIA H100 80GB HBM3          On  |   00000000:B3:00.0 Off |                    0 |\n| N/A   30C    P0             71W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   7  NVIDIA H100 80GB HBM3          On  |   00000000:B7:00.0 Off |                    0 |\n| N/A   28C    P0             70W /  700W |       4MiB /  81559MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n", "torch": "2.8.0+cu128", "cuda": "12.8", "cudnn": 91002, "config": {"SEED": "42", "QK_GAIN_INIT": "1.5", "ITERATIONS": "8000", "MAX_WALLCLOCK_SECONDS": "0", "WARMDOWN_ITERS": "1200", "VAL_LOSS_EVERY": "0", "TRAIN_LOG_EVERY": "200", "WARMUP_STEPS": "20"}, "source_sha256": "f0f3dffa15bd9c0fd0c3fa83bc9750adcf2e787fc176a78d04a66d6e282f7904", "data_revision": "a85b0e6035c3c94bc23685a07c81a8f3bf89db80", "clean_audit_sha256": "30db9bda9cb296205eeb455f89750829d1f3ac44f3d7b50e570b81a88e2f560a", "data_derivative": "exact-validation-document matches removed from canonical training only"}
+
+logs/control-42-nvlink.txt
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+warmup_step:1/20
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+warmup_step:1/20
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+warmup_step:1/20
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+warmup_step:1/20
+
+logs/control-42-nvlink.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/pg/data/datasets/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:clean_sp1024 train_shards:80
+val_loader:shards pattern=/pg/data/clean_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:17059912
+world_size:8 grad_accum_steps:1
+sdp_backends:cudnn=False flash=True mem_efficient=False math=False
+attention_mode:gqa num_heads:8 num_kv_heads:4
+tie_embeddings:True embed_lr:0.05 head_lr:0.0 matrix_lr:0.04 scalar_lr:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+warmup_step:1/20
+
+:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+warmup_step:1/20
+warmup_step:2/20
+warmup_step:3/20
+warmup_step:4/20
+warmup_step:5/20
+warmup_step:6/20
+warmup_step:7/20
+warmup_step:8/20
+warmup_step:9/20
+warmup_step:10/20
+warmup_step:11/20
+warmup_step:12/20
+warmup_step:13/20
+warmup_step:14/20
+warmup_step:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+
+:0.04
+train_batch_tokens:524288 train_seq_len:1024 iterations:8000 warmup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+warmup_step:1/20
+warmup_step:2/20
+warmup_step:3/20
+warmup_step:4/20
+warmup_step:5/20
+warmup_step:6/20
+warmup_step:7/20
+warmup_step:8/20
+warmup_step:9/20
+warmup_step:10/20
+warmup_step:11/20
+warmup_step:12/20
+warmup_step:13/20
+warmup_step:14/20
+warmup_step:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+
+armup_steps:20 max_wallclock_seconds:0.000
+seed:42
+campaign_pre_warmup_seconds:18.758349
+warmup_step:1/20
+warmup_step:2/20
+warmup_step:3/20
+warmup_step:4/20
+warmup_step:5/20
+warmup_step:6/20
+warmup_step:7/20
+warmup_step:8/20
+warmup_step:9/20
+warmup_step:10/20
+warmup_step:11/20
+warmup_step:12/20
+warmup_step:13/20
+warmup_step:14/20
+warmup_step:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+step:200/8000 train_loss:2.8533 train_time:16807ms step_avg:84.03ms
+
+up_seconds:18.758349
+warmup_step:1/20
+warmup_step:2/20
+warmup_step:3/20
+warmup_step:4/20
+warmup_step:5/20
+warmup_step:6/20
+warmup_step:7/20
+warmup_step:8/20
+warmup_step:9/20
+warmup_step:10/20
+warmup_step:11/20
+warmup_step:12/20
+warmup_step:13/20
+warmup_step:14/20
+warmup_step:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+step:200/8000 train_loss:2.8533 train_time:16807ms step_avg:84.03ms
+step:400/8000 train_loss:2.3382 train_time:33093ms step_avg:82.73ms
+
+up_seconds:18.758349
+warmup_step:1/20
+warmup_step:2/20
+warmup_step:3/20
+warmup_step:4/20
+warmup_step:5/20
+warmup_step:6/20
+warmup_step:7/20
+warmup_step:8/20
+warmup_step:9/20
+warmup_step:10/20
+warmup_step:11/20
+warmup_step:12/20
+warmup_step:13/20
+warmup_step:14/20
+warmup_step:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+step:200/8000 train_loss:2.8533 train_time:16807ms step_avg:84.03ms
+step:400/8000 train_loss:2.3382 train_time:33093ms step_avg:82.73ms
+
+/20
+warmup_step:4/20
+warmup_step:5/20
+warmup_step:6/20
+warmup_step:7/20
+warmup_step:8/20
+warmup_step:9/20
+warmup_step:10/20
+warmup_step:11/20
+warmup_step:12/20
+warmup_step:13/20
+warmup_step:14/20
+warmup_step:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+step:200/8000 train_loss:2.8533 train_time:16807ms step_avg:84.03ms
+step:400/8000 train_loss:2.3382 train_time:33093ms step_avg:82.73ms
+step:600/8000 train_loss:2.4566 train_time:50038ms step_avg:83.40ms
+
+/20
+warmup_step:4/20
+warmup_step:5/20
+warmup_step:6/20
+warmup_step:7/20
+warmup_step:8/20
+warmup_step:9/20
+warmup_step:10/20
+warmup_step:11/20
+warmup_step:12/20
+warmup_step:13/20
+warmup_step:14/20
+warmup_step:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+step:200/8000 train_loss:2.8533 train_time:16807ms step_avg:84.03ms
+step:400/8000 train_loss:2.3382 train_time:33093ms step_avg:82.73ms
+step:600/8000 train_loss:2.4566 train_time:50038ms step_avg:83.40ms
+
+/20
+warmup_step:8/20
+warmup_step:9/20
+warmup_step:10/20
+warmup_step:11/20
+warmup_step:12/20
+warmup_step:13/20
+warmup_step:14/20
+warmup_step:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+step:200/8000 train_loss:2.8533 train_time:16807ms step_avg:84.03ms
+step:400/8000 train_loss:2.3382 train_time:33093ms step_avg:82.73ms
+step:600/8000 train_loss:2.4566 train_time:50038ms step_avg:83.40ms
+step:800/8000 train_loss:2.4566 train_time:66295ms step_avg:82.87ms
+
+1/20
+warmup_step:12/20
+warmup_step:13/20
+warmup_step:14/20
+warmup_step:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+step:200/8000 train_loss:2.8533 train_time:16807ms step_avg:84.03ms
+step:400/8000 train_loss:2.3382 train_time:33093ms step_avg:82.73ms
+step:600/8000 train_loss:2.4566 train_time:50038ms step_avg:83.40ms
+step:800/8000 train_loss:2.4566 train_time:66295ms step_avg:82.87ms
+step:1000/8000 train_loss:2.3134 train_time:82316ms step_avg:82.32ms
+
+1/20
+warmup_step:12/20
+warmup_step:13/20
+warmup_step:14/20
+warmup_step:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+step:200/8000 train_loss:2.8533 train_time:16807ms step_avg:84.03ms
+step:400/8000 train_loss:2.3382 train_time:33093ms step_avg:82.73ms
+step:600/8000 train_loss:2.4566 train_time:50038ms step_avg:83.40ms
+step:800/8000 train_loss:2.4566 train_time:66295ms step_avg:82.87ms
+step:1000/8000 train_loss:2.3134 train_time:82316ms step_avg:82.32ms
+
+p:15/20
+warmup_step:16/20
+warmup_step:17/20
+warmup_step:18/20
+warmup_step:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+step:200/8000 train_loss:2.8533 train_time:16807ms step_avg:84.03ms
+step:400/8000 train_loss:2.3382 train_time:33093ms step_avg:82.73ms
+step:600/8000 train_loss:2.4566 train_time:50038ms step_avg:83.40ms
+step:800/8000 train_loss:2.4566 train_time:66295ms step_avg:82.87ms
+step:1000/8000 train_loss:2.3134 train_time:82316ms step_avg:82.32ms
+step:1200/8000 train_loss:2.2515 train_time:98936ms step_avg:82.45ms
+
+tep:19/20
+warmup_step:20/20
+campaign_setup_compile_warmup_seconds:159.994235
+step:1/8000 train_loss:6.9365 train_time:127ms step_avg:127.38ms
+step:2/8000 train_loss:16.8866 train_time:154ms step_avg:76.79ms
+step:3/8000 train_loss:8.7475 train_time:203ms step_avg:67.68ms
+step:4/8000 train_loss:6.6322 train_time:248ms step_avg:61.99ms
+step:5/8000 train_loss:6.6021 train_time:294ms step_avg:58.73ms
+step:6/8000 train_loss:7.4051 train_time:343ms step_avg:57.14ms
+step:7/8000 train_loss:6.3291 train_time:388ms step_avg:55.47ms
+step:8/8000 train_loss:6.1943 train_time:433ms step_avg:54.13ms
+step:9/8000 train_loss:6.0809 train_time:479ms step_avg:53.19ms
+step:10/8000 train_loss:5.9907 train_time:814ms step_avg:81.38ms
+step:200/8000 train_loss:2.8533 train_time:16807ms step_avg:84.03ms
+step:400/8000 train_loss:2.3382 train_time:33093ms step_avg:82.73ms
+step:600/8000 train_loss:2.4566 train_time:50038ms step_avg:83.40ms
+step:800/8000 train_loss:2.4566 train_time:66295ms step_avg:82.87ms
+step:1000/8000 train_loss:2.3134 train_time:82316ms step_avg:82.32ms
+step:1200/8000 train_loss:2.2515 train_time:98936ms step_avg:82.45ms
+step:1400/8000 train_loss:2.4054 train_time:115376ms step_avg:82.41ms
+
+Stopping app - uncaught exception raised locally: RemoteError('Function call was cancelled by user or a failure.').
+[modal-client] 2026-10-24T02:38:13+0000 Received a cancellation signal while processing input ('in-01M5NW1PTGHDYXA3318YJTHAEB:1792809163630-0',)
+Runner terminated.
+Traceback (most recent call last):
+  File "/home/azureuser/parameter-golf-experiments/scripts/run_job.py", line 27, in <module>
+    try:result=call.get(timeout=10);break
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_object.py", line 49, in wrapped
+    return await method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_functions.py", line 2424, in get
+    return await self._invocation().poll_function(timeout=timeout, index=index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_functions.py", line 350, in poll_function
+    return await _process_result(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/azureuser/parameter-golf-control/venv/lib/python3.12/site-packages/modal/_utils/function_utils.py", line 574, in _process_result
+    raise RemoteError(result.exception)
+modal.exception.RemoteError: Function call was cancelled by user or a failure.

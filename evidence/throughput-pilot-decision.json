@@ -1,0 +1,12 @@
+{
+  "job": "control-42-nvlink",
+  "decision": "Cancel incomplete throughput pilot before projected timeout; no evaluation result or artifact",
+  "setup_compile_seconds": 159.994235,
+  "step_1000_seconds": 82.316,
+  "projected_8000_loop_seconds": 658.528,
+  "projected_setup_plus_loop_seconds": 818.522235,
+  "subprocess_limit_seconds": 820,
+  "additional_unaccounted_in_projection": "Python imports, export and final evaluations make completion exceed child cap",
+  "next_hypothesis": "H0 local ephemeral staging of identical clean shards avoids repeated remote volume reads; not proven until measured",
+  "utc": "2026-10-24T02:38:11.482299+00:00"
+}

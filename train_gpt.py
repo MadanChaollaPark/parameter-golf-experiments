@@ -1052,6 +1052,10 @@ def main() -> None:
 
         # Needed to sync whether we've reached the wallclock cap.
         reached_cap = max_wallclock_ms is not None and approx_training_time_ms >= max_wallclock_ms
+        # Export a clearly labeled partial pilot rather than lose all evidence to the job timeout.
+        if time.perf_counter() - campaign_start >= float(os.environ.get("CAMPAIGN_TOTAL_SECONDS", "650")):
+            reached_cap = True
+            log0("campaign_safety_stop: partial run; not a completed matched fixed-step experiment")
         if distributed and max_wallclock_ms is not None:
             reached_cap_tensor = torch.tensor(int(reached_cap), device=device)
             dist.all_reduce(reached_cap_tensor, op=dist.ReduceOp.MAX)
