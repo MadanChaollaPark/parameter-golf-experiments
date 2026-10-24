@@ -8,6 +8,7 @@ p=argparse.ArgumentParser();p.add_argument('job');p.add_argument('--kind',defaul
 ledger=json.loads((ROOT/'budget.json').read_text());assert any(x['job']==a.job for x in ledger['entries']),'Missing reservation'
 assert not (CONTROL/'STOP').exists() and not (CONTROL/'STOP_JOBS').exists()
 from scripts.status import update
+import modal
 import modal_campaign as mc
 jobs_path=ROOT/'jobs.json';jobs=json.loads(jobs_path.read_text()) if jobs_path.exists() else []
 assert not any(j['job']==a.job for j in jobs),'No automatic retries / reuse'
