@@ -168,8 +168,10 @@
     },
     "code_revision": "b5be6d9e198b047f4e8450226d392ad666fe99ad",
     "started_utc": "2026-10-24T03:02:10.932265+00:00",
-    "state": "running",
+    "state": "completed",
     "app_id": "ap-Q06FRZ5Ny2ggdm1tsP2uhs",
-    "call_id": "fc-01M5NXQQD85KZHYPTTZBYJJ7D6"
+    "call_id": "fc-01M5NXQQD85KZHYPTTZBYJJ7D6",
+    "elapsed_app_seconds": 668.8955545350909,
+    "finished_utc": "2026-10-24T03:13:19.828166+00:00"
   }
 ]

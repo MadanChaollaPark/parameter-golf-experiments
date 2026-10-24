@@ -1,7 +1,16 @@
 {
-  "pairs": [],
+  "pairs": [
+    {
+      "seed": 42,
+      "control_bpb": 1.24724648,
+      "candidate_bpb": 1.24678452,
+      "candidate_minus_control_bpb": -0.0004619599999999835,
+      "matched_source_sha256": "02099aa4623012c9bbe020215e6579ea793c00deb99e28fcea93a2c33f696a67",
+      "matched_clean_data_sha256": "30db9bda9cb296205eeb455f89750829d1f3ac44f3d7b50e570b81a88e2f560a"
+    }
+  ],
   "replicated_directional_improvement": false,
-  "decision": "No completed matched pair yet",
+  "decision": "One matched seed only: provisional, not a replicated improvement",
   "scored_runs": {
     "control-42-6k": {
       "bpb": 1.24724648,
@@ -11,6 +20,16 @@
       "main_to_export_seconds": 621.917041,
       "subprocess_wall_seconds": 640.4138648859999,
       "staging_seconds": 113.238168714
+    },
+    "candidate-42-6k": {
+      "bpb": 1.24678452,
+      "model_bytes": 15798149,
+      "total_counted_training_artifact_bytes": 15853316,
+      "completed_requested_steps": true,
+      "main_to_export_seconds": 629.976229,
+      "subprocess_wall_seconds": 640.606147984,
+      "staging_seconds": 9.202386657
     }
-  }
+  },
+  "mean_paired_delta_bpb": -0.0004619599999999835
 }
