@@ -162,7 +162,27 @@
       "phase": "final",
       "details": "Second arm of final prespecified seed1337 confirmation: QK5 only versus completed QK1.5 control, same6000 steps/sourcea9f05d/data/environment. StrictH100!:8 CPU32/RAM64 hard task800 startup120 child700 app960+60s margin; conservative$9.774 bound. Unique persisted execution claim and retries0. At least$7.50 for final CPU staging/offline full evaluation remains.",
       "utc": "2026-10-24T03:25:40.909200+00:00"
+    },
+    {
+      "job": "audited-reconciliation-candidate-1337-6k",
+      "reserved_usd": -3.0,
+      "phase": "final",
+      "kind": "explicit_audited_downward_adjustment",
+      "original_job": "candidate-1337-6k",
+      "original_reservation_preserved_usd": 10.0,
+      "revised_conservative_charge_usd": 7.0,
+      "computed_bound_usd": 6.63669952,
+      "evidence": "evidence/candidate-1337-6k-cost-reconciliation.json",
+      "utc": "2026-10-24T03:35:33.188864+00:00",
+      "details": "Provider app creation-to-stopped duration conservatively charged at full GPU/CPU/RAM limits, plus stated startup/teardown margin and CPU image allowance. Credits count. Not an invoice."
+    },
+    {
+      "job": "stage-primary",
+      "reserved_usd": 0.5,
+      "phase": "final",
+      "details": "CPU-only final integrity gate, no GPU: selectedcandidate1337 immutable checkpoint/val/tokenizer staging, all50000docs decode vs officialLUT bytes, synthetic1024/2048 causal perturbation checks. CPU2/RAM8GiB hard function240 startup60 app360; cached-image allowance plus fullCPU builder900s and termination fits$0.50. No fitting/calibration.",
+      "utc": "2026-10-24T03:35:33.270658+00:00"
     }
   ],
-  "total_reserved_usd": 66.0
+  "total_reserved_usd": 63.5
 }

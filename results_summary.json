@@ -8,10 +8,19 @@
       "candidate_minus_control_nats": -0.000780000000000225,
       "matched_source_sha256": "02099aa4623012c9bbe020215e6579ea793c00deb99e28fcea93a2c33f696a67",
       "matched_clean_data_sha256": "30db9bda9cb296205eeb455f89750829d1f3ac44f3d7b50e570b81a88e2f560a"
+    },
+    {
+      "seed": 1337,
+      "control_bpb": 1.24610386,
+      "candidate_bpb": 1.24548422,
+      "candidate_minus_control_bpb": -0.0006196400000000324,
+      "candidate_minus_control_nats": -0.0010462499999999153,
+      "matched_source_sha256": "a9f05de2296f313cf7daacb4366a7067eb494fda3116030fcd7ca91b365be42e",
+      "matched_clean_data_sha256": "30db9bda9cb296205eeb455f89750829d1f3ac44f3d7b50e570b81a88e2f560a"
     }
   ],
-  "replicated_directional_improvement": false,
-  "decision": "One matched seed only: provisional, not a replicated improvement",
+  "replicated_directional_improvement": true,
+  "decision": "Retain QK5 as descriptively replicated improvement; no significance or official-win claim",
   "scored_runs": {
     "control-42-6k": {
       "bpb": 1.24724648,
@@ -45,8 +54,20 @@
       "staging_seconds": 9.202386657,
       "launch_to_export_observed_upper_bound_seconds": null,
       "training_timing_verified_under600": false
+    },
+    "candidate-1337-6k": {
+      "bpb": 1.24548422,
+      "model_bytes": 15804351,
+      "total_counted_training_artifact_bytes": 15860710,
+      "completed_requested_steps": true,
+      "main_to_export_seconds": 479.971919,
+      "subprocess_wall_seconds": 540.0991701309999,
+      "staging_seconds": 8.5328107,
+      "launch_to_export_observed_upper_bound_seconds": 490.096132673,
+      "training_timing_verified_under600": true
     }
   },
-  "mean_paired_delta_bpb": -0.0004619599999999835,
-  "mean_gain_reaches_hypothesized_minimum_0_002_bpb": false
+  "mean_paired_delta_bpb": -0.0005408000000000079,
+  "mean_gain_reaches_hypothesized_minimum_0_002_bpb": false,
+  "paired_delta_sample_std_bpb": 0.00011149659725752938
 }

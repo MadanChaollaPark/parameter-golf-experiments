@@ -198,5 +198,30 @@
     "call_id": "fc-01M5NYD9QV6CETA040YVG7TADK",
     "elapsed_app_seconds": 668.5863869579043,
     "finished_utc": "2026-10-24T03:25:06.078772+00:00"
+  },
+  {
+    "job": "candidate-1337-6k",
+    "kind": "train",
+    "config": {
+      "job_id": "candidate-1337-6k",
+      "config": {
+        "SEED": "1337",
+        "QK_GAIN_INIT": "5.0",
+        "ITERATIONS": "6000",
+        "MAX_WALLCLOCK_SECONDS": "0",
+        "WARMDOWN_ITERS": "1200",
+        "VAL_LOSS_EVERY": "0",
+        "TRAIN_LOG_EVERY": "200",
+        "WARMUP_STEPS": "20",
+        "EXPORT_BEFORE_SCORING": "1"
+      }
+    },
+    "code_revision": "c337acf2513efebf889df8ad3d5f080d0a6c3b86",
+    "started_utc": "2026-10-24T03:25:41.839451+00:00",
+    "state": "completed",
+    "app_id": "ap-s4vx0GG1ELjdaAutlJlxvZ",
+    "call_id": "fc-01M5NZ2SAH36S4SYM39TXVX44F",
+    "elapsed_app_seconds": 564.7459197139833,
+    "finished_utc": "2026-10-24T03:35:06.585740+00:00"
   }
 ]
