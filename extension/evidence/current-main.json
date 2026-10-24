@@ -1,0 +1,101 @@
+{
+  "sha": "f5c079314c4877fbb0af378c0abade5a8ca33d3a",
+  "node_id": "C_kwDORL3_gtoAKGY1YzA3OTMxNGM0ODc3ZmJiMGFmMzc4YzBhYmFkZTVhOGNhMzNkM2E",
+  "commit": {
+    "author": {
+      "name": "Alex Zhao",
+      "email": "alexzhao@openai.com",
+      "date": "2026-05-04T20:07:19Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-05-04T20:07:19Z"
+    },
+    "message": "Update leaderboard with May 1 audited rows (#2146)\n\n* Update leaderboard with May 1 audited rows\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* Clarify PR 2130 leaderboard attribution\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* Remove PR 2130 from leaderboard update\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* Add PR 2135 under grace policy\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+    "tree": {
+      "sha": "b628c3aef4227461fc1bc69098a3de4bdc52030c",
+      "url": "https://api.github.com/repos/openai/parameter-golf/git/trees/b628c3aef4227461fc1bc69098a3de4bdc52030c"
+    },
+    "url": "https://api.github.com/repos/openai/parameter-golf/git/commits/f5c079314c4877fbb0af378c0abade5a8ca33d3a",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp+Px3CRC1aQ7uu5UhlAAAGn4QAD8ZQ9f3m9FXj5ocD2oGsi45\nMJFG+zHG9Zhmh8ptn6kFgTLbACpfrbwImcClS29i9vCjjupnpyDGJYTO6mPuG0iR\nQG0jCvJvGZ67eZlw3f72PY2m0v0paD1NgzE7e6Be+WUIutkXVaZYJtcUt/yzr0tt\nFSiBbzmcZ6T1a/h1Q3TQR7Xb5ip7aF8grKzvYsD2o7mfSg0lWIdBCdioImDr/wFZ\nDOAic4V0FMIsuPDESvG059ieTQMUZHq1g1CkDy4TyU0EAzwizWt2ALccN5wVSPZQ\nahIqDOGetB1N+gGD5h0awUVNVNOvZ4pDNCIP8RCgvXbcB9PW6tzLho/lnaJdMvJ5\n/89lAjT/p5U0cIDii3/Q5R9Bwn3jAxQRyA3Augn5jKMTr6cwaUu4QIqFprPFyqun\nLzAGemERCaN0L9EUUwYOesCdLK7TAa0nUA/bDkTQ2MyewZ4c20DKS0UbCjlRxwgR\nlxcCC51idoKA3F2e2813aEZpaVRA52tYl2KnSXG6+y2Ums9AoGWe0Oh4Cf8Fxrq9\n0KcF2DHETfh9nnpc1mM+AZTcN9rfV73JRUZ5yWGkNFONUgWJNcrVquazAEGS3N9Q\nsQUkTr7Jj9vPwmv7pZpPaJ2pjEerd3r97SWDdTaHA82zsZpaoV4EvOZOdjBiP3eF\nFXv/9/t4aq1jfjTKYOxR\n=zMPV\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree b628c3aef4227461fc1bc69098a3de4bdc52030c\nparent 4908dc46f21ed3fdd08d2fdca285deb2194b9599\nauthor Alex Zhao <alexzhao@openai.com> 1777925239 -0700\ncommitter GitHub <noreply@github.com> 1777925239 -0700\n\nUpdate leaderboard with May 1 audited rows (#2146)\n\n* Update leaderboard with May 1 audited rows\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* Clarify PR 2130 leaderboard attribution\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* Remove PR 2130 from leaderboard update\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* Add PR 2135 under grace policy\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+      "verified_at": "2026-05-04T20:07:20Z"
+    }
+  },
+  "url": "https://api.github.com/repos/openai/parameter-golf/commits/f5c079314c4877fbb0af378c0abade5a8ca33d3a",
+  "html_url": "https://github.com/openai/parameter-golf/commit/f5c079314c4877fbb0af378c0abade5a8ca33d3a",
+  "comments_url": "https://api.github.com/repos/openai/parameter-golf/commits/f5c079314c4877fbb0af378c0abade5a8ca33d3a/comments",
+  "author": {
+    "login": "cocohearts",
+    "id": 41932135,
+    "node_id": "MDQ6VXNlcjQxOTMyMTM1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/41932135?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cocohearts",
+    "html_url": "https://github.com/cocohearts",
+    "followers_url": "https://api.github.com/users/cocohearts/followers",
+    "following_url": "https://api.github.com/users/cocohearts/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cocohearts/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cocohearts/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cocohearts/subscriptions",
+    "organizations_url": "https://api.github.com/users/cocohearts/orgs",
+    "repos_url": "https://api.github.com/users/cocohearts/repos",
+    "events_url": "https://api.github.com/users/cocohearts/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cocohearts/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "4908dc46f21ed3fdd08d2fdca285deb2194b9599",
+      "url": "https://api.github.com/repos/openai/parameter-golf/commits/4908dc46f21ed3fdd08d2fdca285deb2194b9599",
+      "html_url": "https://github.com/openai/parameter-golf/commit/4908dc46f21ed3fdd08d2fdca285deb2194b9599"
+    }
+  ],
+  "stats": {
+    "total": 4,
+    "additions": 4,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "a23bbe941ade827418708a769678f109d620b7af",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "changes": 4,
+      "blob_url": "https://github.com/openai/parameter-golf/blob/f5c079314c4877fbb0af378c0abade5a8ca33d3a/README.md",
+      "raw_url": "https://github.com/openai/parameter-golf/raw/f5c079314c4877fbb0af378c0abade5a8ca33d3a/README.md",
+      "contents_url": "https://api.github.com/repos/openai/parameter-golf/contents/README.md?ref=f5c079314c4877fbb0af378c0abade5a8ca33d3a",
+      "patch": "@@ -30,6 +30,10 @@ Happy training!\n \n | Run | Score | Author | Summary | Date | Info |\n |-----|------:|--------|---------|------|------|\n+| Calib32 Token-Only N-gram + AsymLogit Stack | 1.0565 | codemath3000 | On PR #2135: pre-cutoff PR #2130 architecture rerun on clean canonical CaseOps data with GPTQ_CALIBRATION_BATCHES=32; 3-seed mean 1.05651 under grace policy (p=0.014 vs PR #2014) | 2026-05-01 | [info](https://github.com/openai/parameter-golf/pull/2135) |\n+| Progressive Context Growth + Short-Doc Score-First TTT | 1.0576 | simonbissonnette | On PR #2014: PR #1855/#1953 CaseOps stack with progressive context growth to 3k plus short-doc score-first TTT on the AWQ-lite/AsymLogit lineage; 3-seed mean 1.05759 (p=0.011 vs PR #1953) | 2026-04-30 | [info](https://github.com/openai/parameter-golf/pull/2014) |\n+| Long-Context No-Q/V TTT + QK-Gain 5.25 | 1.0586 | andrewbaggio1 | On PR #1953: PR #1945 V21 base with 2560 eval/TTT context, no-Q/V TTT mask, TTT LR 0.75, and QK_GAIN_INIT=5.25; 3-seed mean 1.05855 (p=0.063 vs PR #1945 V21 v2) | 2026-04-30 | [info](https://github.com/openai/parameter-golf/pull/1953) |\n+| AWQ-Lite GPTQ + AsymLogit on PR1855 Stack | 1.0594 | alertcat | On PR #1945 commit 70067534: PR #1855 stack plus PR #1908 AWQ-lite mixed GPTQ and PR #1923 AsymLogit; V21 v2 3-seed mean 1.05943 after strict seed-42 rerun (p=0.034 vs PR #1855) | 2026-04-29 | [info](https://github.com/openai/parameter-golf/pull/1945), [commit](https://github.com/openai/parameter-golf/pull/1945/commits/7006753424886886bc27a17f839f6afd01962a08) |\n | BOS-Fixed SmearGate + LQER + SparseAttnGate + 9-Hparam Stack | 1.0611 | codemath3000 | On PR #1855: BOS-fixed #1797-derived stack with LQER, PR #1787 SparseAttnGate/PolarNS/FusedCE base, per-group lrzip compression, and 9 greedy hyperparameter overrides; submitted 3-seed mean 1.06108 with broader reproduction support (p=0.188 vs PR #1868 latest rerun) | 2026-04-27 | [info](https://github.com/openai/parameter-golf/pull/1855), [repro](https://github.com/openai/parameter-golf/pull/1855#issuecomment-4336629746) |\n | BOS-Fixed SmearGate + LQER Asymmetric + PR1787 SparseAttn + Phased TTT | 1.0614 | aquariouseworkman | On PR #1851 with 3-seed compliance-rerun support from PR #1868: BOS-boundary fix from PR #1851 applied to dexhunter's PR #1797 SmearGate + LQER stack, using the PR #1787 SparseAttnGate/PolarNS/FusedCE base plus CaseOps and phased score-first TTT | 2026-04-27 | [info](https://github.com/openai/parameter-golf/pull/1851), [3-seed](https://github.com/openai/parameter-golf/pull/1868) |\n | PR1736 + PolarNS + MIN_LR + SparseAttnGate + FusedCE + Warm-A TTT | 1.0634 | nprime06 | On PR #1787: PR #1736 CaseOps stack plus Polar Express Newton-Schulz coefficients, MIN_LR=0.1, SparseAttnGate, fused softcapped CE, and PR #1767-style warm-start-A TTT | 2026-04-23 | [info](https://github.com/openai/parameter-golf/pull/1787) |"
+    }
+  ]
+}

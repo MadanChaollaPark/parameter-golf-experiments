@@ -1,0 +1,145 @@
+5:from flash_attn_interface import (
+6:    flash_attn_func as flash_attn_3_func,
+7:    flash_attn_varlen_func,
+29:def _softcapped_ce_fwd_kernel(
+63:def _softcapped_ce_bwd_kernel(
+94:def _validate_softcapped_ce_inputs(
+119:def softcapped_ce_op(logits: Tensor, targets: Tensor, softcap: float) -> tuple[Tensor, Tensor]:
+134:def _(logits: Tensor, targets: Tensor, softcap: float):
+149:def softcapped_ce_backward_op(
+175:def _(logits: Tensor, targets: Tensor, lse: Tensor, grad_losses: Tensor, softcap: float):
+187:def _softcapped_ce_setup_context(
+196:def _softcapped_ce_backward(
+212:def softcapped_cross_entropy(
+227:class Hyperparameters:
+240:    max_wallclock_seconds = float(os.environ.get("MAX_WALLCLOCK_SECONDS", 6e2))
+340:    gptq_calibration_batches = int(os.environ.get("GPTQ_CALIBRATION_BATCHES", 16))
+341:    gptq_reserve_seconds = float(os.environ.get("GPTQ_RESERVE_SECONDS", 4.0))
+466:        os.path.join(artifact_dir, "final_model.pt")
+468:        else "final_model.pt"
+470:    quantized_model_path = (
+471:        os.path.join(artifact_dir, "final_model.int6.ptz")
+473:        else "final_model.int6.ptz"
+480:def set_logging_hparams(h):
+485:def log(msg, console=True):
+497:class ValidationData:
+511:        # CPU tensor aligned 1:1 with self.val_tokens. eval_val/eval_val_ttt
+521:def build_sentencepiece_luts(sp, vocab_size, device):
+549:def load_validation_tokens(pattern, seq_len):
+565:def load_validation_byte_sidecar(pattern, seq_len, expected_len):
+583:def load_data_shard(file):
+606:def _read_num_tokens(file):
+619:def _get_shard_memmap(file):
+633:def get_next_multiple_of_n(v, n):
+637:def _build_cu_seqlens(bos_pos, total_len, device, max_doc_len=0, bucket_size=64):
+660:class DocumentPackingLoader:
+747:class ShuffledSequenceLoader:
+801:class DocStartSequenceLoader:
+802:    """GPTQ calibration loader yielding windows that begin at BOS positions.
+805:    Used when GPTQ_CALIBRATION_MODE=doc_start to align calibration distribution
+850:class RMSNorm(nn.Module):
+859:class CastedLinear(nn.Linear):
+867:def linear_leaky_relu_square_kernel(
+921:def linear_leaky_relu_square(a, b, aux=None):
+960:class FusedLinearLeakyReLUSquareFunction(torch.autograd.Function):
+985:def fused_log_softmax_dual_gather_kernel(
+1022:def fused_log_softmax_dual_gather(logits, target_ids, hint_ids):
+1040:class Rotary(nn.Module):
+1080:def apply_rotary_emb(x, cos, sin, rope_dims=0):
+1092:class CausalSelfAttention(nn.Module):
+1178:            y = flash_attn_varlen_func(
+1190:            y = flash_attn_3_func(q, k, v, causal=True)
+1219:        self._last_proj_input = y.detach() if getattr(self, "_calib", False) else None
+1223:class MLP(nn.Module):
+1232:        self._last_down_input = hidden.detach() if getattr(self, "_calib", False) else None
+1236:class Block(nn.Module):
+1292:class GPT(nn.Module):
+1722:        y = flash_attn_3_func(q, k, v, causal=True)
+1784:        y = flash_attn_3_func(q, k, v, causal=True)
+1827:class BatchedLinearLoRA(nn.Module):
+1854:class BatchedTTTLoRA(nn.Module):
+1921:def zeropower_via_newtonschulz5(G, steps=10, eps=1e-07):
+1942:def _apply_huber_wd(w, lr, wd, delta):
+1954:class Muon(torch.optim.Optimizer):
+2117:class Optimizers:
+2238:def restore_fp32_params(model):
+2255:def collect_hessians(model, train_loader, h, device, n_calibration_batches=64):
+2259:        block.attn._calib = True
+2260:        block.mlp._calib = True
+2349:        for _ in range(n_calibration_batches):
+2355:        block.attn._calib = False
+2356:        block.mlp._calib = False
+2359:        hessians[name] = hessians[name].cpu() / n_calibration_batches
+2363:def gptq_quantize_weight(w, H, clip_sigmas=3.0, clip_range=63, block_size=128):
+2401:def _quantize_gate_int8_row(w):
+2413:def _lqer_pack(A, B, bits):
+2422:def _lqer_pack_asym(A, B, g=64):
+2436:def gptq_mixed_quantize(state_dict, hessians, h):
+2520:def dequantize_mixed(result, meta, template_sd):
+2568:def _byte_shuffle(data, stride=2):
+2582:def _byte_unshuffle(data):
+2599:def _compress(data, compressor):
+2610:def _decompress(data, compressor):
+2626:# Splits the quantized state dict into two sections before serialization:
+2671:def _similarity_sort_l1(W):
+2693:def _lrzip_compress_bytes(data):
+2726:def _lrzip_decompress_bytes(data):
+2754:def _pack_pergroup(quant_result, quant_meta):
+2755:    """Serialize quantized state dict using the PGRP frame format.
+2853:def _unpack_pergroup(data):
+2909:def _unbank_state_dict(state_dict, num_layers):
+2934:def _rebank_state_dict(flat_sd, num_layers, model_dim, kv_dim, hidden_dim):
+2965:def _fwht_along_0(W):
+2988:def _optrot_apply(sd, h):
+3046:def _compressed_code_size(code):
+3058:def serialize(h, base_model, code):
+3085:    calib_mode = os.getenv("GPTQ_CALIBRATION_MODE", "random")
+3086:    if calib_mode == "doc_start":
+3087:        calib_loader = DocStartSequenceLoader(h, device, bos_id=BOS_ID if BOS_ID is not None else 1)
+3089:        calib_loader = ShuffledSequenceLoader(h, device)
+3090:    log("GPTQ:collecting Hessians from calibration data...")
+3093:        calib_loader,
+3096:        n_calibration_batches=h.gptq_calibration_batches,
+3110:        with open(h.quantized_model_path, "wb") as f:
+3112:        log(f"Serialized model quantized+{h.compressor}: {quant_file_bytes} bytes")
+3113:        log(f"Total submission size quantized+{h.compressor}: {bytes_total} bytes")
+3117:def deserialize(h, device):
+3121:    with open(h.quantized_model_path, "rb") as f:
+3138:def _loss_bpb(loss_sum, token_count, byte_count):
+3140:    val_bpb = val_loss / math.log(2.0) * (token_count.item() / byte_count.item())
+3144:def eval_val(h, device, val_data, model, forward_logits_fn=None):
+3161:    val_byte_count = torch.zeros((), device=device, dtype=torch.float64)
+3206:                val_byte_count += sidecar_slice.to(torch.float64).sum()
+3213:                val_byte_count += token_bytes.to(torch.float64).sum()
+3217:        dist.all_reduce(val_byte_count, op=dist.ReduceOp.SUM)
+3219:    return _loss_bpb(val_loss_sum, val_token_count, val_byte_count)
+3222:def _find_docs(all_tokens):
+3239:def _build_ttt_global_batches(doc_entries, h, ascending=False):
+3252:def _init_batch_counter(path):
+3257:def _claim_next_batch(counter_path, queue_len):
+3270:def _compute_chunk_window(ci, pred_len, num_chunks, chunk_size, eval_seq_len):
+3280:def _accumulate_bpb(
+3314:def _loss_bpb_from_sums(loss_sum, token_count, byte_sum):
+3320:def _add_to_counter(path, delta):
+3334:def _init_int64_counter(path):
+3339:def _select_ttt_doc_entries(docs, h):
+3350:def train_val_ttt_global_sgd_distributed(h, device, val_data, base_model, val_tokens, batch_seqs=None):
+3484:def _compute_ngram_hints_for_val(h, val_data, log0=print):
+3522:def eval_val_ttt_phased(h, base_model, device, val_data, forward_ttt_train, precomputed_hints=None):
+3949:def timed_eval(label, fn, *args, **kwargs):
+3961:def train_model(h, device, val_data):
+4120:                    f"stopping_early: wallclock_cap train_time: {training_time_ms:.0f}ms step: {step}/{h.iterations}"
+4149:                f"{step}/{h.iterations} train_loss: {train_loss.item():.4f} train_time: {approx_training_time_ms/60000:.1f}m tok/s: {tok_per_sec:.0f}"
+4172:def train_and_eval(h, device):
+4184:    # TTT_EVAL_ONLY: skip training + GPTQ, jump straight to TTT eval on a
+4185:    # pre-existing quantized artifact. Used to test TTT-only improvements
+4187:    ttt_eval_only = os.environ.get("TTT_EVAL_ONLY", "0") == "1"
+4188:    if ttt_eval_only:
+4189:        log("TTT_EVAL_ONLY=1 — skipping training + GPTQ, loading saved artifact for TTT eval")
+4216:    if not ttt_eval_only:
+4222:            "diagnostic quantized",
+4232:        if not ttt_eval_only:
+4234:        if ttt_eval_only:
+4321:        ttt_val_loss, ttt_val_bpb = eval_val_ttt_phased(
+4328:            "quantized_ttt_phased "
+4336:def main():

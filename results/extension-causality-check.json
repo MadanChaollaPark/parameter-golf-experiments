@@ -1,0 +1,22 @@
+{
+  "synthetic_only": true,
+  "native_C_source_unmodified": true,
+  "token_order": 16,
+  "A_doc_length_including_BOS": 17,
+  "B_doc_length_including_BOS": 37,
+  "B_target_hint_with_canonical_A_prefix": [
+    99,
+    1.0
+  ],
+  "B_target_hint_without_A": [
+    0,
+    0.0
+  ],
+  "native_descending_length_queue_scores_B_before_A": true,
+  "synthetic_document_count": 65,
+  "first_native_queue_document_indices": [
+    64
+  ],
+  "cross_document_dependency_demonstrated": true,
+  "interpretation": "Global canonical-order hints retain A content although native descending-length TTT queue scores B first. This conflicts with requested document independence and actual score-before-update order. No claim about numerical impact on the published benchmark."
+}

@@ -1,0 +1,18 @@
+{
+  "errors": [
+    {
+      "action": "git fetch inside supplied upstream copy",
+      "error": "not a git repository",
+      "resolution": "Use pinned GitHub PR APIs and raw commit files; hashes recorded."
+    },
+    {
+      "action": "local native C check",
+      "error": "gcc absent on Azure",
+      "resolution": "Do not modify production VM; use reserved CPU-only Modal environment."
+    },
+    {
+      "action": "initial two-document C test",
+      "limitation": "Demonstrates persistent cross-doc hint state, but a64-row batch needs65 docs to demonstrate native ordering; stronger test separately reserved."
+    }
+  ]
+}

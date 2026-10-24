@@ -1,0 +1,14 @@
+{
+  "job": "extension-causality-check",
+  "kind": "verify",
+  "config": {
+    "job_id": "extension-causality-check"
+  },
+  "code_revision": "e0ab0eb83bdcc73d8ae0d9452651f2e7cb857867",
+  "started_utc": "2026-10-24T05:21:03.213096+00:00",
+  "state": "completed",
+  "app_id": "ap-2uxfxNrHu3VXKMzRhAhJau",
+  "call_id": "fc-01M5P5P135GF7B1BZTTTZ2X1FG",
+  "elapsed_app_seconds": 12.979219704167917,
+  "finished_utc": "2026-10-24T05:21:16.192751+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "job": "extension-prepare",
+  "kind": "prepare",
+  "config": {
+    "job_id": "extension-prepare"
+  },
+  "code_revision": "e0ab0eb83bdcc73d8ae0d9452651f2e7cb857867",
+  "started_utc": "2026-10-24T05:17:26.570215+00:00",
+  "state": "running",
+  "app_id": "ap-mxx3mJPc1zUqXBLrcucjmr",
+  "call_id": "fc-01M5P5K1JC1ZYQFC058TE0HCKT"
+}

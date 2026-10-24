@@ -6,5 +6,5 @@ while time.monotonic()-start<limit and not (CONTROL/'STOP').exists() and not (CO
 py=str(CONTROL/'venv/bin/python')
 r=subprocess.run([py,'-m','modal','app','list','--json'],env=env,capture_output=True,text=True,timeout=40)
 for j in json.loads(r.stdout):
- if j['description']=='parameter-golf-controlled-20261024' and j['state']!='stopped':
+ if j['description']==(sys.argv[3] if len(sys.argv)>3 else 'parameter-golf-controlled-20261024') and j['state']!='stopped':
   subprocess.run([py,'-m','modal','app','stop',j['app_id']],env=env,capture_output=True,timeout=40)

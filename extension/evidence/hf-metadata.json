@@ -1,0 +1,874 @@
+{
+  "_id": "69e3f457e0466dcd482e6955",
+  "id": "romeerp/parameter-golf-caseops-v1",
+  "author": "romeerp",
+  "sha": "889572bcefaa6b80257fd266d6e99ed9624ea9fa",
+  "lastModified": "2026-04-18T21:25:59.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 27,
+  "likes": 0,
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+      "size": 2504
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000000.bin",
+      "blobId": "2723c31c65fb297da59b626749cec9a58693b57e",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "d6cc7eaeb55d935f3d43927801763fdfc4c36ddf51f5a728a9ef2b83197546b4",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000001.bin",
+      "blobId": "68ef49ad9cea3b066088ed2c113db301a1d485a1",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "bf72fd3639765bb5e63b80208e2cc04a5774b04932c426b7ed5d734b27eedf17",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000002.bin",
+      "blobId": "164e08c3a9b5263f39ccf7ae93196ff232378768",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "205d7746bd444ce4c8847443250bd747dc0d2be5d9c5016c69216147b51fc1e0",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000003.bin",
+      "blobId": "ce43439d9cf08bbd6659ae8c3c84b62f13cc61fd",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "9f7b0be7595f165ef70d7931b07b5c2ab3bcabc80e6a58b5f288d6be8a34a803",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000004.bin",
+      "blobId": "16083e52faca3c486eaa33615484c4cee8379b8a",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "cd964401dd7f24d5a821ae46ffc5d993be4c0d1ca0accd28788f886c583b27bc",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000005.bin",
+      "blobId": "12901f5e74ac093469e59f6e37854dcbc7c8d63f",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "c2508daf2ec4f26507cab64cbe59a13ec2b9ec5816be14787065d03be818f920",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000006.bin",
+      "blobId": "4a1f8449f62f3d41fe9380588c8199db3f7a6792",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "518040c225cf14aa54d5ac6e9a86af2d0488c3b3df85089117b7c1e2698e288c",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000007.bin",
+      "blobId": "8b6bc98aba77444c91474888e1319cd019b0bc1e",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "becb048dff71e8389c43a5d6a33700f1edd50029b2b7ab28c4287110f0c00557",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000008.bin",
+      "blobId": "75265e44d260919cd2f48c79dcea237dbf5718ec",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "c3f2c1062f45f14c286571b0e05a6e6d3ba396fb6212341b184ca8c7d825cbaf",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000009.bin",
+      "blobId": "575829fdaf73ba42202011cd09d91810a007def8",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "dad4263ad88d45ba8e542d1f718ae302461b7d2e3e3d96bdfb0f26e4f8e33f75",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000010.bin",
+      "blobId": "54294faaf26e9cb7dda39b66c5395a3f664f2a37",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "4e019332eec1f40947d5b2a721c6f81cfa4faa29df128c95e906672b76e3d586",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000011.bin",
+      "blobId": "d7f9024de65448860dc5768abd88f6c90db1bab4",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "cf5e5390a70f7dc4884da02239f8279159a27d385027e06748fa84516851f167",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000012.bin",
+      "blobId": "06c38f627481a3731bf8e77ad3f30ac98a50b0ec",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "7cce3f6cc69d68bb9efd68d8b3626837228fa495b0c203f9ba7e677e11259df0",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000013.bin",
+      "blobId": "1308bf7d3165a687eed6d0ce891bb325144a2e72",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "5be86d4958f57106d428dd079500056d66090b10bacd46f95408b1c159f8cdfa",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000014.bin",
+      "blobId": "e715bbc82cc079619321950e3810d43547b86c46",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "3986e85c218c974118594d0d2910e019a9ac6ef2fe8dafc9978bd4fe57b2ae5c",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000015.bin",
+      "blobId": "0e95567292c0036d43d6f399a30ac1f701a981b8",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "46397afd97b5badb72b24b28bc6256c5552b498213b7ada03454cd39912c12f7",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000016.bin",
+      "blobId": "a2cd91fe9f7a3ed7c419730444c3bcfa41e06417",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "92281494346ba79130f4da4305557da5a240ca32b479dd1d8305b664801cf6ff",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000017.bin",
+      "blobId": "4df57174d5981a0a425c829ead9edeb7be1fc921",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "119eaf875642d83e07f8ce4fc1a903b340a0cad5503282870fe909002aa57f9a",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000018.bin",
+      "blobId": "2e724eb9c00ed15bc480e06d00ce9d4261eb0a3b",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "575e9834af8b4d1020de394c521e0c1c9e03c706491c5407cd3bca6e9e32313f",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000019.bin",
+      "blobId": "027f237a9eaf9fd65f714ce0414126bf16163164",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "d5786d817233257e01250ec0b9bf0c39c5be583c1ce06e31574dac66c5432e02",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000020.bin",
+      "blobId": "95e78d8305ea2b19fb61ca70d44249f4a9631ff4",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "aa1d47e974441070800bab11aaa79c4e85a02dbba5e3ffe005d265c24781a32b",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000021.bin",
+      "blobId": "b0310d97815a0eb3b4c4c2ba59b0e0bee3694f50",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "a8c4b9d44a9d2cbff14deeedb058f690cdfb8e25348d63fc80bd5a2a95ce9d01",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000022.bin",
+      "blobId": "b7f8a9ef4c144d870cf83dca545e7147daa8e775",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "907b5a53809f3effcdb245601558d581242a0d8afa23bd699fc427350dbfa604",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000023.bin",
+      "blobId": "ec44e8b61bdb3ea9f3c91f4e6d3b12c9fb75e81d",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "e0f246b9d6abdc9d4a150a28f29bbe9ba1313c4d0fcb2938dd7b9433a8dcc98c",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000024.bin",
+      "blobId": "7c0aefc35c3766a8504a7c6124ba92e92a11b9b6",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "d6326d62efc785327f05675ed6d210c94fce4e4ed6acc5f326313274f119b5ee",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000025.bin",
+      "blobId": "636735e14de2e6e21bf050a35fdbba583a424c92",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "061025c4b54b45ac60612db74364e93afb50a463e6a0c1752afe779b390c90e6",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000026.bin",
+      "blobId": "a6ecaddf8ac6ef094cc150ba7c22704b85d60fbc",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "beecdbe13a238718e803704cc7038600ed4815340c985bda965b76cd804d2db1",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000027.bin",
+      "blobId": "96be72ab10cbd3ef51251667587b9a6f1b5c9ba2",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "11d79e14a3464f64169bbc972580bc18db6b27fd32c9148b4df08fa836eebff7",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000028.bin",
+      "blobId": "cab7a3ae4901ed775225e04171feecda2791f8e8",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "0e247d64d85df7ea19d843cdb950fecaaeac785aaca23a03a493ef817fdbc927",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000029.bin",
+      "blobId": "028903a43ef373c8e24eb1e619c7c6876bb607e8",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "5888be56ac10ce2f6f06b34ce7aef3ce112d060203527169cda184f126572659",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000030.bin",
+      "blobId": "5338d49786ee6813aed3f2be33396464e998fef6",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "38b3f78c8e86254ff6c1afaa055f14206525638b4138aff038c24f9171acd18d",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000031.bin",
+      "blobId": "5d499f2d298e60e708aa2b5af78c3e2c6f9335cc",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "944616ed61663024b4dd9475937b2c55c5b18ff2d177c205d1c4cf1ff1631409",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000032.bin",
+      "blobId": "249c4958217726c8ed7bd64ddabb72073ecc3aeb",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "35fc832db2362454c9b4216caedacb5cbad1ea9a8313fe66460b96fb527f5223",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000033.bin",
+      "blobId": "6f08e625568ef6b21920d85ba1f63523d43399a7",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "233c0adecd36517f28533c1fe03e15389be12163239b6ec06c44e553de5f76fc",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000034.bin",
+      "blobId": "04b1da618e6e8620de0f040bbc99a9a507278a51",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "908364c049c29d921f18111ff7b0fa0ec4fe2bef5da1a735ffd885bf84032187",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000035.bin",
+      "blobId": "344f85eb9f14ad5a2e39c800316d85eeca4fa7a3",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "ae22a01782b5b3d9cae55aa5e508391d85eb4c0309ae169567c79af2b589463b",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000036.bin",
+      "blobId": "bbb8b07b15e4d29c9f5a325abcd96e9991001b8e",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "9e7279477416011fe9ad7dbaf4dc8749b6dccb10799c67f2ff78eacc80fd73ce",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000037.bin",
+      "blobId": "c693a4f6bcf54376240f6b1ac6834a7a589fac60",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "335a7b3a1f79e2a5925756004d4535e6cfbd67989ecdb43feff6f3c690ea42f5",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000038.bin",
+      "blobId": "2227d340d5bd683179cc8e0bcd870b796b8664b5",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "34393ccb6dd499f8610a97ecad9741a4193a93c605431a312c3f7e14bcd51945",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000039.bin",
+      "blobId": "d81b427775cc418d93aba0c79f210245948d663d",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "a03498a19bd1dccf6108763d830cf043d78f720508c955f6b30f5514a66c333d",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000040.bin",
+      "blobId": "8b5f35fc80bd142daf2e09e16f9f22881f913331",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "62f142ac21d770ccdaca423558b10b186a2ed6dec574c356bc791bd6d0f41590",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000041.bin",
+      "blobId": "a011c67e119f3bd000004b7e4e5f3d4f061a6cbc",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "7caa5b777690dd51dc3c25d38f6932a4c2eb85ef7a4bc05e5f67e0fa4890c412",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000042.bin",
+      "blobId": "7830d8db92c36aa8404c086aaf5c0f0f00b79b5a",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "6ac915248795ec62beed33f63282c278e3d1c7dc1e35bf3ca4e8fc3cbdfd450d",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000043.bin",
+      "blobId": "ca2eef503c96c78c6cabb324d430dc1a0339aaf3",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "5cef98eb5ddaca1b48ac903b5527230acad1015f9df0218f96450ce06e7f9e2f",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000044.bin",
+      "blobId": "c38cc32a0cb6dff234f3daed91271ade85d73d2c",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "dc612896f0003f3afd5cb2b5eb0d524b867b4877d32ce86b9e9b34d422b00640",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000045.bin",
+      "blobId": "00ac264297495146c550fa6628b7225d8ec9b66f",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "3b1a64220ea6ca633eb5e13a7d9dd9f5696aeae9682e5a2d64e39184981ab968",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000046.bin",
+      "blobId": "fbb3203592a5c8820b462c8807b939f4c8a4e831",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "d6c2dd1084144e777685dcdcbb4f7950a2d607ff237cd8adb255e4fddcbf75fa",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000047.bin",
+      "blobId": "6cdeb78a4f28748a671efa34ec5aba74684d79f5",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "b74afd9142a3cd9893cece9da6cad864573b07d0b8b4e48a21a51312dc95af2b",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000048.bin",
+      "blobId": "b4f4e7e7ec2d7c9616140e64b75c9bb1304e80f0",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "4dd09cd1f951c71763a69369e97654abf2908f0fb4187e296a342288960301c3",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000049.bin",
+      "blobId": "345b7e692934bbdfcf4e20606a2e5ef4d4f4618b",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "22afc94365334b8b92bdf096e4a5b053146c0019ef0251c1dc22db73772137a3",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000050.bin",
+      "blobId": "8df26aef4b265e375236dacd5dd9a19b50de33c8",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "f18070dc567dda4ca011945c563e240211e7b073eb572f81db297fb97b15ebc4",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000051.bin",
+      "blobId": "ed3ed22c9300e7793c3c6aa0d572843276d5c541",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "976fe7eea87f0ea16aef4dfaea112b35ae4039191d8df82933d090843568b703",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000052.bin",
+      "blobId": "344fd5e1575d59540a1feda59f3425ecc6afa559",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "9b641850ffb139aa2774b5a5723660a91738995b562a45a459023be1540dfb32",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000053.bin",
+      "blobId": "301b13ae251e31a75a6d28ce2465bd41ba9b10b6",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "6815ed8971bac576759faebab6943c92f1821edc4bb75c8e62ad6e0f2e84966d",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000054.bin",
+      "blobId": "51b5a54edbd0019218fe64d956e2a9b898e2a4e7",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "f56868fd4bfb027751c10256b23a1fe870a6964b9cbe0ec385b26f4a5a352c08",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000055.bin",
+      "blobId": "a4727e0edfa7ca5786f588998aa3a0f7cc836bf0",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "ff60d10b917c7951225db1cfa6282a58b1791acd363cfd79e24aaa168c929911",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000056.bin",
+      "blobId": "8474edb16f36f77adf6b7f215c386383d77e52a2",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "b7daabffc787b6a05ceb3d3a9d28e5724dbab941943e5d2b802aa827eb8ee9f9",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000057.bin",
+      "blobId": "4a028090035e9c64162c83c16d14befece61a5eb",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "5430511c3eb0a63452fb31452a9227e1d62ef843fa32ee8c980e8715951be4e9",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000058.bin",
+      "blobId": "6bf332256435f221b2c1999b4f6cc29db763022b",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "7f422fc3b83f4ff7b6ce5cd123f44a8a68f01c1dc62c3205871a48336e803850",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000059.bin",
+      "blobId": "0bcdc63b0b8e9f887418eed9faa269565f8437e7",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "791fa7607152e93615ed3b88206ed59dc9dac6d0bcf79613328642103d0dd876",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000060.bin",
+      "blobId": "9017d2348e3be469cf1b1a8569b00d4cebfaddae",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "365d4a819c633b21d317efea476e57b35f6c990f7589a064581189ed7242554c",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000061.bin",
+      "blobId": "92780ec262e18fedd805c13222b940f6a393f740",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "7139e16ac6f2944485559c86a6309c4d5108e94a093522240e8991c7645d9b47",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000062.bin",
+      "blobId": "61aa951a325ba6a83f061e9658684e475b7fb183",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "7de6e61bf2cb26e2106257a588b1325c00a22da1e557684d1e2f85c9c1d27891",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000063.bin",
+      "blobId": "427729874750ad834c190d87e0c8431dacd65e3f",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "c91e5fc4a7a2f5fd2153e695351ebdcf877101de16a196cd5b7860d4f0a77dcf",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000064.bin",
+      "blobId": "376b8b7ad0a78760806dced6a7221aa7ffc99c6e",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "1f32bee8f5fad69bd519409bb8dcf662405f7994def33d819f9056b4281bbc34",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000065.bin",
+      "blobId": "087ae9d8ed2692831420496b1528ce7b5a804c78",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "13994dc83be26cc0b635dbcb77dcb8f3922c0d8c4c5480327fe5eb8cfe6436c1",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000066.bin",
+      "blobId": "80953244403bcb13aa9acf1a477c6bb88f634d14",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "9b202cbf445e66687457ea3b18d03e3d572f71094f09fa097f238f46bb66b387",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000067.bin",
+      "blobId": "20e1f05172018baf13ef4a7c87239982d1c059f9",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "670699de4e01caea877d862865920c8c76186ace820477917070cb4b761f1023",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000068.bin",
+      "blobId": "ce0c96eaf539f1f5bd9b5fd5c8bb66c334d7df50",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "07f1c812f8b779f469cd583f1a0a10778b45dc21ae377a30f63adde0f5c36194",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000069.bin",
+      "blobId": "9599dfbd10e14d276fa371858c0e79b5237fd870",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "191ae965e04775c214d534bce6e24bea7385a79c9e55a972751fd7fc541129fb",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000070.bin",
+      "blobId": "35b57caaa0957064c512b5385fccc534c5e0916b",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "b8bf5faf2029f375afd12e3fa8a2825b0e66f5b47b7f65baf3daa4cf7bd55c1e",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000071.bin",
+      "blobId": "6c1a4ce45f3a6e88d13e48a64107ed381fef857c",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "0eed3b83f5499535d93a0ddde44a5739a5e294cccab1693607d1a2979de771bc",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000072.bin",
+      "blobId": "c226bb6b8f692cf8599955d4c52c17d5e1fa32dd",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "6b22af87b10711ea60d2688a7eb1fe2851aa826b00bf11c0592a025af52eb49e",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000073.bin",
+      "blobId": "2136f516d3b05e06a6e36a023ce710c9bd2609d6",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "ff0febc08ac4a44e4b8dbd070c763673c8385c223c736a0d42aab46ad616a7df",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000074.bin",
+      "blobId": "2afb309dcdbfacd656cd41c2c5457f47a9aea720",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "e764f0e7c765d50abc32052ff3dfdd49fed9de108bc8e9f645aaf66bfc271fbe",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000075.bin",
+      "blobId": "85e9d1c46843ac9b96d0d1835bc2efb0ee714a36",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "cbdc72f23a2c3833ad128b01f4b4bbed108f9a72cbdb4a092e92cb3725b237d5",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000076.bin",
+      "blobId": "f9353ff39bc07ed63f025a427f65e4333246fffa",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "88c51eb7da2c22d9cd60672b7b415003488a248e29df7b2f23fa7f46eac5e2bf",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000077.bin",
+      "blobId": "b8d0d65c8d1d2ddfaa502b00ee2f0a0325d8e8f4",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "f63b823e31ac58ec891fe68c7b54d5435e981bbd4c29afb4b558f49e61ce9cf4",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000078.bin",
+      "blobId": "b47e2df19b4810ca58ec7e94430e0ea7c0e04cad",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "a1bf63ce5142790f88e06479f4de14b1fcb55d0846e421144b07c3b8190ee622",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_train_000079.bin",
+      "blobId": "110cbe3fecccf7cc9af42bbdc3c832b6d06a81f0",
+      "size": 200001024,
+      "lfs": {
+        "sha256": "ea41f9ae8e4a728694d40cf04757f43d222cf5359288dc2735820bc3ea59edd4",
+        "size": 200001024,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_val_000000.bin",
+      "blobId": "dc1bc564aa59f8e6850cd6c6ff9c33fe9494fb6d",
+      "size": 95707712,
+      "lfs": {
+        "sha256": "a9be3eceb56f49358a199a97bd42ccaf69a10f0e103a117514ca5debad7083ab",
+        "size": 95707712,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "datasets/datasets/fineweb10B_sp8192_lossless_caps_caseops_v1_reserved/fineweb_val_bytes_000000.bin",
+      "blobId": "ab7f11eb64c756812e35039f9cc9ad775dfd5bc6",
+      "size": 95707712,
+      "lfs": {
+        "sha256": "9b7e97ce6d7b119ba9ef8f5df6d3c733924eda9a973fa9f1452d9411e14c22d5",
+        "size": 95707712,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "datasets/docs_selected.source_manifest.json",
+      "blobId": "c7fab2080f9cae5315ee843de32028ee127b35eb",
+      "size": 481
+    },
+    {
+      "rfilename": "datasets/manifest.json",
+      "blobId": "c1384fc1bafb4ac6f9b92ce134868a97afa5e580",
+      "size": 3616
+    },
+    {
+      "rfilename": "datasets/tokenizer_config.export.json",
+      "blobId": "f70aa50875862467619f18502c5f645475cac1c4",
+      "size": 526
+    },
+    {
+      "rfilename": "datasets/tokenizers/fineweb_8192_bpe_lossless_caps_caseops_v1_reserved.model",
+      "blobId": "cbd31b76043e81284a8f9cd348367ff4ca9a0dbc",
+      "size": 366510,
+      "lfs": {
+        "sha256": "97754754561f20def5edd99765ca0668f880bd94e67316d54aa10ab25f45cc4d",
+        "size": 366510,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "datasets/tokenizers/fineweb_8192_bpe_lossless_caps_caseops_v1_reserved.vocab",
+      "blobId": "9940e493c6ef81a9de7083bcd8f5d21cffce0a54",
+      "size": 109661
+    }
+  ],
+  "createdAt": "2026-04-18T21:15:03.000Z",
+  "usedStorage": 16191863854
+}

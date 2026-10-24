@@ -7,7 +7,7 @@ start=datetime.datetime.fromisoformat(json.loads((CONTROL/'status.json').read_te
 env=dict(os.environ,MODAL_CONFIG_PATH=str(CONTROL/'private/modal.toml'))
 while True:
     if (CONTROL/'FINALIZED').exists():break
-    reason='user STOP' if (CONTROL/'STOP').exists() else ('six-hour wrap-up deadline' if time.time()>start+6*3600 else '')
+    reason='user STOP' if (CONTROL/'STOP').exists() else ('three-hour extension wrap-up deadline' if time.time()>start+3*3600 else '')
     if not reason:time.sleep(10);continue
     (CONTROL/'STOP_JOBS').write_text(reason)
     for attempt in range(3):

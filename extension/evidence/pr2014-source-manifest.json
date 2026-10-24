@@ -1,0 +1,52 @@
+[
+  {
+    "file": "README.md",
+    "bytes": 11807,
+    "sha256": "7418f95eeb5969ec0283d11a5ed8bd6ee2082b7e13f2bdec0a368ccd472d34b4"
+  },
+  {
+    "file": "lossless_caps.py",
+    "bytes": 28917,
+    "sha256": "963626d75d8f385654632171b0cd7ca2da66e56fd0cbc84939c66c7388ae48ee"
+  },
+  {
+    "file": "prepare_caseops_data.py",
+    "bytes": 8547,
+    "sha256": "bd4bbeb8371cf0d2af8db96e7b5bf2bf1ec70e9796cfac3ee4e522d74c4ebde9"
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 407,
+    "sha256": "0d739caccc8f25cb7f986ff82a8301df4e943b549653050bf4e0ddf6441888f2"
+  },
+  {
+    "file": "submission.json",
+    "bytes": 3440,
+    "sha256": "f8399e1d1df832c572020d49b8df99a15c91d6ed4e99e3ec520331088504df21"
+  },
+  {
+    "file": "tokenizers/fineweb_8192_bpe_lossless_caps_caseops_v1_reserved.model",
+    "bytes": 366510,
+    "sha256": "97754754561f20def5edd99765ca0668f880bd94e67316d54aa10ab25f45cc4d"
+  },
+  {
+    "file": "train_gpt.py",
+    "bytes": 191812,
+    "sha256": "a496bb37e25bc7ccaa30c4d89253376b4bc8929ffcd1d3f464367acf13fcebc9"
+  },
+  {
+    "file": "train_seed0.log",
+    "bytes": 239202,
+    "sha256": "ef2510d5591ab559b37991fb645d580359540bdcceff62d9bdf5bb25abb43a82"
+  },
+  {
+    "file": "train_seed314.log",
+    "bytes": 237520,
+    "sha256": "e4c7939f498896bbfb8bbe7db7e6b7855473f26c815a7fbc3f84ce083196b0f6"
+  },
+  {
+    "file": "train_seed42.log",
+    "bytes": 237682,
+    "sha256": "124efb834904e0718765e69f681abcea9b23c95e611d1cb83dfe65ff99183adf"
+  }
+]

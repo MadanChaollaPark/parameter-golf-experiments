@@ -1,6 +1,6 @@
 {
-  "cap_usd": 80.0,
-  "final_holdback_usd": 20.0,
+  "cap_usd": 97.0,
+  "final_holdback_usd": 0.0,
   "entries": [
     {
       "job": "controller-setup-storage-egress",
@@ -275,7 +275,34 @@
       "evidence": "evidence/eval-replication-cost-reconciliation.json",
       "utc": "2026-10-24T04:04:00.272189+00:00",
       "details": "Provider app creation-to-stopped duration conservatively charged at full GPU/CPU/RAM limits, plus stated startup/teardown margin and CPU image allowance. Credits count. Not an invoice."
+    },
+    {
+      "job": "extension-overhead",
+      "reserved_usd": 1.25,
+      "phase": "extension",
+      "details": "Incremental Azure controller up to4h at verified$0.23/hr=$0.92, plus bounded storage/egress/local CPU allowance$0.33. Prior$77 frozen. No paid API fallback.",
+      "utc": "2026-10-24T05:15:44.913118+00:00"
+    },
+    {
+      "job": "extension-prepare",
+      "reserved_usd": 0.75,
+      "phase": "extension",
+      "details": "CPU-only native leading environment build and full canonical CaseOps download/hash/document/byte audit. CPU2 RAM16GiB hard function4500 startup300 wholeapp6300 incl1200s image builderCPU2/RAM8. 6600s at CPU2/RAM16=$0.4074 plus$0.34 contingency covers$0.75. No GPU.",
+      "utc": "2026-10-24T05:17:26.220418+00:00"
+    },
+    {
+      "job": "extension-causality-check",
+      "reserved_usd": 0.25,
+      "phase": "extension",
+      "details": "CPU-only stronger65-document synthetic test with native C ngram helper and native64-row scheduling, after initial two-doc persistence test. CPU2/RAM8 task60 startup60 app240+60tail=.0132 plus bounded cached image/build allowance<$0.25. No GPU or validation data.",
+      "utc": "2026-10-24T05:21:02.901470+00:00"
     }
   ],
-  "total_reserved_usd": 77.0
+  "total_reserved_usd": 79.25,
+  "extension_authorization": {
+    "additional_cap_usd": 20.0,
+    "frozen_previous_charge_usd": 77.0,
+    "authorized_utc": "2026-10-24T05:13:59.939562+00:00",
+    "instruction": "Human explicitly authorized up to $20 additional compute; preserve prior $3 cushion."
+  }
 }

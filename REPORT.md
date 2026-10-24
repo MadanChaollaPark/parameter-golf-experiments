@@ -116,3 +116,7 @@ The final conservative charge is **$77.00**, leaving **$3.00 unspent/unreserved*
 ## Outcome
 
 The bounded campaign produced a reproducible, size- and timing-qualified independent artifact, matched evidence across two training seeds, a repeated sliding-window benefit, a documented negative longer-context result, and a public audit trail within the$80 cap. The competitive leading-score target was **not achieved**; no official submission, record, significance claim or global-optimality claim is made. The strongest supported artifact from this campaign is1.21114004 BPB.
+
+## Authorized continuation
+
+After the original campaign completed, the human clarified that the intended starting point was an actual leading implementation and authorized up to$20 additional compute. The original shortened starter baseline did not satisfy that intended research direction. Its results and$77 charge remain preserved. The separate [leading-baseline extension report](extension/REPORT.md) and [plan](extension/PLAN.md) document the correction, separate costs, measured outcome and limits.

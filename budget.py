@@ -21,8 +21,12 @@ def reserve(job, dollars, final=False, details=''):
         limit = d['cap_usd'] - (0 if final else d['final_holdback_usd'])
         if charged + dollars > limit + 1e-8:
             raise ValueError(f'budget denied: {charged} + {dollars} > {limit}')
+        if d.get('extension_authorization'):
+            frozen=json.loads((ROOT/'extension/evidence/prior-ledger-frozen.json').read_text())
+            assert d['entries'][:len(frozen['entries'])]==frozen['entries']
+            assert job.startswith('extension-'),'Extension job prefix required'
         d['entries'].append({'job': job, 'reserved_usd': dollars,
-            'phase': 'final' if final else 'research', 'details': details,
+            'phase': 'extension' if d.get('extension_authorization') else ('final' if final else 'research'), 'details': details,
             'utc': datetime.datetime.now(datetime.timezone.utc).isoformat()})
         d['total_reserved_usd'] = round(charged + dollars, 6)
         tmp = LEDGER.with_suffix('.tmp'); tmp.write_text(json.dumps(d,indent=2)+'\n')

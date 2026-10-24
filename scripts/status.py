@@ -7,5 +7,8 @@ def update(**kwargs):
   budget=json.loads((ROOT/'budget.json').read_text());d['reserved_usd']=budget['total_reserved_usd']
   d['uncommitted_usd']=round(budget['cap_usd']-budget['total_reserved_usd'],6)
   d['protected_final_usd']=max(0,budget['final_holdback_usd']-sum(e['reserved_usd'] for e in budget['entries'] if e.get('phase')=='final'))
-  d['cost_basis']='Conservative nonrefunded reservations at full list price, not provider invoice'
+  if budget.get('extension_authorization'):
+   d['extension_spent_or_reserved_usd']=round(budget['total_reserved_usd']-77,6)
+   d['extension_remaining_usd']=round(97-budget['total_reserved_usd'],6)
+  d['cost_basis']='Conservative reservations and explicit audited adjustments at full list price, not provider invoice'
  p.write_text(json.dumps(d,indent=2)+'\n')

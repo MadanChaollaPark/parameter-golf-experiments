@@ -1,0 +1,62 @@
+[
+  {
+    "file": "README.md",
+    "bytes": 10036,
+    "sha256": "6d16a1b0690ae6d187a36652f052e65d2aee2c9379b829f926f7738bc3d40ba4"
+  },
+  {
+    "file": "lossless_caps.py",
+    "bytes": 28917,
+    "sha256": "963626d75d8f385654632171b0cd7ca2da66e56fd0cbc84939c66c7388ae48ee"
+  },
+  {
+    "file": "online_ngram_state.c",
+    "bytes": 12145,
+    "sha256": "019b7a9195c2f2c3766eb45fe6a010b61e8acf882e3cde69adba68a778b98196"
+  },
+  {
+    "file": "online_ngram_tilt.py",
+    "bytes": 16181,
+    "sha256": "610d4e50fb020c1f8713d2bbec32fca05175661ce77dcff21f1c9b79c44e34ac"
+  },
+  {
+    "file": "prepare_caseops_data.py",
+    "bytes": 8458,
+    "sha256": "b2f5d326e69307c642139504f029b80a8ac9322e208fd221b6396302e78c8bbe"
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 407,
+    "sha256": "0d739caccc8f25cb7f986ff82a8301df4e943b549653050bf4e0ddf6441888f2"
+  },
+  {
+    "file": "submission.json",
+    "bytes": 3485,
+    "sha256": "d9d10830da12943d96c1e992ef7dea7850ac483bb60912068a0406841a84a013"
+  },
+  {
+    "file": "tokenizers/fineweb_8192_bpe_lossless_caps_caseops_v1_reserved.model",
+    "bytes": 366510,
+    "sha256": "97754754561f20def5edd99765ca0668f880bd94e67316d54aa10ab25f45cc4d"
+  },
+  {
+    "file": "train_gpt.py",
+    "bytes": 191274,
+    "sha256": "87b8798707fc2d161f5730be6d00bb47e4b62a66c5341dac5f1a4d2fa3cf4bc6"
+  },
+  {
+    "file": "train_seed0.log",
+    "bytes": 24776,
+    "sha256": "ce13c416ee8f63fe3d74f3d861cc9bbd1b44a30f1cfaf10e44d58b1492112a2e"
+  },
+  {
+    "file": "train_seed314.log",
+    "bytes": 22976,
+    "sha256": "24cc329ef099e589c7e8cdcbc5526d40a41d1b256f29688e38d3637e5fe71bce"
+  },
+  {
+    "file": "train_seed42.log",
+    "bytes": 24907,
+    "sha256": "393556c13c3d0b9422df275e0a8159235f482cd23d077c33bb6f25d8d9fd5ab9"
+  }
+]

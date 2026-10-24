@@ -11,6 +11,7 @@ jobs=json.loads((ROOT/'jobs.json').read_text());job=next(j for j in jobs if j['j
 with (ROOT/'.budget.lock').open('a') as lock:
  fcntl.flock(lock,fcntl.LOCK_EX);path=ROOT/'budget.json';d=json.loads(path.read_text());rid='audited-reconciliation-'+e['job']
  assert not any(x['job']==rid for x in d['entries'])
+ assert not d.get('extension_authorization') or e['job'].startswith('extension-'),'Prior campaign charge is frozen'
  entry=next(x for x in d['entries'] if x['job']==e['job']);old=entry['reserved_usd'];new=e['revised_charge_usd'];assert math.isfinite(new) and 0<new<old
  d['entries'].append({'job':rid,'reserved_usd':new-old,'phase':entry['phase'],'kind':'explicit_audited_downward_adjustment','original_job':e['job'],'original_reservation_preserved_usd':old,'revised_conservative_charge_usd':new,'computed_bound_usd':bound,'evidence':str(pathlib.Path(a.evidence)),'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'details':'Provider app creation-to-stopped duration conservatively charged at full GPU/CPU/RAM limits, plus stated startup/teardown margin and CPU image allowance. Credits count. Not an invoice.'})
  d['total_reserved_usd']=round(sum(x['reserved_usd'] for x in d['entries']),6)

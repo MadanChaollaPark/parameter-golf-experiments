@@ -1,0 +1,13 @@
+✓ Initialized. View run at 
+https://modal.com/apps/releasedrats/main/ap-2uxfxNrHu3VXKMzRhAhJau
+✓ Created objects.
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/extension_modal.py
+├── ✓ Uploaded /home/azureuser/parameter-golf-experiments/extension
+├── ✓ Created Function install.
+├── ✓ Created Function prepare.
+├── ✓ Created Function reproduce.
+└── ✓ Created Function verify.
+APP_ID ap-2uxfxNrHu3VXKMzRhAhJau
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/releasedrats/main/ap-2uxfxNrHu3VXKMzRhAhJau
